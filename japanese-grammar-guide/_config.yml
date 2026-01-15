@@ -1,0 +1,21 @@
+title: Tae Kim's Japanese Grammar Guide - Quick Reference
+description: "A comprehensive guide to Japanese grammar by Tae Kim."
+theme: just-the-docs
+url: "https://yourusername.github.io" # Replace with your user or org name
+baseurl: "/japanese-grammar-guide" # Replace with your repo name
+
+# Just the Docs configuration
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "Tae Kim's Guide (Original)": "http://www.guidetojapanese.org/learn/"
+  "GitHub Repository": "https://github.com/yourusername/japanese-grammar-guide"
+
+footer_content: "Based on Tae Kim's Japanese Grammar Guide. Created for educational purposes."
+
+# Sass configuration to suppress deprecation warnings from the theme
+sass:
+  quiet_deps: true
+  silence_deprecations: ["import"]

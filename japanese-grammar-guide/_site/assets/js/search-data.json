@@ -1,0 +1,1360 @@
+{"0": {
+    "doc": "Addressing People",
+    "title": "Addressing People",
+    "content": "Japanese rarely uses pronouns like “You” or “He/She”. Instead, it relies on names and titles. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/addressing-people.html",
+    
+    "relUrl": "/docs/essential-grammar/addressing-people.html"
+  },"1": {
+    "doc": "Addressing People",
+    "title": "Referring to Yourself (I/Me)",
+    "content": ". | Watashi (私): Standard, gender-neutral polite.\\n- Boku (僕): Casual, used by males.\\n- Ore (俺): Very casual/rough, used by males.\\n- Atashi (あたし): Causal, used by females. | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/addressing-people.html#referring-to-yourself-ime",
+    
+    "relUrl": "/docs/essential-grammar/addressing-people.html#referring-to-yourself-ime"
+  },"2": {
+    "doc": "Addressing People",
+    "title": "Referring to Others (You)",
+    "content": "Avoiding “You” (Anata) is best. Use the person’s name followed by a title. 田中さんは来ますか？(Tanaka-san wa kimasu ka?) (Will you come, Tanaka-san?)\\n\\n## Titles (Honorifics)\\n\\n- -San (さん): The default title. Used for equals or people you don’t know well.\\n- -Kun (君): Used for boys or male subordinates.\\n- -Chan (ちゃん): Used for girls, children, or pets. Very cute/familiar.\\n- -Sama (様): Very respectful. Used for customers or deities.\\n- -Senpai (先輩): Used for senior colleagues or upperclassmen.\\n- -Sensei (先生): Used for teachers, doctors, and authors. Note: You call them just “Sensei” without the name, or “Name-sensei”. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/addressing-people.html#referring-to-others-you",
+    
+    "relUrl": "/docs/essential-grammar/addressing-people.html#referring-to-others-you"
+  },"3": {
+    "doc": "Adjectives",
+    "title": "Adjectives",
+    "content": "Japanese adjectives conjugate just like verbs. There are two main types: i-adjectives and na-adjectives. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/adjectives.html",
+    
+    "relUrl": "/docs/basic-grammar/adjectives.html"
+  },"4": {
+    "doc": "Adjectives",
+    "title": "I-Adjectives",
+    "content": "These always end in the hiragana character i (い). They can be directly placed before a noun. Examples . | Takai (高い) - High/Expensive\\n- Atsui (暑い) - Hot | . Conjugation (Negative) . Replace the final i with kunai. | Takai (高い) → Takakunai (高くない) - Not high | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/adjectives.html#i-adjectives",
+    
+    "relUrl": "/docs/basic-grammar/adjectives.html#i-adjectives"
+  },"5": {
+    "doc": "Adjectives",
+    "title": "Na-Adjectives",
+    "content": "These behave more like nouns. To modify a noun, you must add na (な) between the adjective and the noun. Examples . | Shizuka (静か) - Quiet\\n- Kirei (きれい) - Pretty/Clean (Exception: ends in i but is a na-adjective) | . Usage . | Shizuka na heya (静かな部屋) - A quiet room | . Conjugation (Negative) . Since they act like nouns, you use the copula’s negative form. | Shizuka ja nai (静かじゃない) - Not quiet | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/adjectives.html#na-adjectives",
+    
+    "relUrl": "/docs/basic-grammar/adjectives.html#na-adjectives"
+  },"6": {
+    "doc": "Adjectives",
+    "title": "Summary Table",
+    "content": "| Type | Positive | Negative | Example |   |   |   |   |   | . | i-adj | 寒い (Samui) | 寒くない (Samukunai) | Cold | \\n | na-adj | 暇(だ) (Hima da) | 暇じゃない (Hima ja nai) | Free (time) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/adjectives.html#summary-table",
+    
+    "relUrl": "/docs/basic-grammar/adjectives.html#summary-table"
+  },"7": {
+    "doc": "Advanced Volitional",
+    "title": "Advanced Volitional (~Tou to suru)",
+    "content": "Using the volitional form to express an attempt or effort that was about to happen. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/advanced-volitional.html#advanced-volitional-tou-to-suru",
+    
+    "relUrl": "/docs/special-expressions/advanced-volitional.html#advanced-volitional-tou-to-suru"
+  },"8": {
+    "doc": "Advanced Volitional",
+    "title": "Structure",
+    "content": "Volitional Form + to + suru. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/advanced-volitional.html#structure",
+    
+    "relUrl": "/docs/special-expressions/advanced-volitional.html#structure"
+  },"9": {
+    "doc": "Advanced Volitional",
+    "title": "Meaning",
+    "content": "“Try to…” or “About to…” . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/advanced-volitional.html#meaning",
+    
+    "relUrl": "/docs/special-expressions/advanced-volitional.html#meaning"
+  },"10": {
+    "doc": "Advanced Volitional",
+    "title": "Examples",
+    "content": "寝ようとしたとき、電話が鳴った。(Neyou to shita toki, denwa ga natta.)\\n(Just when I was about to sleep, the phone rang.) . 逃げようとしている。(Nigeyou to shite iru.)\\n(He is trying to escape.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/advanced-volitional.html#examples",
+    
+    "relUrl": "/docs/special-expressions/advanced-volitional.html#examples"
+  },"11": {
+    "doc": "Advanced Volitional",
+    "title": "Advanced Volitional",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/advanced-volitional.html",
+    
+    "relUrl": "/docs/special-expressions/advanced-volitional.html"
+  },"12": {
+    "doc": "Amounts",
+    "title": "Expressing Amounts",
+    "content": "Particles that define scopes or limits. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/amounts.html#expressing-amounts",
+    
+    "relUrl": "/docs/special-expressions/amounts.html#expressing-amounts"
+  },"13": {
+    "doc": "Amounts",
+    "title": "Dake (Only/Just)",
+    "content": "Limits the amount. これだけ。(Kore dake.) (Just this.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/amounts.html#dake-onlyjust",
+    
+    "relUrl": "/docs/special-expressions/amounts.html#dake-onlyjust"
+  },"14": {
+    "doc": "Amounts",
+    "title": "Shika (Only… negative)",
+    "content": "Limits the amount but implies it’s insufficient. Must be followed by a negative verb. これしかない。(Kore shika nai.)\\n(There is only this [and nothing else].) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/amounts.html#shika-only-negative",
+    
+    "relUrl": "/docs/special-expressions/amounts.html#shika-only-negative"
+  },"15": {
+    "doc": "Amounts",
+    "title": "Hodo (Extent)",
+    "content": "“To the extent of…” or “Not as much as…”. これほどおいしいものはない。(Kore hodo oishii mono wa nai.)\\n(There is nothing as delicious as this.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/amounts.html#hodo-extent",
+    
+    "relUrl": "/docs/special-expressions/amounts.html#hodo-extent"
+  },"16": {
+    "doc": "Amounts",
+    "title": "Amounts",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/amounts.html",
+    
+    "relUrl": "/docs/special-expressions/amounts.html"
+  },"17": {
+    "doc": "Casual Patterns & Slang",
+    "title": "Casual Patterns &amp; Slang",
+    "content": "Spoken Japanese involves a lot of slurring and contractions. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/casual-slang.html#casual-patterns--slang",
+    
+    "relUrl": "/docs/essential-grammar/casual-slang.html#casual-patterns--slang"
+  },"18": {
+    "doc": "Casual Patterns & Slang",
+    "title": "Contractions",
+    "content": ". | ~Te iru becomes ~Teru.\\n 何してる？(Nani shiteru?) (What are you doing?)\\n- ~Te oku becomes ~Toku.\\n やっとく。(Yattoku.) (I’ll do it [in advance].)\\n- ~To iu becomes ~Tte.\\n 何って言った？(Nantte itta?) (What did you say?) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/casual-slang.html#contractions",
+    
+    "relUrl": "/docs/essential-grammar/casual-slang.html#contractions"
+  },"19": {
+    "doc": "Casual Patterns & Slang",
+    "title": "Sentence Enders",
+    "content": ". | Jan: Short for ja nai. Means “Isn’t it?”\\n いいじゃん。(Ii jan.) (Isn’t it good?)\\n- Kke: Recall particle. “What was it again?”\\n あれは何だっけ？(Are wa nan da kke?) (What was that again?)\\n- Mon: Cutesy/childish reason marker.\\n だって好きだもん。(Datte suki da mon.) (But I like it!) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/casual-slang.html#sentence-enders",
+    
+    "relUrl": "/docs/essential-grammar/casual-slang.html#sentence-enders"
+  },"20": {
+    "doc": "Casual Patterns & Slang",
+    "title": "Guys Slang",
+    "content": ". | Sugee / Suge (すげー / すげ): Awesome (from Sugoi).\\n- Yabee / Yabe (やベー / やべ): Dangerous/Bad/Crazy (from Yabai).\\n- Umee (うめー): Delicious (from Umai). | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/casual-slang.html#guys-slang",
+    
+    "relUrl": "/docs/essential-grammar/casual-slang.html#guys-slang"
+  },"21": {
+    "doc": "Casual Patterns & Slang",
+    "title": "Casual Patterns & Slang",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/casual-slang.html",
+    
+    "relUrl": "/docs/essential-grammar/casual-slang.html"
+  },"22": {
+    "doc": "Causative-Passive",
+    "title": "Causative-Passive Form",
+    "content": "This combines both forms to mean “To be made to do something”. It implies you didn’t want to do it but were forced. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative-passive.html#causative-passive-form",
+    
+    "relUrl": "/docs/special-expressions/causative-passive.html#causative-passive-form"
+  },"23": {
+    "doc": "Causative-Passive",
+    "title": "Structure",
+    "content": "First make it Causative, then make that result Passive. Causative ending -seru becomes -serareru. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative-passive.html#structure",
+    
+    "relUrl": "/docs/special-expressions/causative-passive.html#structure"
+  },"24": {
+    "doc": "Causative-Passive",
+    "title": "Conjugation Steps",
+    "content": "U-verbs: Iku (行く) → Ikaseru (行かせる) (Causative) → Ikaserareru (行かせられる) (Caus. Passive)\\nShort form: Ikasareru (行かされる)\\n(I am made to go.) . Ru-verbs: Taberu (食べる) → Tabesaseru (食べさせる) → Tabesaserareru (食べさせられる) (I am made to eat.)\\n(No short form for Ru-verbs). ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative-passive.html#conjugation-steps",
+    
+    "relUrl": "/docs/special-expressions/causative-passive.html#conjugation-steps"
+  },"25": {
+    "doc": "Causative-Passive",
+    "title": "Irregular",
+    "content": ". | Suru (する) → Saserareru (させられる)\\n- Kuru (来る) → Kosaserareru (来させられる) | . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative-passive.html#irregular",
+    
+    "relUrl": "/docs/special-expressions/causative-passive.html#irregular"
+  },"26": {
+    "doc": "Causative-Passive",
+    "title": "Usage",
+    "content": "毎日野菜を食べさせられる。(Mainichi yasai wo tabesaserareru.)\\n(I am made to eat vegetables every day.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative-passive.html#usage",
+    
+    "relUrl": "/docs/special-expressions/causative-passive.html#usage"
+  },"27": {
+    "doc": "Causative-Passive",
+    "title": "Causative-Passive",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative-passive.html",
+    
+    "relUrl": "/docs/special-expressions/causative-passive.html"
+  },"28": {
+    "doc": "Causative Form",
+    "title": "Causative Form",
+    "content": "The causative form expresses making or letting someone do something. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative.html",
+    
+    "relUrl": "/docs/special-expressions/causative.html"
+  },"29": {
+    "doc": "Causative Form",
+    "title": "Conjugation",
+    "content": "Ru-verbs . Drop ru and add saseru. Taberu (食べる) → Tabesaseru (食べさせる) (Make/Let eat) . U-verbs . Change final /u/ to /a/ and add seru. Iku (行く) → Ikaseru (行かせる) (Make/Let go)\\nMatsu (待つ) → Mataseru (待たせる) (Make wait) . Irregular . | Suru (する) → Saseru (させる)\\n- Kuru (来る) → Kosaseru (来させる) | . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative.html#conjugation",
+    
+    "relUrl": "/docs/special-expressions/causative.html#conjugation"
+  },"30": {
+    "doc": "Causative Form",
+    "title": "Usage",
+    "content": "先生は学生に宿題をさせた。(Sensei wa gakusei ni shukudai wo saseta.)\\n(The teacher made the student do homework.)\\n\\n私にやらせてください。(Watashi ni yarasete kudasai.)\\n(Please let me do it.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/causative.html#usage",
+    
+    "relUrl": "/docs/special-expressions/causative.html#usage"
+  },"31": {
+    "doc": "Certainty",
+    "title": "Expressing Certainty",
+    "content": "Ranging from “maybe” to “definitely”. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/certainty.html#expressing-certainty",
+    
+    "relUrl": "/docs/special-expressions/certainty.html#expressing-certainty"
+  },"32": {
+    "doc": "Certainty",
+    "title": "Kamoshirenai (Might/Maybe)",
+    "content": "Asserts a possibility (approx 50% or less). Append directly to plain forms. 明日は雨かもしれない。(Ashita wa ame kamoshirenai.) (It might be rain tomorrow.)\\n行くかもしれない。(Iku kamoshirenai.) (I might go.)\\nCasual: かも。(Kamo.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/certainty.html#kamoshirenai-mightmaybe",
+    
+    "relUrl": "/docs/special-expressions/certainty.html#kamoshirenai-mightmaybe"
+  },"33": {
+    "doc": "Certainty",
+    "title": "Nichigainai (Must be / No doubt)",
+    "content": "High certainty logic deduction. あれは田中さんに違いない。(Are wa Tanaka-san ni chigainai.) (That must be Tanaka-san.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/certainty.html#nichigainai-must-be--no-doubt",
+    
+    "relUrl": "/docs/special-expressions/certainty.html#nichigainai-must-be--no-doubt"
+  },"34": {
+    "doc": "Certainty",
+    "title": "Deshou / Darou (Probably)",
+    "content": "High probability. 明日は雨でしょう。(Ashita wa ame deshou.) (It will probably rain tomorrow.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/certainty.html#deshou--darou-probably",
+    
+    "relUrl": "/docs/special-expressions/certainty.html#deshou--darou-probably"
+  },"35": {
+    "doc": "Certainty",
+    "title": "Certainty",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/certainty.html",
+    
+    "relUrl": "/docs/special-expressions/certainty.html"
+  },"36": {
+    "doc": "Comparison",
+    "title": "Comparison",
+    "content": "Comparing two or more things. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/comparison.html",
+    
+    "relUrl": "/docs/special-expressions/comparison.html"
+  },"37": {
+    "doc": "Comparison",
+    "title": "Yori (Than)",
+    "content": "Indicates the standard of comparison. これはあれよりおいしい。(Kore wa are yori oishii.)\\n(This is more delicious than that.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/comparison.html#yori-than",
+    
+    "relUrl": "/docs/special-expressions/comparison.html#yori-than"
+  },"38": {
+    "doc": "Comparison",
+    "title": "Hou (The side of)",
+    "content": "Indicates preference or specific properties of one side. これのほうがおいしい。(Kore no hou ga oishii.)\\n(This [side] is delicious.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/comparison.html#hou-the-side-of",
+    
+    "relUrl": "/docs/special-expressions/comparison.html#hou-the-side-of"
+  },"39": {
+    "doc": "Comparison",
+    "title": "Full Set Structure",
+    "content": "A no hou ga, B yori property. リンゴのほうが、バナナより好き。(Ringo no hou ga, Banana yori suki.)\\n(I like apples more than bananas.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/comparison.html#full-set-structure",
+    
+    "relUrl": "/docs/special-expressions/comparison.html#full-set-structure"
+  },"40": {
+    "doc": "Compound Sentences",
+    "title": "Compound Sentences",
+    "content": "There are several ways to combine sentences in Japanese. We already learned the Te-form for sequences. Here are other methods. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/compound-sentences.html",
+    
+    "relUrl": "/docs/basic-grammar/compound-sentences.html"
+  },"41": {
+    "doc": "Compound Sentences",
+    "title": "Expressing “And” with “To” (と)",
+    "content": "The particle to connects nouns. リンゴとバナナ。(Ringo to banana.) (Apple and banana.) Note: You cannot use to to connect sentences or verbs. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/compound-sentences.html#expressing-and-with-to-%E3%81%A8",
+    
+    "relUrl": "/docs/basic-grammar/compound-sentences.html#expressing-and-with-to-と"
+  },"42": {
+    "doc": "Compound Sentences",
+    "title": "Expressing “But” with “Ga” (が) and “Kedo” (けど)",
+    "content": "Attach ga or kedo to the end of a clause to mean “but”. Ga is more formal, kedo is more casual. Examples . 行きたいけど、お金がない。(Ikitai kedo, okane ga nai.)\\n(I want to go, but I have no money.) . 済みませんが、… (Sumimasen ga, …) (Excuse me, but…) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/compound-sentences.html#expressing-but-with-ga-%E3%81%8C-and-kedo-%E3%81%91%E3%81%A9",
+    
+    "relUrl": "/docs/basic-grammar/compound-sentences.html#expressing-but-with-ga-が-and-kedo-けど"
+  },"43": {
+    "doc": "Compound Sentences",
+    "title": "Expressing “Or” with “Ka” (か)",
+    "content": "これかそれ。(Kore ka sore.) (This or that.) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/compound-sentences.html#expressing-or-with-ka-%E3%81%8B",
+    
+    "relUrl": "/docs/basic-grammar/compound-sentences.html#expressing-or-with-ka-か"
+  },"44": {
+    "doc": "Compound Sentences (Essential)",
+    "title": "Compound Sentences",
+    "content": "Beyond simple sequences, we often need to express reasons or list multiple states. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/compound-sentences.html#compound-sentences",
+    
+    "relUrl": "/docs/essential-grammar/compound-sentences.html#compound-sentences"
+  },"45": {
+    "doc": "Compound Sentences (Essential)",
+    "title": "Expressing “And” / Listing States with “-shi” (し)",
+    "content": "The usage of shi implies that you are listing reasons or states, often to justify a conclusion. お金もあるし、暇だし、遊びに行こう。(Okanemo aru shi, hima da shi, asobi ni ikou.)\\n(I have money, and I have time, so let’s go play.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/compound-sentences.html#expressing-and--listing-states-with--shi-%E3%81%97",
+    
+    "relUrl": "/docs/essential-grammar/compound-sentences.html#expressing-and--listing-states-with--shi-し"
+  },"46": {
+    "doc": "Compound Sentences (Essential)",
+    "title": "Listing Actions with “-tari” (たり)",
+    "content": "Use tari to list a representative set of actions, implying “doing things like A and B (and others)”. Conjugate to Past Tense (Ta-form), replace ta with tari. Must end with suru. 食べたり飲んだりする。(Tabetari nondari suru.)\\n(Do things like eating and drinking.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/compound-sentences.html#listing-actions-with--tari-%E3%81%9F%E3%82%8A",
+    
+    "relUrl": "/docs/essential-grammar/compound-sentences.html#listing-actions-with--tari-たり"
+  },"47": {
+    "doc": "Compound Sentences (Essential)",
+    "title": "Expressing Reasons with “Kara” (から) and “Node” (ので)",
+    "content": "Kara . Subjective reason. “Because…” 時間がないから、行かない。(Jikan ga nai kara, ikanai.) (Because I have no time, I won’t go.) . Node . Objective reason. Slightly more polite/softer. 病気なので、休みます。(Byouki na node, yasumimasu.) (Since I am sick, I will rest.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/compound-sentences.html#expressing-reasons-with-kara-%E3%81%8B%E3%82%89-and-node-%E3%81%AE%E3%81%A7",
+    
+    "relUrl": "/docs/essential-grammar/compound-sentences.html#expressing-reasons-with-kara-から-and-node-ので"
+  },"48": {
+    "doc": "Compound Sentences (Essential)",
+    "title": "Compound Sentences (Essential)",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/compound-sentences.html",
+    
+    "relUrl": "/docs/essential-grammar/compound-sentences.html"
+  },"49": {
+    "doc": "Conditionals",
+    "title": "Conditionals",
+    "content": "Japanese has four different ways to say “If”. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/conditionals.html",
+    
+    "relUrl": "/docs/essential-grammar/conditionals.html"
+  },"50": {
+    "doc": "Conditionals",
+    "title": "1. To (と)",
+    "content": "Natural consequence or inevitable result. “Whenever A happens, B happens.” 春が来ると、花が咲く。(Haru ga kuru to, hana ga saku.)\\n(When spring comes, flowers bloom.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/conditionals.html#1-to-%E3%81%A8",
+    
+    "relUrl": "/docs/essential-grammar/conditionals.html#1-to-と"
+  },"51": {
+    "doc": "Conditionals",
+    "title": "2. Ba (ば)",
+    "content": "Hypothetical condition. Focuses on the condition itself. 行けばわかる。(Ikeba wakaru.)\\n(If you go, you will understand.) . Conjugation: . | U-verbs: Change /u/ to /e/ + ba (Kakeba (書けば))\\n- Ru-verbs: Drop ru + reba (Tabereba (食べれば)) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/conditionals.html#2-ba-%E3%81%B0",
+    
+    "relUrl": "/docs/essential-grammar/conditionals.html#2-ba-ば"
+  },"52": {
+    "doc": "Conditionals",
+    "title": "3. Tara (たら)",
+    "content": "Context-bound condition. “If/When A happens, then B.” Very versatile. Conjugation: Past Tense (Ta-form) + ra. 時間があったら、行く。(Jikan ga attara, iku.)\\n(If I have time, I will go.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/conditionals.html#3-tara-%E3%81%9F%E3%82%89",
+    
+    "relUrl": "/docs/essential-grammar/conditionals.html#3-tara-たら"
+  },"53": {
+    "doc": "Conditionals",
+    "title": "4. Nara (なら)",
+    "content": "Contextual condition based on what strictly assumes to be true. “If that is the case…” 行くなら、私も行く。(Iku nara, watashi mo iku.)\\n(If [it is the case that] you are going, I will go too.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/conditionals.html#4-nara-%E3%81%AA%E3%82%89",
+    
+    "relUrl": "/docs/essential-grammar/conditionals.html#4-nara-なら"
+  },"54": {
+    "doc": "Desire and Suggestions",
+    "title": "Desire and Suggestions",
+    "content": "How to express what you want to do, or suggest doing something together. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/desire-suggestions.html",
+    
+    "relUrl": "/docs/essential-grammar/desire-suggestions.html"
+  },"55": {
+    "doc": "Desire and Suggestions",
+    "title": "Expressing Desire (Tai-form)",
+    "content": "To say “I want to…”, use the -tai ending. It conjugates like an i-adjective. | Use the verb stem (drop masu). | Add tai. | . Taberu (食べる) → Tabe (食べ) → Tabetai (食べたい) (Want to eat)\\nNomi (飲む) → Nomitai (飲みたい) (Want to drink) . Negative . Drop i and add kunai. 食べたくない。(Tabetakunai.) (Don’t want to eat.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/desire-suggestions.html#expressing-desire-tai-form",
+    
+    "relUrl": "/docs/essential-grammar/desire-suggestions.html#expressing-desire-tai-form"
+  },"56": {
+    "doc": "Desire and Suggestions",
+    "title": "Making Suggestions (Volitional Form)",
+    "content": "Used to say “Let’s…” or “Shall we?”. Masu-form (Polite) . Replace masu with mashou. Ikimasu (行きます) → Ikimashou (行きましょう) (Let’s go.) . Dictionary Form (Casual) . | Ru-verbs: Drop ru, add you. (Tabeyou (食べよう))\\n- U-verbs: Change last /u/ to /o/ and add u. (Ikou (行こう))\\n\\n食べよう。(Tabeyou.) (Let’s eat.) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/desire-suggestions.html#making-suggestions-volitional-form",
+    
+    "relUrl": "/docs/essential-grammar/desire-suggestions.html#making-suggestions-volitional-form"
+  },"57": {
+    "doc": "Formal Expressions",
+    "title": "Formal Expressions",
+    "content": "Grammar used in formal writing, speeches, or older texts. ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/formal-expressions.html",
+    
+    "relUrl": "/docs/advanced-topics/formal-expressions.html"
+  },"58": {
+    "doc": "Formal Expressions",
+    "title": "De Aru (で ある)",
+    "content": "The literary version of da. It sounds authoritative and factual. 吾輩は猫である。(Wagahai wa neko de aru.)\\n(I am a cat. [Famous novel title]) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/formal-expressions.html#de-aru-%E3%81%A7-%E3%81%82%E3%82%8B",
+    
+    "relUrl": "/docs/advanced-topics/formal-expressions.html#de-aru-で-ある"
+  },"59": {
+    "doc": "Formal Expressions",
+    "title": "Nite (にて)",
+    "content": "Formal version of the particle de (at/by means of). 東京にて開催する。(Toukyou nite kaisai suru.)\\n(Will be held in Tokyo.) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/formal-expressions.html#nite-%E3%81%AB%E3%81%A6",
+    
+    "relUrl": "/docs/advanced-topics/formal-expressions.html#nite-にて"
+  },"60": {
+    "doc": "Formal Expressions",
+    "title": "Yue (故)",
+    "content": "Formal “because” or “reason”. 貧しさ故に… (Mazushisa yue ni…)\\n(Because of poverty…) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/formal-expressions.html#yue-%E6%95%85",
+    
+    "relUrl": "/docs/advanced-topics/formal-expressions.html#yue-故"
+  },"61": {
+    "doc": "Formal Non-feasibility",
+    "title": "Formal Non-feasibility",
+    "content": "Advanced ways to say “Cannot” or “Must”. ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/formal-non-feasibility.html",
+    
+    "relUrl": "/docs/advanced-topics/formal-non-feasibility.html"
+  },"62": {
+    "doc": "Formal Non-feasibility",
+    "title": "Zaru wo Enai (Cannot help but…)",
+    "content": "“It is not possible to not do…” -&gt; “I have to do it.” Structure: Negative stem + zaru wo enai. やるざるを得ない。(Yaruzaru wo enai.)\\n(I have no choice but to do it.) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/formal-non-feasibility.html#zaru-wo-enai-cannot-help-but",
+    
+    "relUrl": "/docs/advanced-topics/formal-non-feasibility.html#zaru-wo-enai-cannot-help-but"
+  },"63": {
+    "doc": "Formal Non-feasibility",
+    "title": "Yamu wo Enai (Unavoidable)",
+    "content": "“It is unavoidable.” やむを得ない事情で… (Yamu wo enai jijou de…)\\n(Due to unavoidable circumstances…) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/formal-non-feasibility.html#yamu-wo-enai-unavoidable",
+    
+    "relUrl": "/docs/advanced-topics/formal-non-feasibility.html#yamu-wo-enai-unavoidable"
+  },"64": {
+    "doc": "Generic Nouns",
+    "title": "Generic Nouns",
+    "content": "Special nouns that serve grammatical purposes rather than representing physical objects. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/generic-nouns.html",
+    
+    "relUrl": "/docs/special-expressions/generic-nouns.html"
+  },"65": {
+    "doc": "Generic Nouns",
+    "title": "Kot (The concept/thing)",
+    "content": "Used to turn verbs into nouns (nominalization) for concepts. 食べること (Taberu koto) (Eating [the act]) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/generic-nouns.html#kot-the-conceptthing",
+    
+    "relUrl": "/docs/special-expressions/generic-nouns.html#kot-the-conceptthing"
+  },"66": {
+    "doc": "Generic Nouns",
+    "title": "Mono (The physical thing)",
+    "content": "Used for tangible objects. おいしいもの (Oishii mono) (Delicious things) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/generic-nouns.html#mono-the-physical-thing",
+    
+    "relUrl": "/docs/special-expressions/generic-nouns.html#mono-the-physical-thing"
+  },"67": {
+    "doc": "Generic Nouns",
+    "title": "Tokoro (The place/time)",
+    "content": "Originally means “place”, but often refers to a point in time. 食べるところです。(Taberu tokoro desu.) (I am about to eat.)\\n食べているところです。(Tabete iru tokoro desu.) (I am in the middle of eating.)\\n食べたところです。(Tabeta tokoro desu.) (I have just finished eating.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/generic-nouns.html#tokoro-the-placetime",
+    
+    "relUrl": "/docs/special-expressions/generic-nouns.html#tokoro-the-placetime"
+  },"68": {
+    "doc": "Giving and Receiving",
+    "title": "Giving and Receiving",
+    "content": "Japanese uses different verbs depending on the direction of the giving—from me to you, you to me, or someone to someone else. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/giving-receiving.html",
+    
+    "relUrl": "/docs/essential-grammar/giving-receiving.html"
+  },"69": {
+    "doc": "Giving and Receiving",
+    "title": "1. Ageru (To Give)",
+    "content": "Used when I give to someone or someone gives to someone else (not me). 私は友達に本をあげた。(Watashi wa tomodachi ni hon wo ageta.)\\n(I gave a book to my friend.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/giving-receiving.html#1-ageru-to-give",
+    
+    "relUrl": "/docs/essential-grammar/giving-receiving.html#1-ageru-to-give"
+  },"70": {
+    "doc": "Giving and Receiving",
+    "title": "2. Kureru (To Give to Me)",
+    "content": "Used efficiently when someone gives to ME (or my inner circle). 友達が（私に）本をくれた。(Tomodachi ga (watashi ni) hon wo kureta.)\\n(My friend gave me a book.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/giving-receiving.html#2-kureru-to-give-to-me",
+    
+    "relUrl": "/docs/essential-grammar/giving-receiving.html#2-kureru-to-give-to-me"
+  },"71": {
+    "doc": "Giving and Receiving",
+    "title": "3. Morau (To Receive)",
+    "content": "Used when taking the perspective of the receiver. 私は友達に本をもらった。(Watashi wa tomodachi ni hon wo moratta.)\\n(I received a book from my friend.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/giving-receiving.html#3-morau-to-receive",
+    
+    "relUrl": "/docs/essential-grammar/giving-receiving.html#3-morau-to-receive"
+  },"72": {
+    "doc": "Giving and Receiving",
+    "title": "Using with Action Verbs (Te-form)",
+    "content": "You can use these basic verbs as helpers to describe doing favors. | ~te ageru: Do something for someone. | ~te kureru: Someone does something for me. | ~te morau: Get someone to do something for me. | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/giving-receiving.html#using-with-action-verbs-te-form",
+    
+    "relUrl": "/docs/essential-grammar/giving-receiving.html#using-with-action-verbs-te-form"
+  },"73": {
+    "doc": "Honorific and Humble",
+    "title": "Honorific and Humble Forms",
+    "content": "Keigo (Honorifics) is split into two main categories: Sonkeigo (Honorific) and Kenjougo (Humble). ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/honorific-humble.html#honorific-and-humble-forms",
+    
+    "relUrl": "/docs/special-expressions/honorific-humble.html#honorific-and-humble-forms"
+  },"74": {
+    "doc": "Honorific and Humble",
+    "title": "Sonkeigo (Honorific)",
+    "content": "Used to describe the actions of superiors or customers. Elevates the subject. Regular Formation . O + Verb Stem + ni naru. 先生がお読みになる。(Sensei ga o-yomi ni naru.) (The teacher reads.) . Special Verbs . | Iku/Kuru/Iru (行く/来る/いる) → Irassharu (いらっしゃる)\\n- Taberu/Nomu (食べる/飲む) → Meshiagaru (召し上がる)\\n- Suru (する) → Nasaru (なさる)\\n- Miru (見る) → Goran ni naru (ご覧になる) | . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/honorific-humble.html#sonkeigo-honorific",
+    
+    "relUrl": "/docs/special-expressions/honorific-humble.html#sonkeigo-honorific"
+  },"75": {
+    "doc": "Honorific and Humble",
+    "title": "Kenjougo (Humble)",
+    "content": "Used to describe your own actions when speaking to a superior. Lowers yourself. Regular Formation . O + Verb Stem + suru. 私がお持ちします。(Watashi ga o-mochi shimasu.) (I will hold it.) . Special Verbs . | Iku/Kuru (行く/来る) → Mairu (参る)\\n- Iru (いる) → Oru (おる)\\n- Suru (する) → Itasu (致す)\\n- Taberu/Nomu (食べる/飲む) → Itadaku (いただく) | . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/honorific-humble.html#kenjougo-humble",
+    
+    "relUrl": "/docs/special-expressions/honorific-humble.html#kenjougo-humble"
+  },"76": {
+    "doc": "Honorific and Humble",
+    "title": "Honorific and Humble",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/honorific-humble.html",
+    
+    "relUrl": "/docs/special-expressions/honorific-humble.html"
+  },"77": {
+    "doc": "Special Expressions",
+    "title": "Special Expressions",
+    "content": "This section covers expressions that add specific nuances to your sentences, such as forcing someone to do something, things happening to you, or expressing uncertainty. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions",
+    
+    "relUrl": "/docs/special-expressions"
+  },"78": {
+    "doc": "Special Expressions",
+    "title": "Topics Covered",
+    "content": ". | Causative: Making/Letting someone do something. | Passive: Passive voice (was done by). | Causative-Passive: Being made to do something. | Honorific and Humble Forms: Keigo (formal business Japanese). | Unintentional Actions: Doing things by accident (~te shimau). | Generic Nouns: Tokoro, Mono, Koto. | Certainty: Kamoshirenai, Nichigainai. | Expressing Amounts: Dake, Shika, Hodo. | Similarity and Hearsay: You, Mitai, Sou. | Comparison: Comparing two things. | Non-feasibility: Impossible to do (~you ga nai). | Tendencies: Garu, Gachi. | Advanced Volitional: Trying to do something (~you to suru). | . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions#topics-covered",
+    
+    "relUrl": "/docs/special-expressions#topics-covered"
+  },"79": {
+    "doc": "Advanced Topics",
+    "title": "Advanced Topics",
+    "content": "This section covers more formal and literary grammar patterns often found in writing, news, or speeches. ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics",
+    
+    "relUrl": "/docs/advanced-topics"
+  },"80": {
+    "doc": "Advanced Topics",
+    "title": "Topics Covered",
+    "content": ". | Formal Expressions: De aru, Nite, etc. | Things that should be: Hazu, Beki. | Minimum Expectation: Dake atte, Bakari. | Showing Signs: ~Garu (revisited), Meku. | Formal Non-feasibility: ~Zaru wo enai, ~Yamu wo enai. | . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics#topics-covered",
+    
+    "relUrl": "/docs/advanced-topics#topics-covered"
+  },"81": {
+    "doc": "Home",
+    "title": "Tae Kim’s Japanese Grammar Guide",
+    "content": "A complete guide to Japanese grammar, from basics to advanced topics. ",
+    "url": "/japanese-grammar-guide/#tae-kims-japanese-grammar-guide",
+    
+    "relUrl": "/#tae-kims-japanese-grammar-guide"
+  },"82": {
+    "doc": "Home",
+    "title": "Introduction",
+    "content": "This guide is designed to help you learn Japanese grammar in an intuitive way. It effectively explains the structure of the language, which is often very different from English. ",
+    "url": "/japanese-grammar-guide/#introduction",
+    
+    "relUrl": "/#introduction"
+  },"83": {
+    "doc": "Home",
+    "title": "Table of Contents",
+    "content": "Basic Grammar . Build the foundation. Learn about the state of being, particles, adjectives, and basic verb conjugations. Essential Grammar . Expand your ability to communicate. Covers polite forms, compound sentences, conditionals, and more. Special Expressions . Master the nuances. Includes causative, passive, honorifics, and other specific expressions. Advanced Topics . Polish your Japanese. Formal expressions and advanced grammatical concepts. This site is a formatted reference based on the original Guide to Japanese. ",
+    "url": "/japanese-grammar-guide/#table-of-contents",
+    
+    "relUrl": "/#table-of-contents"
+  },"84": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/japanese-grammar-guide/",
+    
+    "relUrl": "/"
+  },"85": {
+    "doc": "Basic Grammar",
+    "title": "Basic Grammar",
+    "content": "This section covers the fundamental building blocks of Japanese grammar. Before you can construct complex sentences, you need to understand these core concepts. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar",
+    
+    "relUrl": "/docs/basic-grammar"
+  },"86": {
+    "doc": "Basic Grammar",
+    "title": "Topics Covered",
+    "content": ". | State of Being: How to say “is” or “am” (da/desu). | Introduction to Particles: Defining subject, topic, and object. | Adjectives: Describing things with i-adjectives and na-adjectives. | Verb Basics: The role of verbs and basic conjugations. | Negative Verbs: How to say something does not happen. | Past Tense: Talking about what happened in the past. | Te-form: Connecting actions and making requests. | Relative Clauses: Modifying nouns with verb phrases. | Sentence-ending Particles: Adding nuance/tone to sentences. | Compound Sentences: Combining multiple thoughts. | Transitive &amp; Intransitive Verbs: Pairs of verbs for self-action vs. acting on something. | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar#topics-covered",
+    
+    "relUrl": "/docs/basic-grammar#topics-covered"
+  },"87": {
+    "doc": "Essential Grammar",
+    "title": "Essential Grammar",
+    "content": "This section covers the grammar necessary to survive basic Japanese communication. It moves from simple existence to polite speech, requests, and expressing potential or desire. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar",
+    
+    "relUrl": "/docs/essential-grammar"
+  },"88": {
+    "doc": "Essential Grammar",
+    "title": "Topics Covered",
+    "content": ". | Polite Form: Converting dictionary forms to polite -masu/desu forms. | Addressing People: Proper titles and pronouns. | The Question Marker: Formal questions. | Compound Sentences: More advanced connections. | Potential Form: Expressing ability (can do). | Suru and Naru: “To do” vs “To become”. | Conditionals: If/When statements (to, ba, tara, nara). | Must / Have to: Expressing obligation. | Desire &amp; Suggestions: “I want to…” and “Let’s…”. | Relative Clauses Advanced: Nested relative clauses. | Giving and Receiving: The complex world of giving verbs. | Making Requests: Politely asking for things. | Numbers and Counting: Counters for different objects. | Casual Patterns &amp; Slang: Common spoken colloquialisms. | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar#topics-covered",
+    
+    "relUrl": "/docs/essential-grammar#topics-covered"
+  },"89": {
+    "doc": "Making Requests",
+    "title": "Making Requests",
+    "content": "There are many levels of politeness when asking for things in Japanese. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/making-requests.html",
+    
+    "relUrl": "/docs/essential-grammar/making-requests.html"
+  },"90": {
+    "doc": "Making Requests",
+    "title": "1. ~Te kudasai (Standard Polite)",
+    "content": "Standard request. “Please do…” 食べてください。(Tabete kudasai.) (Please eat.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/making-requests.html#1-te-kudasai-standard-polite",
+    
+    "relUrl": "/docs/essential-grammar/making-requests.html#1-te-kudasai-standard-polite"
+  },"91": {
+    "doc": "Making Requests",
+    "title": "2. ~Te choudai (Casual / Feminine)",
+    "content": "Similar to kudasai but more casual. 待ってちょうだい。(Matte choudai.) (Wait up.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/making-requests.html#2-te-choudai-casual--feminine",
+    
+    "relUrl": "/docs/essential-grammar/making-requests.html#2-te-choudai-casual--feminine"
+  },"92": {
+    "doc": "Making Requests",
+    "title": "3. ~Nasai (Command / Authoritative)",
+    "content": "Used by parents to children or teachers to students. 食べなさい。(Tabenasai.) (Eat it.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/making-requests.html#3-nasai-command--authoritative",
+    
+    "relUrl": "/docs/essential-grammar/making-requests.html#3-nasai-command--authoritative"
+  },"93": {
+    "doc": "Making Requests",
+    "title": "4. ~Shiro / ~Ro (Strong Command)",
+    "content": "Very rough, used by men or in emergencies. 食べろ！(Tabero!) (Eat!) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/making-requests.html#4-shiro--ro-strong-command",
+    
+    "relUrl": "/docs/essential-grammar/making-requests.html#4-shiro--ro-strong-command"
+  },"94": {
+    "doc": "Making Requests",
+    "title": "Asking for Permission (Mo ii desu ka?)",
+    "content": "Structure: Te-form + mo + ii (good) + desu ka? 食べてもいいですか？(Tabete mo ii desu ka?)\\n(Is it okay if I eat? / May I eat?) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/making-requests.html#asking-for-permission-mo-ii-desu-ka",
+    
+    "relUrl": "/docs/essential-grammar/making-requests.html#asking-for-permission-mo-ii-desu-ka"
+  },"95": {
+    "doc": "Minimum Expectation",
+    "title": "Minimum Expectation",
+    "content": "Grammar related to whether something met, didn’t meet, or was just an expectation. ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/minimum-expectation.html",
+    
+    "relUrl": "/docs/advanced-topics/minimum-expectation.html"
+  },"96": {
+    "doc": "Minimum Expectation",
+    "title": "Dake Atte (Just as expected)",
+    "content": "Used when a result matches the high expectation derived from a reason. さすが、プロだけあってうまい。(Sasuga, pro dake atte umai.)\\n(As expected, being a pro, he is good.) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/minimum-expectation.html#dake-atte-just-as-expected",
+    
+    "relUrl": "/docs/advanced-topics/minimum-expectation.html#dake-atte-just-as-expected"
+  },"97": {
+    "doc": "Minimum Expectation",
+    "title": "Bakari (Nothing but…)",
+    "content": "Used to express that there is so much of something, or one does nothing but that action. ゲームばかりしている。(Gemu bakari shite iru.)\\n(He does nothing but play games.) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/minimum-expectation.html#bakari-nothing-but",
+    
+    "relUrl": "/docs/advanced-topics/minimum-expectation.html#bakari-nothing-but"
+  },"98": {
+    "doc": "Must / Have to",
+    "title": "Must / Have to",
+    "content": "There is no single word for “must” in Japanese. Instead, you use a double negative phrase that literally means “If I don’t do X, it won’t be good.” . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/must-have-to.html",
+    
+    "relUrl": "/docs/essential-grammar/must-have-to.html"
+  },"99": {
+    "doc": "Must / Have to",
+    "title": "Structure 1: Nakereba naranai",
+    "content": "The most formal and standard way. | Conjugate to Negative (nai form). | Drop i and add kereba (conditional). | Add naranai (will not become/be good). | . Taberu (食べる) → Tabenai (食べない) → Tabenakereba naranai (食べなければならない)\\n(Must eat.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/must-have-to.html#structure-1-nakereba-naranai",
+    
+    "relUrl": "/docs/essential-grammar/must-have-to.html#structure-1-nakereba-naranai"
+  },"100": {
+    "doc": "Must / Have to",
+    "title": "Structure 2: Nakute wa ikenai",
+    "content": "Slightly less formal, “It cannot go if I don’t…” 食べなくてはいけない。(Tabenakute wa ikenai.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/must-have-to.html#structure-2-nakute-wa-ikenai",
+    
+    "relUrl": "/docs/essential-grammar/must-have-to.html#structure-2-nakute-wa-ikenai"
+  },"101": {
+    "doc": "Must / Have to",
+    "title": "Casual Abbreviations",
+    "content": "In speech, these long phrases are shortened. | Nakucha (from nakute wa) | Nakya (from nakereba) | . もう行かなくちゃ。(Mou ikanakucha.) (I gotta go already.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/must-have-to.html#casual-abbreviations",
+    
+    "relUrl": "/docs/essential-grammar/must-have-to.html#casual-abbreviations"
+  },"102": {
+    "doc": "Negative Verbs",
+    "title": "Negative Verbs",
+    "content": "To say that you do not do something, you conjugate the verb into its negative form. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/negative-verbs.html",
+    
+    "relUrl": "/docs/basic-grammar/negative-verbs.html"
+  },"103": {
+    "doc": "Negative Verbs",
+    "title": "Ru-verbs",
+    "content": "Drop ru and add nai. | Taberu (食べる) → Tabenai (食べない) (Not eat) | Miru (見る) → Minai (見ない) (Not see) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/negative-verbs.html#ru-verbs",
+    
+    "relUrl": "/docs/basic-grammar/negative-verbs.html#ru-verbs"
+  },"104": {
+    "doc": "Negative Verbs",
+    "title": "U-verbs",
+    "content": "Change the last vowel from an /u/ sound to an /a/ sound, and add nai. | Kaku (書く) → Kakanai (書かない) (Not write) | Yomu (読む) → Yomanai (読まない) (Not read) | Au (会う) → Awanai (会わない) (Not meet) Exception: ‘u’ becomes ‘wa’ | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/negative-verbs.html#u-verbs",
+    
+    "relUrl": "/docs/basic-grammar/negative-verbs.html#u-verbs"
+  },"105": {
+    "doc": "Negative Verbs",
+    "title": "Irregular Verbs",
+    "content": ". | Suru (する) → Shinai (しない) | Kuru (来る) → Konai (来ない) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/negative-verbs.html#irregular-verbs",
+    
+    "relUrl": "/docs/basic-grammar/negative-verbs.html#irregular-verbs"
+  },"106": {
+    "doc": "Negative Verbs",
+    "title": "Non-Existence",
+    "content": "The verb for existence of inanimate objects is aru. Its negative is NOT aranai, but simply nai. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/negative-verbs.html#non-existence",
+    
+    "relUrl": "/docs/basic-grammar/negative-verbs.html#non-existence"
+  },"107": {
+    "doc": "Non-feasibility",
+    "title": "Non-feasibility (~You ga nai)",
+    "content": "Used to express that there is no way to do something, usually due to lack of means. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/non-feasibility.html#non-feasibility-you-ga-nai",
+    
+    "relUrl": "/docs/special-expressions/non-feasibility.html#non-feasibility-you-ga-nai"
+  },"108": {
+    "doc": "Non-feasibility",
+    "title": "Structure",
+    "content": "Verb Stem + you + ga + nai. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/non-feasibility.html#structure",
+    
+    "relUrl": "/docs/special-expressions/non-feasibility.html#structure"
+  },"109": {
+    "doc": "Non-feasibility",
+    "title": "Examples",
+    "content": "直してあげたいが、直しようがない。(Naoshite agetai ga, naoshiyou ga nai.)\\n(I want to fix it for you, but there is no way to fix it.)\\n\\nここまで来たら、戻りようがない。(Koko made kitara, modoriyou ga nai.)\\n(Since we came this far, there is no way to go back.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/non-feasibility.html#examples",
+    
+    "relUrl": "/docs/special-expressions/non-feasibility.html#examples"
+  },"110": {
+    "doc": "Non-feasibility",
+    "title": "Non-feasibility",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/non-feasibility.html",
+    
+    "relUrl": "/docs/special-expressions/non-feasibility.html"
+  },"111": {
+    "doc": "Numbers and Counting",
+    "title": "Numbers and Counting",
+    "content": "Counting in Japanese is tricky because the suffix (counter) changes depending on the shape or type of object. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/numbers-counting.html",
+    
+    "relUrl": "/docs/essential-grammar/numbers-counting.html"
+  },"112": {
+    "doc": "Numbers and Counting",
+    "title": "Basic Numbers",
+    "content": ". | Ichi (一)\\n2. Ni (二)\\n3. San (三)\\n4. Shi / Yon (四)\\n5. Go (五)\\n6. Roku (六)\\n7. Shichi / Nana (七)\\n8. Hachi (八)\\n9. Kyuu (九)\\n10. Juu (十) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/numbers-counting.html#basic-numbers",
+    
+    "relUrl": "/docs/essential-grammar/numbers-counting.html#basic-numbers"
+  },"113": {
+    "doc": "Numbers and Counting",
+    "title": "Common Counters",
+    "content": "General Objects (Tsu) . Used for abstract items or when you don’t know the specific counter. Note: Uses native Japanese counting system (Hitotsu, Futatsu…). Hitotsu (一つ), Futatsu (二つ), Mittsu (三つ), Yottsu (四つ), Itsutsu (五つ), Muttsu (六つ), Nanatsu (七つ), Yattsu (八つ), Kokonotsu (九つ), Too (十) . People (Nin) . Hitori (一人), Futari (二人), Sannin (三人), Yonin (四人)… . Flat Objects (Mai) . Paper, shirts, plates. Ichimai (一枚), Nimai (二枚)… . Long Objects (Hon) . Pens, bottles, umbrellas. Note: “Hon” changes to “Bon” or “Pon” depending heavily on the number. Ippon (一本), Nihon (二本), Sanbon (三本)… . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/numbers-counting.html#common-counters",
+    
+    "relUrl": "/docs/essential-grammar/numbers-counting.html#common-counters"
+  },"114": {
+    "doc": "Introduction to Particles",
+    "title": "Introduction to Particles",
+    "content": "Particles are small suffixes that follow a word to define its grammatical function in the sentence. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/particles.html",
+    
+    "relUrl": "/docs/basic-grammar/particles.html"
+  },"115": {
+    "doc": "Introduction to Particles",
+    "title": "The Topic Particle “Wa” (は)",
+    "content": "The particle wa (written as ha but pronounced wa) identifies the topic of the sentence. Example . 私は学生だ。\\n(Watashi wa gakusei da.) - As for me, I am a student. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/particles.html#the-topic-particle-wa-%E3%81%AF",
+    
+    "relUrl": "/docs/basic-grammar/particles.html#the-topic-particle-wa-は"
+  },"116": {
+    "doc": "Introduction to Particles",
+    "title": "The Subject Particle “Ga” (が)",
+    "content": "The particle ga identifies the specific subject that is performing the action or state. Example . 誰が来ましたか？\\n(Dare ga kimashita ka?) - Who came? . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/particles.html#the-subject-particle-ga-%E3%81%8C",
+    
+    "relUrl": "/docs/basic-grammar/particles.html#the-subject-particle-ga-が"
+  },"117": {
+    "doc": "Introduction to Particles",
+    "title": "The Object Particle “Wo” (を)",
+    "content": "The particle wo (pronounced o) marks the direct object of a verb—the thing that is being acted upon. Example . 本を読む。\\n(Hon wo yomu.) - Read a book. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/particles.html#the-object-particle-wo-%E3%82%92",
+    
+    "relUrl": "/docs/basic-grammar/particles.html#the-object-particle-wo-を"
+  },"118": {
+    "doc": "Introduction to Particles",
+    "title": "The Target/Direction Particle “Ni” (に)",
+    "content": "The particle ni indicates a target location, time, or movement towards something. Example . 学校に行く。\\n(Gakkou ni iku.) - Go to school. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/particles.html#the-targetdirection-particle-ni-%E3%81%AB",
+    
+    "relUrl": "/docs/basic-grammar/particles.html#the-targetdirection-particle-ni-に"
+  },"119": {
+    "doc": "Introduction to Particles",
+    "title": "The Direction Particle “He” (へ)",
+    "content": "Pronounced e, this particle is vaguely similar to ni but emphasizes direction rather than the destination itself. Example . 日本へ行く。\\n(Nihon he iku.) - Go towards/to Japan. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/particles.html#the-direction-particle-he-%E3%81%B8",
+    
+    "relUrl": "/docs/basic-grammar/particles.html#the-direction-particle-he-へ"
+  },"120": {
+    "doc": "Passive Form",
+    "title": "Passive Form",
+    "content": "The passive form indicates that the subject is the recipient of the action, often with a nuance of suffering or annoyance. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/passive.html",
+    
+    "relUrl": "/docs/special-expressions/passive.html"
+  },"121": {
+    "doc": "Passive Form",
+    "title": "Conjugation",
+    "content": "Ru-verbs . Drop ru and add rareru. (Same as potential form contextually). Taberu (食べる) → Taberareru (食べられる) (Be eaten) . U-verbs . Change final /u/ to /a/ and add reru. Iku (行く) → Ikareru (行かれる) (Have someone go [regretful])\\nKaku (書く) → Kakareru (書かれる) (Be written) . Irregular . | Suru (する) → Sareru (される)\\n- Kuru (来る) → Korareru (来られる) | . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/passive.html#conjugation",
+    
+    "relUrl": "/docs/special-expressions/passive.html#conjugation"
+  },"122": {
+    "doc": "Passive Form",
+    "title": "Usage",
+    "content": "私は猫にパンを食べられた。(Watashi wa neko ni pan wo taberareta.)\\n(I had my bread eaten by the cat. [Suffering passive]) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/passive.html#usage",
+    
+    "relUrl": "/docs/special-expressions/passive.html#usage"
+  },"123": {
+    "doc": "Past Tense",
+    "title": "Past Tense",
+    "content": "The past tense indicates that an action has already taken place. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/past-tense.html",
+    
+    "relUrl": "/docs/basic-grammar/past-tense.html"
+  },"124": {
+    "doc": "Past Tense",
+    "title": "Ru-verbs",
+    "content": "Drop ru and add ta. | Taberu (食べる) → Tabeta (食べた) (Ate) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/past-tense.html#ru-verbs",
+    
+    "relUrl": "/docs/basic-grammar/past-tense.html#ru-verbs"
+  },"125": {
+    "doc": "Past Tense",
+    "title": "U-verbs",
+    "content": "The conjugation depends on the ending character. | Ending | Change | Example | Past Form |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | . | su | shita | Hanasu (話す) | Hanashita (話した) | \\n | ku | ita | Kaku (書く) | Kaita (書いた) | \\n | gu | ida | Oyogu (泳ぐ) | Oyoida (泳いだ) | \\n | mu, bu, nu | nda | Nomu (飲む) | Nonda (飲んだ) | \\n | ru, u, tsu | tta | Kiru (切る) | Kitta (切った) | . Exception: Iku (行く) becomes Itta (行った). ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/past-tense.html#u-verbs",
+    
+    "relUrl": "/docs/basic-grammar/past-tense.html#u-verbs"
+  },"126": {
+    "doc": "Past Tense",
+    "title": "Irregular Verbs",
+    "content": ". | Suru (する) → Shita (した)\\n- Kuru (来る) → Kita (来た) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/past-tense.html#irregular-verbs",
+    
+    "relUrl": "/docs/basic-grammar/past-tense.html#irregular-verbs"
+  },"127": {
+    "doc": "Past Tense",
+    "title": "Negative Past",
+    "content": "First conjugative to negative, then treat nai as an i-adjective (drop i, add katta). | Tabenai (食べない) → Tabenakatta (食べなかった) (Did not eat)\\n- Ikanai (行かない) → Ikanakatta (行かなかった) (Did not go) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/past-tense.html#negative-past",
+    
+    "relUrl": "/docs/basic-grammar/past-tense.html#negative-past"
+  },"128": {
+    "doc": "Polite Form",
+    "title": "Polite Form",
+    "content": "While the dictionary form is used for casual speech among friends, the polite form (often called -masu form) is essential for speaking to strangers, teachers, or coworkers. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/polite-form.html",
+    
+    "relUrl": "/docs/essential-grammar/polite-form.html"
+  },"129": {
+    "doc": "Polite Form",
+    "title": "The -masu Stem",
+    "content": "To create the polite form, you first need the “stem” of the verb. Ru-verbs . Drop the ru. | Taberu (食べる) → Tabe (食べ) | . U-verbs . Change the final /u/ vowel sound to an /i/ sound. | Iku (行く) → Iki (行き)\\n- Nomu (飲む) → Nomi (飲み)\\n- Asobu (遊ぶ) → Asobi (遊び) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/polite-form.html#the--masu-stem",
+    
+    "relUrl": "/docs/essential-grammar/polite-form.html#the--masu-stem"
+  },"130": {
+    "doc": "Polite Form",
+    "title": "Conjugation",
+    "content": "| Purpose | Rule | Example (Taberu) | Example (Iku) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | . | Present/Future | Add masu | Tabemasu (食べます) | Ikimasu (行きます) | \\n | Negative | Add masen | Tabemasen (食べません) | Ikimasen (行きません) | \\n | Past | Add mashita | Tabemashita (食べました) | Ikimashita (行きました) | \\n | Past Negative | Add masen deshita | Tabemasen deshita (食べませんでした) | Ikimasen deshita (行きませんでした) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/polite-form.html#conjugation",
+    
+    "relUrl": "/docs/essential-grammar/polite-form.html#conjugation"
+  },"131": {
+    "doc": "Polite Form",
+    "title": "Irregular Verbs",
+    "content": ". | Suru (する) → Shimasu (します)\\n- Kuru (来る) → Kimasu (来ます) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/polite-form.html#irregular-verbs",
+    
+    "relUrl": "/docs/essential-grammar/polite-form.html#irregular-verbs"
+  },"132": {
+    "doc": "Potential Form",
+    "title": "Potential Form",
+    "content": "The potential form expresses the ability to do something (“can do”). ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/potential-form.html",
+    
+    "relUrl": "/docs/essential-grammar/potential-form.html"
+  },"133": {
+    "doc": "Potential Form",
+    "title": "Conjugation rules",
+    "content": "Ru-verbs . Drop ru and add rareru. Taberu (食べる) → Taberareru (食べられる) (Can eat) . U-verbs . Change the last vowel /u/ to /e/ and add ru. Iku (行く) → Ikeru (行ける) (Can go)\\nAsobu (遊ぶ) → Asoberu (遊べる) (Can play) . Irregular Verbs . | Suru (する) → Dekiru (できる)\\n- Kuru (来る) → Korareru (来られる) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/potential-form.html#conjugation-rules",
+    
+    "relUrl": "/docs/essential-grammar/potential-form.html#conjugation-rules"
+  },"134": {
+    "doc": "Potential Form",
+    "title": "Usage Note",
+    "content": "In the potential form, the object particle wo is often replaced by ga. 日本語が話せる。(Nihongo ga hanaseru.) (I can speak Japanese.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/potential-form.html#usage-note",
+    
+    "relUrl": "/docs/essential-grammar/potential-form.html#usage-note"
+  },"135": {
+    "doc": "Potential Form",
+    "title": "See Also",
+    "content": ". | Ra-nuki Kotoba: In casual speech, “ra” is often dropped from Ru-verbs. (Tabereru (食べれる) instead of Taberareru (食べられる)) | . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/potential-form.html#see-also",
+    
+    "relUrl": "/docs/essential-grammar/potential-form.html#see-also"
+  },"136": {
+    "doc": "Question Marker",
+    "title": "The Question Marker",
+    "content": "In polite speech, the question mark is often replaced by the particle ka. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/question-marker.html#the-question-marker",
+    
+    "relUrl": "/docs/essential-grammar/question-marker.html#the-question-marker"
+  },"137": {
+    "doc": "Question Marker",
+    "title": "Usage",
+    "content": "Simply add ka to the end of a polite setence. No question mark is strictly necessary in traditional writing, though the modern period . or ? is often used. 行きましたか。(Ikimashita ka?) (Did you go?) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/question-marker.html#usage",
+    
+    "relUrl": "/docs/essential-grammar/question-marker.html#usage"
+  },"138": {
+    "doc": "Question Marker",
+    "title": "Casual Questions",
+    "content": "In casual speech, do not use ka to ask yes/no questions. It can sound surprisingly sarcastic or harsh. Instead, just raise your intonation. 食べる？(Taberu?) (Will you eat? ↗) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/question-marker.html#casual-questions",
+    
+    "relUrl": "/docs/essential-grammar/question-marker.html#casual-questions"
+  },"139": {
+    "doc": "Question Marker",
+    "title": "Question Words",
+    "content": ". | Dare (誰): Who\\n- Nani (何): What\\n- Doko (どこ): Where\\n- Itsu (いつ): When\\n- Doushite (どうして) / Naze (なぜ): Why\\n- Dou (どう): How | . どこに行きますか？(Doko ni ikimasu ka?) (Where are you going?) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/question-marker.html#question-words",
+    
+    "relUrl": "/docs/essential-grammar/question-marker.html#question-words"
+  },"140": {
+    "doc": "Question Marker",
+    "title": "Question Marker",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/question-marker.html",
+    
+    "relUrl": "/docs/essential-grammar/question-marker.html"
+  },"141": {
+    "doc": "Relative Clauses (Advanced)",
+    "title": "Relative Clauses (Advanced)",
+    "content": "Relative clauses can act as the subject or object of a larger sentence, allowing for complex nested statements. ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/relative-clauses-advanced.html",
+    
+    "relUrl": "/docs/essential-grammar/relative-clauses-advanced.html"
+  },"142": {
+    "doc": "Relative Clauses (Advanced)",
+    "title": "Replacing “Ga” with “No”",
+    "content": "In a relative clause, the subject marker ga can often be replaced with no to make it flow smoother. 彼が作ったケーキ (Kare ga tsukutta keeki) (The cake he made)\\n彼の作ったケーキ (Kare no tsukutta keeki) (Same meaning, slightly softer) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/relative-clauses-advanced.html#replacing-ga-with-no",
+    
+    "relUrl": "/docs/essential-grammar/relative-clauses-advanced.html#replacing-ga-with-no"
+  },"143": {
+    "doc": "Relative Clauses (Advanced)",
+    "title": "Using the clause as a Noun",
+    "content": "You can treat a whole phrase as a noun by adding no or koto at the end. 日本語を勉強するのは楽しい。(Nihongo wo benkyou suru no wa tanoshii.)\\n(Studying Japanese is fun.) . Note: Lit. “The thing of studying Japanese is fun.” . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/relative-clauses-advanced.html#using-the-clause-as-a-noun",
+    
+    "relUrl": "/docs/essential-grammar/relative-clauses-advanced.html#using-the-clause-as-a-noun"
+  },"144": {
+    "doc": "Relative Clauses (Advanced)",
+    "title": "Nested Examples",
+    "content": "私が昨日見た映画は、友達が勧めたものでした。(Watashi ga kinou mita eiga wa, tomodachi ga susumeta mono deshita.)\\n(The movie I saw yesterday was the thing my friend recommended.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/relative-clauses-advanced.html#nested-examples",
+    
+    "relUrl": "/docs/essential-grammar/relative-clauses-advanced.html#nested-examples"
+  },"145": {
+    "doc": "Relative Clauses",
+    "title": "Relative Clauses",
+    "content": "In Japanese, relative clauses (modifying a noun with a verb) are extremely simple. You just place the verb phrase directly before the noun. No words like “that” or “which” are needed. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/relative-clauses.html",
+    
+    "relUrl": "/docs/basic-grammar/relative-clauses.html"
+  },"146": {
+    "doc": "Relative Clauses",
+    "title": "Structure",
+    "content": "[Verb Phrase] + [Noun] . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/relative-clauses.html#structure",
+    
+    "relUrl": "/docs/basic-grammar/relative-clauses.html#structure"
+  },"147": {
+    "doc": "Relative Clauses",
+    "title": "Examples",
+    "content": "Simple Modifier . | Gakusei (学生) - Student\\n- Benkyou suru (勉強する) - To study\\n- Benkyou suru gakusei (勉強する学生) - Student who acts/studies | . Complex Clause . | Kinou katta (昨日買った) - Bought yesterday\\n- Hon (本) - Book\\n- Kinou katta hon (昨日買った本) - The book [I] bought yesterday | . Longer Example . 公園で走っている人は誰ですか？(Kouen de hashitte iru hito wa dare desu ka?)\\n(Who is the person running in the park?)\\nBreakdown: [公園で走っている (Kouen de hashitte iru)] -&gt; 人 (hito) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/relative-clauses.html#examples",
+    
+    "relUrl": "/docs/basic-grammar/relative-clauses.html#examples"
+  },"148": {
+    "doc": "Sentence-ending Particles",
+    "title": "Sentence-ending Particles",
+    "content": "Particles at the end of a sentence changes the “tone” or feel of the statement. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/sentence-particles.html",
+    
+    "relUrl": "/docs/basic-grammar/sentence-particles.html"
+  },"149": {
+    "doc": "Sentence-ending Particles",
+    "title": "The “Ka” (か) Particle",
+    "content": "Used to turn a sentence into a question. 行くか？(Iku ka?) (Are you going?) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/sentence-particles.html#the-ka-%E3%81%8B-particle",
+    
+    "relUrl": "/docs/basic-grammar/sentence-particles.html#the-ka-か-particle"
+  },"150": {
+    "doc": "Sentence-ending Particles",
+    "title": "The “Ne” (ね) Particle",
+    "content": "Used to seek agreement or confirmation, similar to “right?” or “isn’t it?”. 暑いね。(Atsui ne.) (It’s hot, isn’t it?) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/sentence-particles.html#the-ne-%E3%81%AD-particle",
+    
+    "relUrl": "/docs/basic-grammar/sentence-particles.html#the-ne-ね-particle"
+  },"151": {
+    "doc": "Sentence-ending Particles",
+    "title": "The “Yo” (よ) Particle",
+    "content": "Used to add emphasis or give new information. It gives a sense of “I’m telling you this”. 明日だよ。(Ashita da yo.) (It is tomorrow, you know.) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/sentence-particles.html#the-yo-%E3%82%88-particle",
+    
+    "relUrl": "/docs/basic-grammar/sentence-particles.html#the-yo-よ-particle"
+  },"152": {
+    "doc": "Sentence-ending Particles",
+    "title": "The “Yone” (よね) Particle",
+    "content": "A combination of both. It emphasizes a fact but also seeks agreement. それは違うよね。(Sore wa chigau yone.) (That is wrong, right?) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/sentence-particles.html#the-yone-%E3%82%88%E3%81%AD-particle",
+    
+    "relUrl": "/docs/basic-grammar/sentence-particles.html#the-yone-よね-particle"
+  },"153": {
+    "doc": "Should Be",
+    "title": "Things that “Should be”",
+    "content": "Expressing expectation or obligation that is logical or moral. ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/should-be.html#things-that-should-be",
+    
+    "relUrl": "/docs/advanced-topics/should-be.html#things-that-should-be"
+  },"154": {
+    "doc": "Should Be",
+    "title": "Hazu (Expectation)",
+    "content": "“It is supposed to be…” based on calculation or logic. 彼はもう着いたはずだ。(Kare wa mou tsuita hazu da.)\\n(He should have arrived by now [logically].) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/should-be.html#hazu-expectation",
+    
+    "relUrl": "/docs/advanced-topics/should-be.html#hazu-expectation"
+  },"155": {
+    "doc": "Should Be",
+    "title": "Beki (Moral Obligation)",
+    "content": "“One should…” based on duty or morals. 約束は守るべきだ。(Yakusoku wa mamoru beki da.)\\n(One should keep promises.)\\n人を傷つけるべきではない。(Hito wo kizutsukeru beki de wa nai.)\\n(One should not hurt others.) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/should-be.html#beki-moral-obligation",
+    
+    "relUrl": "/docs/advanced-topics/should-be.html#beki-moral-obligation"
+  },"156": {
+    "doc": "Should Be",
+    "title": "Should Be",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/should-be.html",
+    
+    "relUrl": "/docs/advanced-topics/should-be.html"
+  },"157": {
+    "doc": "Showing Signs",
+    "title": "Showing Signs",
+    "content": "Describing appearances or vibes. ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/showing-signs.html",
+    
+    "relUrl": "/docs/advanced-topics/showing-signs.html"
+  },"158": {
+    "doc": "Showing Signs",
+    "title": "Meku (To show signs of…)",
+    "content": "Noun + meku. Behaving like or showing signs of that noun. 春めいてきた。(Haru meite kita.)\\n(It has started to become spring-like.)\\n謎めいた行動。(Nazo meita koudou.)\\n(Riddle-like / Enigmatic behavior.) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/showing-signs.html#meku-to-show-signs-of",
+    
+    "relUrl": "/docs/advanced-topics/showing-signs.html#meku-to-show-signs-of"
+  },"159": {
+    "doc": "Showing Signs",
+    "title": "Buru (To act like…)",
+    "content": "Pretending to be something. 大人ぶる。(Otona-buru.)\\n(Acting like an adult.)\\nモブリ。(Moburi.) (Mogul-pretender [Slang]) . ",
+    "url": "/japanese-grammar-guide/docs/advanced-topics/showing-signs.html#buru-to-act-like",
+    
+    "relUrl": "/docs/advanced-topics/showing-signs.html#buru-to-act-like"
+  },"160": {
+    "doc": "Similarity and Hearsay",
+    "title": "Similarity and Hearsay",
+    "content": "How to say something looks like or seems like something else. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/similarity-hearsay.html",
+    
+    "relUrl": "/docs/special-expressions/similarity-hearsay.html"
+  },"161": {
+    "doc": "Similarity and Hearsay",
+    "title": "You (Seems/Likeness)",
+    "content": "Nouns/Verbs behave like Nouns. あの人は田中さんのようだ。(Ano hito wa Tanaka-san no you da.) (That person looks like/seems like Tanaka-san.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/similarity-hearsay.html#you-seemslikeness",
+    
+    "relUrl": "/docs/special-expressions/similarity-hearsay.html#you-seemslikeness"
+  },"162": {
+    "doc": "Similarity and Hearsay",
+    "title": "Mitai (Casual “You”)",
+    "content": "More colloquial. 田中さんみたいだ。(Tanaka-san mitai da.) (Looks like Tanaka-san.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/similarity-hearsay.html#mitai-casual-you",
+    
+    "relUrl": "/docs/special-expressions/similarity-hearsay.html#mitai-casual-you"
+  },"163": {
+    "doc": "Similarity and Hearsay",
+    "title": "Sou (Looks like / Hearsay)",
+    "content": "Looks Like (Stem + Sou) . おいしそう。(Oishisou.) (Looks delicious.)\\n雨が降りそう。(Ame ga furisou.) (Looks like rain.) . Hearsay (Plain + Sou) . おいしいそう。(Oishii sou.) (I heard it is delicious.)\\n雨が降るそう。(Ame ga furu sou.) (I heard it will rain.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/similarity-hearsay.html#sou-looks-like--hearsay",
+    
+    "relUrl": "/docs/special-expressions/similarity-hearsay.html#sou-looks-like--hearsay"
+  },"164": {
+    "doc": "State of Being",
+    "title": "Declaring the State of Being",
+    "content": "In Japanese, the most basic sentence structure involves declaring what something is. This is often done using “da” (だ) or “desu” (です). ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/state-of-being.html#declaring-the-state-of-being",
+    
+    "relUrl": "/docs/basic-grammar/state-of-being.html#declaring-the-state-of-being"
+  },"165": {
+    "doc": "State of Being",
+    "title": "The Copula “Da” (だ)",
+    "content": "The word da acts like the English verb “to be” (is, am, are), but strictly speaking, it declares the state of existence. Example . Person A: Are you a student? Person B: 学生だ。 (Gakusei da.) - I am a student. Note that Japanese often omits the subject (like “I” or “You”) when it is understood from context. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/state-of-being.html#the-copula-da-%E3%81%A0",
+    
+    "relUrl": "/docs/basic-grammar/state-of-being.html#the-copula-da-だ"
+  },"166": {
+    "doc": "State of Being",
+    "title": "The Polite Form “Desu” (です)",
+    "content": "Desu is the polite version of da. It is used when speaking to strangers, superiors, or in formal situations. Example . 学生です。 (Gakusei desu.) - I am a student (polite). ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/state-of-being.html#the-polite-form-desu-%E3%81%A7%E3%81%99",
+    
+    "relUrl": "/docs/basic-grammar/state-of-being.html#the-polite-form-desu-です"
+  },"167": {
+    "doc": "State of Being",
+    "title": "Comparisons",
+    "content": "| Casual (Plain) | Polite | Meaning |   |   |   |   | . | 学生だ (Gakusei da) | 学生です (Gakusei desu) | (I) am a student. | \\n | 元気だ (Genki da) | 元気です (Genki desu) | (I) am well/healthy. | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/state-of-being.html#comparisons",
+    
+    "relUrl": "/docs/basic-grammar/state-of-being.html#comparisons"
+  },"168": {
+    "doc": "State of Being",
+    "title": "State of Being",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/state-of-being.html",
+    
+    "relUrl": "/docs/basic-grammar/state-of-being.html"
+  },"169": {
+    "doc": "Suru and Naru",
+    "title": "Suru and Naru",
+    "content": "Two very common verbs for describing change are Suru (to do/make) and Naru (to become). ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/suru-naru.html",
+    
+    "relUrl": "/docs/essential-grammar/suru-naru.html"
+  },"170": {
+    "doc": "Suru and Naru",
+    "title": "Naru (To Become)",
+    "content": "Used with the particle ni (for nouns/na-adj) or ku (for i-adj). With Nouns / Na-adjectives . 先生になる。(Sensei ni naru.) (Become a teacher.)\\nきれいになる。(Kirei ni naru.) (Become pretty/clean.) . With I-adjectives . Drop the i and add ku. 熱くなる。(Atsuku naru.) (Become hot.) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/suru-naru.html#naru-to-become",
+    
+    "relUrl": "/docs/essential-grammar/suru-naru.html#naru-to-become"
+  },"171": {
+    "doc": "Suru and Naru",
+    "title": "Suru (To Make / Decide)",
+    "content": "Used similarly with ni or ku to mean making something act in that way, or deciding on something. “To Make” . 部屋をきれいにする。(Heya wo kirei ni suru.) (Make the room clean.)\\n音を大きくする。(Oto wo okiku suru.) (Make the sound louder.) . “To Decide on” . これにします。(Kore ni shimasu.) (I will decide on this one. [Ordering at a restaurant]) . ",
+    "url": "/japanese-grammar-guide/docs/essential-grammar/suru-naru.html#suru-to-make--decide",
+    
+    "relUrl": "/docs/essential-grammar/suru-naru.html#suru-to-make--decide"
+  },"172": {
+    "doc": "Te-form",
+    "title": "The Te-form",
+    "content": "The te-form (て-form) is an incredibly versatile conjugation used for connecting sentences, making requests, and present progressive actions. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/te-form.html#the-te-form",
+    
+    "relUrl": "/docs/basic-grammar/te-form.html#the-te-form"
+  },"173": {
+    "doc": "Te-form",
+    "title": "Conjugation rules",
+    "content": "The rules are exactly the same as the Past Tense (Ta-form), but you replace ta with te and da with de. Examples . | Taberu (食べる) → Tabeta (食べた) → Tabete (食べて)\\n- Nomu (飲む) → Nonda (飲んだ) → Nonde (飲んで)\\n- Suru (する) → Shita (した) → Shite (して) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/te-form.html#conjugation-rules",
+    
+    "relUrl": "/docs/basic-grammar/te-form.html#conjugation-rules"
+  },"174": {
+    "doc": "Te-form",
+    "title": "Common Usages",
+    "content": "1. Sequence of Events . 昼ご飯を食べて、寝る。(Hiru-gohan wo tabete, neru.)\\n(Eat lunch, and then sleep.) . 2. Requests (Please do…) . Add kudasai after the te-form. 来てください。(Kite kudasai.)\\n(Please come.) . 3. Present Progressive (Doing…) . Add iru after the te-form. 食べている。(Tabete iru.)\\n(Am eating.) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/te-form.html#common-usages",
+    
+    "relUrl": "/docs/basic-grammar/te-form.html#common-usages"
+  },"175": {
+    "doc": "Te-form",
+    "title": "Te-form",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/te-form.html",
+    
+    "relUrl": "/docs/basic-grammar/te-form.html"
+  },"176": {
+    "doc": "Tendencies",
+    "title": "Tendencies",
+    "content": "Describing how things or people tend to act. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/tendencies.html",
+    
+    "relUrl": "/docs/special-expressions/tendencies.html"
+  },"177": {
+    "doc": "Tendencies",
+    "title": "Garu (Outward signs of feeling)",
+    "content": "Turns an internal adjective (like “hoshii” - want) into an observation of someone else’s behavior. Drop i add garu. Hoshii (欲しい) (I want) -&gt; Hoshigaru (欲しがる) (He/She acts like they want) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/tendencies.html#garu-outward-signs-of-feeling",
+    
+    "relUrl": "/docs/special-expressions/tendencies.html#garu-outward-signs-of-feeling"
+  },"178": {
+    "doc": "Tendencies",
+    "title": "Gachi (Tend to…)",
+    "content": "Negative habit or tendency. Drop masu add gachi. Wasuregachi (忘れがち) (Tend to forget)\\nByoukigachi (病気がち) (Tend to be sick) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/tendencies.html#gachi-tend-to",
+    
+    "relUrl": "/docs/special-expressions/tendencies.html#gachi-tend-to"
+  },"179": {
+    "doc": "Transitive & Intransitive",
+    "title": "Transitive &amp; Intransitive Verbs",
+    "content": "In Japanese, verbs often come in pairs: one transitive (acts on something) and one intransitive (happens on its own). ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/transitive-intransitive.html#transitive--intransitive-verbs",
+    
+    "relUrl": "/docs/basic-grammar/transitive-intransitive.html#transitive--intransitive-verbs"
+  },"180": {
+    "doc": "Transitive & Intransitive",
+    "title": "Transitive (Tadoushi)",
+    "content": "Requires an active agent and a direct object (marked by wo). | Keru (蹴る) - to kick\\n- Akeru (開ける) - to open something | . Example: ドアを開ける。(Doa wo akeru.) (I open the door.) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/transitive-intransitive.html#transitive-tadoushi",
+    
+    "relUrl": "/docs/basic-grammar/transitive-intransitive.html#transitive-tadoushi"
+  },"181": {
+    "doc": "Transitive & Intransitive",
+    "title": "Intransitive (Jidoushi)",
+    "content": "The action happens without a direct object. The subject (marked by ga) undergoes the change. | Aku (開く) - to open [by itself] | . Example: ドアが開く。(Doa ga aku.) (The door opens.) . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/transitive-intransitive.html#intransitive-jidoushi",
+    
+    "relUrl": "/docs/basic-grammar/transitive-intransitive.html#intransitive-jidoushi"
+  },"182": {
+    "doc": "Transitive & Intransitive",
+    "title": "Common Pairs",
+    "content": "| Transitive | Meaning | Intransitive | Meaning |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | . | Otosu (落とす) | To drop | Ochiru (落ちる) | To fall | \\n | Dasu (出す) | To take out | Deru (出る) | To come out | \\n | Ireru (入れる) | To put in | Hairu (入る) | To enter | \\n | Kowasu (壊す) | To break | Kowareru (壊れる) | To break (be broken) | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/transitive-intransitive.html#common-pairs",
+    
+    "relUrl": "/docs/basic-grammar/transitive-intransitive.html#common-pairs"
+  },"183": {
+    "doc": "Transitive & Intransitive",
+    "title": "Transitive & Intransitive",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/transitive-intransitive.html",
+    
+    "relUrl": "/docs/basic-grammar/transitive-intransitive.html"
+  },"184": {
+    "doc": "Unintentional Actions",
+    "title": "Unintentional Actions (~Te shimau)",
+    "content": "To express that an action was done completely, regrettably, or unintentionally, use ~te shimau. ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/unintentional.html#unintentional-actions-te-shimau",
+    
+    "relUrl": "/docs/special-expressions/unintentional.html#unintentional-actions-te-shimau"
+  },"185": {
+    "doc": "Unintentional Actions",
+    "title": "Formation",
+    "content": "Conjuate verb to Te-form and add shimau. 食べてしまう。(Tabete shimau.)\\n(Eat it completely / Eat it by mistake.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/unintentional.html#formation",
+    
+    "relUrl": "/docs/special-expressions/unintentional.html#formation"
+  },"186": {
+    "doc": "Unintentional Actions",
+    "title": "Past Tense (Regret)",
+    "content": "The most common usage is in the past tense: ~te shimatta. 忘れてしまった。(Wasurete shimatta.)\\n(I totally forgot / I forgot [oops].) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/unintentional.html#past-tense-regret",
+    
+    "relUrl": "/docs/special-expressions/unintentional.html#past-tense-regret"
+  },"187": {
+    "doc": "Unintentional Actions",
+    "title": "Casual Speech (Chau)",
+    "content": "In casual conversation, ~te shimau contracts to ~chau (or ~jau for de). 食べちゃった。(Tabechatta.)\\n(I ate it [oops].)\\n飲んじゃった。(Nonjatta.)\\n(I drank it all.) . ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/unintentional.html#casual-speech-chau",
+    
+    "relUrl": "/docs/special-expressions/unintentional.html#casual-speech-chau"
+  },"188": {
+    "doc": "Unintentional Actions",
+    "title": "Unintentional Actions",
+    "content": " ",
+    "url": "/japanese-grammar-guide/docs/special-expressions/unintentional.html",
+    
+    "relUrl": "/docs/special-expressions/unintentional.html"
+  },"189": {
+    "doc": "Verb Basics",
+    "title": "Verb Basics",
+    "content": "Japanese verbs always come at the end of the clause. There are two main categories of verbs: Ru-verbs and U-verbs. ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/verb-basics.html",
+    
+    "relUrl": "/docs/basic-grammar/verb-basics.html"
+  },"190": {
+    "doc": "Verb Basics",
+    "title": "Ru-verbs (Class 2)",
+    "content": "To conjugate these, you simply drop the ru and add the suffix. Example: 食べる (Taberu) - to eat . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/verb-basics.html#ru-verbs-class-2",
+    
+    "relUrl": "/docs/basic-grammar/verb-basics.html#ru-verbs-class-2"
+  },"191": {
+    "doc": "Verb Basics",
+    "title": "U-verbs (Class 1)",
+    "content": "These end in a u-sound (not necessarily just the character ‘u’). To conjugate, you often change the vowel sound. Example: 行く (Iku) - to go, 書く (Kaku) - to write . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/verb-basics.html#u-verbs-class-1",
+    
+    "relUrl": "/docs/basic-grammar/verb-basics.html#u-verbs-class-1"
+  },"192": {
+    "doc": "Verb Basics",
+    "title": "Irregular Verbs",
+    "content": "There are only two main irregular verbs: . | する (Suru) - to do\\n2. 来る (Kuru) - to come | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/verb-basics.html#irregular-verbs",
+    
+    "relUrl": "/docs/basic-grammar/verb-basics.html#irregular-verbs"
+  },"193": {
+    "doc": "Verb Basics",
+    "title": "Dictionary Form",
+    "content": "The basic form found in the dictionary is often called the “dictionary form” or “plain form”. It represents the non-past (present/future) affirmative tense. Examples . | Taberu (食べる) - eat / will eat\\n- Iku (行く) - go / will go | . ",
+    "url": "/japanese-grammar-guide/docs/basic-grammar/verb-basics.html#dictionary-form",
+    
+    "relUrl": "/docs/basic-grammar/verb-basics.html#dictionary-form"
+  }
+}
