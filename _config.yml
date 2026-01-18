@@ -2,7 +2,7 @@ title: Tae Kim's Japanese Grammar Guide - Quick Reference
 description: "A comprehensive guide to Japanese grammar by Tae Kim."
 theme: just-the-docs
 url: "https://poysama.github.io" # Replace with your user or org name
-baseurl: "/japanese-grammar-guide" # Replace with your repo name
+baseurl: "/nihongobanzai" # Replace with your repo name
 
 # Just the Docs configuration
 color_scheme: dark
@@ -11,7 +11,7 @@ heading_anchors: true
 
 aux_links:
   "Tae Kim's Guide (Original)": "http://www.guidetojapanese.org/learn/"
-  "GitHub Repository": "https://github.com/yourusername/japanese-grammar-guide"
+  "GitHub Repository": "https://github.com/poysama/nihongobanzai"
 
 footer_content: "Based on Tae Kim's Japanese Grammar Guide. Created for educational purposes."
 

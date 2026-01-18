@@ -45,4 +45,10 @@ Polish your Japanese. Formal expressions and advanced grammatical concepts.
 
 ---
 
-_This site is a formatted reference based on the original [Guide to Japanese](http://www.guidetojapanese.org/learn/)._
+## About This Guide
+
+This is a **crib sheet style reference guide** heavily based on [Tae Kim's Guide to Japanese](http://www.guidetojapanese.org/learn/). The content has been reformatted and condensed into digestible sections for quick reference while learning and practicing Japanese grammar.
+
+**Credit:** This guide is an educational reference created from Tae Kim's excellent work. For the full, in-depth explanations and examples, please visit the [original guide](http://www.guidetojapanese.org/learn/).
+
+_This site is maintained as a quick reference companion to supplement your learning._
