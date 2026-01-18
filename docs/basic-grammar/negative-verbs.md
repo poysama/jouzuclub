@@ -7,31 +7,50 @@ nav_order: 5
 
 # Negative Verbs
 
-{: .fs-9 }
+## Vocabulary
+
+1. 食べる 【た・べる】 (ru-verb) – to eat
+2. 見る 【み・る】 (ru-verb) – to see
+3. 書く 【か・く】 (u-verb) – to write
+4. 読む 【よ・む】 (u-verb) – to read
+5. 会う 【あ・う】 (u-verb) – to meet
+6. する (irregular) – to do
+7. 来る 【く・る】 (irregular) – to come
+8. ある (u-verb) – to exist (inanimate)
+9. いる (ru-verb) – to exist (animate)
 
 To say that you do _not_ do something, you conjugate the verb into its negative form.
-{: .fs-6 .fw-300 }
 
 ## Ru-verbs
 
-Drop `ru` and add `nai`.
+Drop る and add ない.
 
-- `Taberu` (食べる) → `Tabenai` (食べない) (Not eat)
-- `Miru` (見る) → `Minai` (見ない) (Not see)
+- 食べる → 食べない - not eat
+- 見る → 見ない - not see
+- 起きる → 起きない - not wake up
 
 ## U-verbs
 
-Change the last vowel from an /u/ sound to an /a/ sound, and add `nai`.
+Change the last vowel from an う sound to an あ sound, and add ない.
 
-- `Kaku` (書く) → `Kakanai` (書かない) (Not write)
-- `Yomu` (読む) → `Yomanai` (読まない) (Not read)
-- `Au` (会う) → `Awanai` (会わない) (Not meet) _Exception: 'u' becomes 'wa'_
+- 書く → 書かない - not write
+- 読む → 読まない - not read
+- 話す → 話さない - not speak
+- 会う → 会わない - not meet (Exception: う becomes わ)
 
 ## Irregular Verbs
 
-- **Suru (する)** → **Shinai (しない)**
-- **Kuru (来る)** → **Konai (来ない)**
+- する → しない - not do
+- 来る → 来ない - not come
 
 ## Non-Existence
 
-The verb for existence of inanimate objects is `aru`. Its negative is NOT `aranai`, but simply **`nai`**.
+The verb for existence of inanimate objects is ある. Its negative is NOT あらない, but simply **ない**.
+
+### Examples
+
+```text
+本がない。 - There is no book.
+時間がない。 - There is no time.
+お金がない。 - There is no money.
+```

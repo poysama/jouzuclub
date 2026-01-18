@@ -7,10 +7,21 @@ nav_order: 8
 
 # Relative Clauses
 
-{: .fs-9 }
+## Vocabulary
+
+1. 学生 【がく・せい】 – student
+2. 勉強 【べん・きょう】 – study
+3. 昨日 【きのう】 – yesterday
+4. 買う 【か・う】 (u-verb) – to buy
+5. 本 【ほん】 – book
+6. 公園 【こう・えん】 – park
+7. 走る 【はし・る】 (u-verb) – to run
+8. 人 【ひと】 – person
+9. 誰 【だれ】 – who
+10. 作る 【つく・る】 (u-verb) – to make
+11. 料理 【りょう・り】 – cooking, food
 
 In Japanese, relative clauses (modifying a noun with a verb) are extremely simple. You just place the verb phrase directly **before** the noun. No words like "that" or "which" are needed.
-{: .fs-6 .fw-300 }
 
 ## Structure
 
@@ -20,12 +31,22 @@ In Japanese, relative clauses (modifying a noun with a verb) are extremely simpl
 
 ### Simple Modifier
 
-- `Gakusei` (学生) - Student\n- `Benkyou suru` (勉強する) - To study\n- **`Benkyou suru gakusei` (勉強する学生)** - Student who acts/studies
+- 学生 - Student
+- 勉強する - To study
+- **勉強する学生** - A student who studies
 
 ### Complex Clause
 
-- `Kinou katta` (昨日買った) - Bought yesterday\n- `Hon` (本) - Book\n- **`Kinou katta hon` (昨日買った本)** - The book [I] bought yesterday
+- 昨日買った - Bought yesterday
+- 本 - Book
+- **昨日買った本** - The book I bought yesterday
 
-### Longer Example
+### More Examples
 
-_公園で走っている人は誰ですか？(Kouen de hashitte iru hito wa dare desu ka?)_\n(Who is the person running in the park?)\n*Breakdown: [公園で走っている (Kouen de hashitte iru)] -> 人 (hito)*
+```text
+公園で走っている人は誰ですか？ - Who is the person running in the park?
+母が作った料理はおいしい。 - The food my mother made is delicious.
+日本語を話す友達がいる。 - I have a friend who speaks Japanese.
+```
+
+Breakdown: [公園で走っている] → 人

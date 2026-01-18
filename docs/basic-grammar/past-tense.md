@@ -7,33 +7,53 @@ nav_order: 6
 
 # Past Tense
 
-{: .fs-9 }
+## Vocabulary
+
+1. 食べる 【た・べる】 (ru-verb) – to eat
+2. 話す 【はな・す】 (u-verb) – to speak
+3. 書く 【か・く】 (u-verb) – to write
+4. 泳ぐ 【およ・ぐ】 (u-verb) – to swim
+5. 飲む 【の・む】 (u-verb) – to drink
+6. 切る 【き・る】 (u-verb) – to cut
+7. 行く 【い・く】 (u-verb) – to go
+8. する (irregular) – to do
+9. 来る 【く・る】 (irregular) – to come
+10. 買う 【か・う】 (u-verb) – to buy
+11. 遊ぶ 【あそ・ぶ】 (u-verb) – to play
 
 The past tense indicates that an action has already taken place.
-{: .fs-6 .fw-300 }
 
 ## Ru-verbs
 
-Drop `ru` and add `ta`.
+Drop る and add た.
 
-- `Taberu` (食べる) → `Tabeta` (食べた) (Ate)
+- 食べる → 食べた - ate
+- 見る → 見た - saw
+- 起きる → 起きた - woke up
 
 ## U-verbs
 
 The conjugation depends on the ending character.
 
-| Ending | Change | Example           | Past Form              |
-| :----- | :----- | :---------------- | :--------------------- | --- | --- | --- | --------------- | ------------------ | --- | --- | --- | ---------------- | ------------------- | --- | ---------- | --- | --------------- | ------------------ | --- | ---------- | --- | --------------- | ------------------ |
-| su     | shita  | Hanas**u** (話す) | Hana**shita** (話した) | \n  | ku  | ita | Kak**u** (書く) | Ka**ita** (書いた) | \n  | gu  | ida | Oyog**u** (泳ぐ) | Oyo**ida** (泳いだ) | \n  | mu, bu, nu | nda | Nom**u** (飲む) | No**nda** (飲んだ) | \n  | ru, u, tsu | tta | Ki**ru** (切る) | Ki**tta** (切った) |
+| Ending | Change | Example | Past Form |
+| :--- | :--- | :--- | :--- |
+| す | した | 話す | 話した |
+| く | いた | 書く | 書いた |
+| ぐ | いだ | 泳ぐ | 泳いだ |
+| む, ぶ, ぬ | んだ | 飲む | 飲んだ |
+| る, う, つ | った | 切る | 切った |
 
-_Exception: `Iku` (行く) becomes `Itta` (行った)._
+_Exception: 行く → 行った_
 
 ## Irregular Verbs
 
-- **Suru (する)** → **Shita (した)**\n- **Kuru (来る)** → **Kita (来た)**
+- する → した
+- 来る → きた
 
 ## Negative Past
 
-First conjugative to negative, then treat `nai` as an i-adjective (drop `i`, add `katta`).
+First conjugate to negative, then treat ない as an i-adjective (drop い, add かった).
 
-- `Tabenai` (食べない) → `Tabenakatta` (食べなかった) (Did not eat)\n- `Ikanai` (行かない) → `Ikanakatta` (行かなかった) (Did not go)
+- 食べない → 食べなかった - didn't eat
+- 行かない → 行かなかった - didn't go
+- 買わない → 買わなかった - didn't buy

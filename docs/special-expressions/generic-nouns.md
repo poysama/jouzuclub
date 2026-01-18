@@ -7,22 +7,55 @@ nav_order: 6
 
 # Generic Nouns
 
-{: .fs-9 }
+## Vocabulary
+
+1. こと – thing (abstract)
+2. もの – thing (physical)
+3. ところ – place, point in time
+4. 食べる 【た・べる】 (ru-verb) – to eat
+5. おいしい (i-adj) – delicious
+6. 始める 【はじ・める】 (ru-verb) – to begin
+7. 終わる 【お・わる】 (u-verb) – to end
+8. 好き 【す・き】 (na-adj) – like
+9. 大切 【たい・せつ】 (na-adj) – important
+10. 運動 【うん・どう】 – exercise
 
 Special nouns that serve grammatical purposes rather than representing physical objects.
-{: .fs-6 .fw-300 }
 
-## Kot (The concept/thing)
+## こと (The concept/thing)
 
-Used to turn verbs into nouns (nominalization) for concepts.
-_食べること (Taberu koto)_ (Eating [the act])
+Used to turn verbs into nouns for abstract concepts.
 
-## Mono (The physical thing)
+```text
+食べること - Eating (the act of)
+日本語を話すことができる。 - I can speak Japanese.
+運動することは大切だ。 - Exercising is important.
+```
 
-Used for tangible objects.
-_おいしいもの (Oishii mono)_ (Delicious things)
+## もの (The physical thing)
 
-## Tokoro (The place/time)
+Used for tangible objects or general things.
+
+```text
+おいしいもの - Something delicious
+何か食べるものがある？ - Is there something to eat?
+古いものを捨てた。 - I threw away old things.
+```
+
+## ところ (The place/time)
 
 Originally means "place", but often refers to a point in time.
-_食べるところです。(Taberu tokoro desu.)_ (I am about to eat.)\n*食べているところです。(Tabete iru tokoro desu.)* (I am in the middle of eating.)\n*食べたところです。(Tabeta tokoro desu.)* (I have just finished eating.)
+
+```text
+食べるところです。 - I'm about to eat.
+食べているところです。 - I am in the middle of eating.
+食べたところです。 - I have just finished eating.
+```
+
+### Summary
+
+| Form | Meaning |
+| :--- | :--- |
+| Verb (dictionary) + ところ | About to do |
+| Verb (ている) + ところ | In the middle of doing |
+| Verb (た) + ところ | Just finished doing |

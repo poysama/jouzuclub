@@ -6,12 +6,10 @@ description: "Comprehensive guide to Japanese grammar."
 permalink: /
 ---
 
-# Tae Kim's Japanese Grammar Guide
+# Nihongo Banzai
 
-{: .fs-9 }
 
 A complete guide to Japanese grammar, from basics to advanced topics.
-{: .fs-6 .fw-300 }
 
 ---
 

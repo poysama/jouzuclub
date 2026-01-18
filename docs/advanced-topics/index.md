@@ -8,15 +8,13 @@ permalink: /docs/advanced-topics
 
 # Advanced Topics
 
-{: .fs-9 }
 
 This section covers more formal and literary grammar patterns often found in writing, news, or speeches.
-{: .fs-6 .fw-300 }
 
 ## Topics Covered
 
-1.  **[Formal Expressions]({{ site.baseurl }}/docs/advanced-topics/formal-expressions)**: De aru, Nite, etc.
-2.  **[Things that should be]({{ site.baseurl }}/docs/advanced-topics/should-be)**: Hazu, Beki.
-3.  **[Minimum Expectation]({{ site.baseurl }}/docs/advanced-topics/minimum-expectation)**: Dake atte, Bakari.
-4.  **[Showing Signs]({{ site.baseurl }}/docs/advanced-topics/showing-signs)**: ~Garu (revisited), Meku.
-5.  **[Formal Non-feasibility]({{ site.baseurl }}/docs/advanced-topics/formal-non-feasibility)**: ~Zaru wo enai, ~Yamu wo enai.
+1. **[Formal Expressions]({{ site.baseurl }}/docs/advanced-topics/formal-expressions)**: De aru, Nite, etc.
+2. **[Things that should be]({{ site.baseurl }}/docs/advanced-topics/should-be)**: Hazu, Beki.
+3. **[Minimum Expectation]({{ site.baseurl }}/docs/advanced-topics/minimum-expectation)**: Dake atte, Bakari.
+4. **[Showing Signs]({{ site.baseurl }}/docs/advanced-topics/showing-signs)**: ~Garu , Meku.
+5. **[Formal Non-feasibility]({{ site.baseurl }}/docs/advanced-topics/formal-non-feasibility)**: ~Zaru wo enai, ~Yamu wo enai.

@@ -7,34 +7,64 @@ nav_order: 9
 
 # Desire and Suggestions
 
-{: .fs-9 }
+## Vocabulary
+
+1. 食べる 【た・べる】 (ru-verb) – to eat
+2. 飲む 【の・む】 (u-verb) – to drink
+3. 行く 【い・く】 (u-verb) – to go
+4. 見る 【み・る】 (ru-verb) – to watch
+5. 遊ぶ 【あそ・ぶ】 (u-verb) – to play
+6. 買う 【か・う】 (u-verb) – to buy
+7. 帰る 【かえ・る】 (u-verb) – to return
+8. 映画 【えい・が】 – movie
+9. ラーメン – ramen
 
 How to express what you want to do, or suggest doing something together.
-{: .fs-6 .fw-300 }
 
-## Expressing Desire (Tai-form)
+## Expressing Desire (たい form)
 
-To say "I want to...", use the `-tai` ending. It conjugates like an i-adjective.
+To say "I want to...", use the たい ending. It conjugates like an i-adjective.
 
-1.  Use the verb stem (drop `masu`).
-2.  Add `tai`.
+1. Use the verb stem (drop ます).
+2. Add たい.
 
-_Taberu_ (食べる) → _Tabe_ (食べ) → **`Tabetai` (食べたい)** (Want to eat)\n*Nomi* (飲む) → **`Nomitai` (飲みたい)** (Want to drink)
+```text
+食べたい。 - I want to eat.
+飲みたい。 - I want to drink.
+映画を見たい。 - I want to watch a movie.
+```
 
 ### Negative
 
-Drop `i` and add `kunai`.
-_食べたくない。(Tabetakunai.)_ (Don't want to eat.)
+Drop い and add くない.
+
+```text
+食べたくない。 - I don't want to eat.
+行きたくない。 - I don't want to go.
+帰りたくない。 - I don't want to go home.
+```
 
 ## Making Suggestions (Volitional Form)
 
 Used to say "Let's..." or "Shall we?".
 
-### Masu-form (Polite)
+### ます-form (Polite)
 
-Replace `masu` with `mashou`.
-_Ikimasu_ (行きます) → **`Ikimashou` (行きましょう)** (Let's go.)
+Replace ます with ましょう.
+
+```text
+行きましょう。 - Let's go.
+食べましょう。 - Let's eat.
+始めましょう。 - Let's begin.
+```
 
 ### Dictionary Form (Casual)
 
-- **Ru-verbs**: Drop `ru`, add `you`. (_Tabeyou_ (食べよう))\n- **U-verbs**: Change last /u/ to /o/ and add `u`. (_Ikou_ (行こう))\n\n*食べよう。(Tabeyou.)* (Let's eat.)
+- Ru-verbs: Drop る, add よう. (食べる → 食べよう)
+- U-verbs: Change last う to お and add う. (行く → 行こう)
+
+```text
+食べよう。 - Let's eat.
+行こう。 - Let's go.
+遊ぼう。 - Let's play.
+```

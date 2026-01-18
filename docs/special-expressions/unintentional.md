@@ -5,27 +5,50 @@ parent: Special Expressions
 nav_order: 5
 ---
 
-# Unintentional Actions (~Te shimau)
+# Unintentional Actions (~てしまう)
 
-{: .fs-9 }
+## Vocabulary
 
-To express that an action was done completely, regrettably, or unintentionally, use `~te shimau`.
-{: .fs-6 .fw-300 }
+1. 食べる 【た・べる】 (ru-verb) – to eat
+2. 忘れる 【わす・れる】 (ru-verb) – to forget
+3. 飲む 【の・む】 (u-verb) – to drink
+4. 壊す 【こわ・す】 (u-verb) – to break
+5. 失くす 【な・くす】 (u-verb) – to lose
+6. 寝る 【ね・る】 (ru-verb) – to sleep
+7. 言う 【い・う】 (u-verb) – to say
+8. 全部 【ぜん・ぶ】 – all, everything
+9. ケーキ – cake
+10. 携帯 【けい・たい】 – mobile phone
+
+To express that an action was done completely, regrettably, or unintentionally, use ～てしまう.
 
 ## Formation
 
-Conjuate verb to **Te-form** and add `shimau`.
+Conjugate verb to **Te-form** and add しまう.
 
-_食べてしまう。(Tabete shimau.)_\n(Eat it completely / Eat it by mistake.)
+```text
+食べてしまう。 - Eat it completely / Eat it by mistake.
+全部飲んでしまった。 - I drank it all.
+秘密を言ってしまった。 - I accidentally told the secret.
+```
 
-## Past Tense (Regret)
+## Past Tense
 
-The most common usage is in the past tense: `~te shimatta`.
+The most common usage is in the past tense: ～てしまった.
 
-_忘れてしまった。(Wasurete shimatta.)_\n(I totally forgot / I forgot [oops].)
+```text
+忘れてしまった。 - I totally forgot / I forgot (oops).
+携帯を失くしてしまった。 - I lost my phone.
+寝坊してしまった。 - I overslept.
+```
 
-## Casual Speech (Chau)
+## Casual Speech
 
-In casual conversation, `~te shimau` contracts to `~chau` (or `~jau` for `de`).
+In casual conversation, ～てしまう contracts to ～ちゃう (or ～じゃう for で).
 
-_食べちゃった。(Tabechatta.)_\n(I ate it [oops].)\n*飲んじゃった。(Nonjatta.)*\n(I drank it all.)
+```text
+食べちゃった。 - I ate it (oops).
+飲んじゃった。 - I drank it (oops).
+ケーキを全部食べちゃった。 - I ate all the cake.
+壊しちゃった。 - I broke it.
+```

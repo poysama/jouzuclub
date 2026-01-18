@@ -7,28 +7,45 @@ nav_order: 3
 
 # Causative-Passive Form
 
-{: .fs-9 }
+## Vocabulary
+
+1. 食べる 【た・べる】 (ru-verb) – to eat
+2. 行く 【い・く】 (u-verb) – to go
+3. 待つ 【ま・つ】 (u-verb) – to wait
+4. する (irregular) – to do
+5. 来る 【く・る】 (irregular) – to come
+6. 野菜 【や・さい】 – vegetables
+7. 毎日 【まい・にち】 – every day
+8. 飲む 【の・む】 (u-verb) – to drink
+9. 走る 【はし・る】 (u-verb) – to run
+10. 仕事 【し・ごと】 – work
 
 This combines both forms to mean "To be made to do something". It implies you didn't want to do it but were forced.
-{: .fs-6 .fw-300 }
 
 ## Structure
 
 First make it Causative, then make that result Passive.
-_Causative ending `-seru` becomes `-serareru`._
+Causative ending させる becomes させられる.
 
 ## Conjugation Steps
 
 **U-verbs**:
-_Iku_ (行く) → _Ikaseru_ (行かせる) (Causative) → **`Ikaserareru` (行かせられる)** (Caus. Passive)\n*Short form:* **`Ikasareru` (行かされる)**\n(I am made to go.)
+- 行く → 行かせる → 行かせられる (Short form: 行かされる)
+- 待つ → 待たせる → 待たせられる (Short form: 待たされる)
 
 **Ru-verbs**:
-_Taberu_ (食べる) → _Tabesaseru_ (食べさせる) → **`Tabesaserareru` (食べさせられる)** (I am made to eat.)\n(No short form for Ru-verbs).
+- 食べる → 食べさせる → 食べさせられる (No short form)
+- 見る → 見させる → 見させられる
 
 ## Irregular
 
-- **Suru (する)** → **Saserareru (させられる)**\n- **Kuru (来る)** → **Kosaserareru (来させられる)**
+- する → させられる
+- 来る → 来させられる
 
 ## Usage
 
-_毎日野菜を食べさせられる。(Mainichi yasai wo tabesaserareru.)_\n(I am made to eat vegetables every day.)
+```text
+毎日野菜を食べさせられる。 - I'm made to eat vegetables every day.
+二時間も待たされた。 - I was made to wait for two hours.
+仕事で残業させられた。 - I was made to work overtime at my job.
+```

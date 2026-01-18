@@ -7,32 +7,68 @@ nav_order: 13
 
 # Numbers and Counting
 
-{: .fs-9 }
+## Vocabulary
 
-Counting in Japanese is tricky because the suffix (counter) changes depending on the shape or type of object.
-{: .fs-6 .fw-300 }
+1. 一 【いち】 – one
+2. 二 【に】 – two
+3. 三 【さん】 – three
+4. 四 【し・よん】 – four
+5. 五 【ご】 – five
+6. 六 【ろく】 – six
+7. 七 【しち・なな】 – seven
+8. 八 【はち】 – eight
+9. 九 【きゅう・く】 – nine
+10. 十 【じゅう】 – ten
+
+Counting in Japanese is tricky because the suffix changes depending on the shape or type of object.
 
 ## Basic Numbers
 
-1.  Ichi (一)\n2. Ni (二)\n3. San (三)\n4. Shi / Yon (四)\n5. Go (五)\n6. Roku (六)\n7. Shichi / Nana (七)\n8. Hachi (八)\n9. Kyuu (九)\n10. Juu (十)
+| Number | Kanji |
+| :--- | :--- |
+| 1 | 一 |
+| 2 | 二 |
+| 3 | 三 |
+| 4 | 四 |
+| 5 | 五 |
+| 6 | 六 |
+| 7 | 七 |
+| 8 | 八 |
+| 9 | 九 |
+| 10 | 十 |
 
 ## Common Counters
 
-### General Objects (Tsu)
+### General Objects (つ)
 
-Used for abstract items or when you don't know the specific counter. Note: Uses native Japanese counting system (Hitotsu, Futatsu...).
-_Hitotsu (一つ), Futatsu (二つ), Mittsu (三つ), Yottsu (四つ), Itsutsu (五つ), Muttsu (六つ), Nanatsu (七つ), Yattsu (八つ), Kokonotsu (九つ), Too (十)_
+Used for abstract items or when you don't know the specific counter. Uses native Japanese counting system.
 
-### People (Nin)
+```text
+一つ, 二つ, 三つ, 四つ, 五つ, 六つ, 七つ, 八つ, 九つ, 十
+りんごを三つください。 - Please give me three apples.
+```
 
-_Hitori (一人), Futari (二人), Sannin (三人), Yonin (四人)..._
+### People (人)
 
-### Flat Objects (Mai)
+```text
+一人, 二人, 三人, 四人...
+三人で行きます。 - Three people will go.
+```
+
+### Flat Objects (枚)
 
 Paper, shirts, plates.
-_Ichimai (一枚), Nimai (二枚)..._
 
-### Long Objects (Hon)
+```text
+一枚, 二枚, 三枚...
+紙を二枚ください。 - Please give me two sheets of paper.
+```
 
-Pens, bottles, umbrellas. Note: "Hon" changes to "Bon" or "Pon" depending heavily on the number.
-_Ippon (一本), Nihon (二本), Sanbon (三本)..._
+### Long Objects (本)
+
+Pens, bottles, umbrellas. Note: 本 changes to ぼん or ぽん depending on the number.
+
+```text
+一本, 二本, 三本...
+ペンを一本買った。 - I bought one pen.
+```

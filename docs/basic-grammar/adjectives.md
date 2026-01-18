@@ -7,45 +7,66 @@ nav_order: 3
 
 # Adjectives
 
-{: .fs-9 }
+## Vocabulary
+
+1. 高い 【たか・い】 (i-adj) – high, expensive
+2. 暑い 【あつ・い】 (i-adj) – hot (weather)
+3. 寒い 【さむ・い】 (i-adj) – cold
+4. 大きい 【おお・きい】 (i-adj) – big
+5. 小さい 【ちい・さい】 (i-adj) – small
+6. 静か 【しず・か】 (na-adj) – quiet
+7. きれい (na-adj) – pretty, clean
+8. 暇 【ひま】 (na-adj) – free (time)
+9. 元気 【げん・き】 (na-adj) – healthy, energetic
+10. 部屋 【へ・や】 – room
 
 Japanese adjectives conjugate just like verbs. There are two main types: **i-adjectives** and **na-adjectives**.
-{: .fs-6 .fw-300 }
 
 ## I-Adjectives
 
-These always end in the hiragana character `i` (い). They can be directly placed before a noun.
+These always end in the hiragana い. They can be directly placed before a noun.
 
 ### Examples
 
-- `Takai` (高い) - High/Expensive\n- `Atsui` (暑い) - Hot
+- 高い - High/Expensive
+- 暑い - Hot
 
-### Conjugation (Negative)
+### Conjugation
 
-Replace the final `i` with `kunai`.
+Replace the final い with くない.
 
-- `Takai` (高い) → `Takakunai` (高くない) - Not high
+- 高い → 高くない - Not high/expensive
+- 寒い → 寒くない - Not cold
+- 大きい → 大きくない - Not big
 
 ## Na-Adjectives
 
-These behave more like nouns. To modify a noun, you must add `na` (な) between the adjective and the noun.
+These behave more like nouns. To modify a noun, you must add な the adjective and the noun.
 
 ### Examples
 
-- `Shizuka` (静か) - Quiet\n- `Kirei` (きれい) - Pretty/Clean (Exception: ends in `i` but is a na-adjective)
+- 静か - Quiet
+- きれい - Pretty/Clean (Exception: ends in `i` but is a na-adjective)
 
 ### Usage
 
-- `Shizuka na heya` (静かな部屋) - A quiet room
+- 静かな部屋 - A quiet room
+- きれいな人 - A beautiful person
+- 元気な子供 - An energetic child
 
-### Conjugation (Negative)
+### Conjugation
 
 Since they act like nouns, you use the copula's negative form.
 
-- `Shizuka ja nai` (静かじゃない) - Not quiet
+- 静かじゃない - Not quiet
+- きれいじゃない - Not pretty
+- 元気じゃない - Not healthy
 
 ## Summary Table
 
-| Type      | Positive     | Negative             | Example |
-| :-------- | :----------- | :------------------- | :------ | --- | ---------- | ---------------- | ------------------------ | ----------- |
-| **i-adj** | 寒い (Samui) | 寒くない (Samukunai) | Cold    | \n  | **na-adj** | 暇(だ) (Hima da) | 暇じゃない (Hima ja nai) | Free (time) |
+| Type | Affirmative | Negative | Meaning |
+| :--- | :--- | :--- | :--- |
+| **i-adj** | 寒い | 寒くない | Cold |
+| **i-adj** | 高い | 高くない | High/Expensive |
+| **na-adj** | 暇だ | 暇じゃない | Free (time) |
+| **na-adj** | 静かだ | 静かじゃない | Quiet |

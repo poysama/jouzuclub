@@ -1,38 +1,65 @@
 ---
 layout: default
-title: Compound Sentences (Essential)
+title: Compound Sentences
 parent: Essential Grammar
 nav_order: 4
 ---
 
 # Compound Sentences
 
-{: .fs-9 }
+## Vocabulary
+
+1. お金 【お・かね】 – money
+2. 暇 【ひま】 (na-adj) – free time
+3. 遊ぶ 【あそ・ぶ】 (u-verb) – to play
+4. 食べる 【た・べる】 (ru-verb) – to eat
+5. 飲む 【の・む】 (u-verb) – to drink
+6. 時間 【じ・かん】 – time
+7. 行く 【い・く】 (u-verb) – to go
+8. 病気 【びょう・き】 – sick, illness
+9. 休む 【やす・む】 (u-verb) – to rest
+10. 買い物 【か・い・もの】 – shopping
+11. 映画 【えい・が】 – movie
 
 Beyond simple sequences, we often need to express reasons or list multiple states.
-{: .fs-6 .fw-300 }
 
-## Expressing "And" / Listing States with "-shi" (し)
+## Expressing "And" / Listing States with し
 
-The usage of `shi` implies that you are listing reasons or states, often to justify a conclusion.
+The usage of し implies that you are listing reasons or states, often to justify a conclusion.
 
-_お金もあるし、暇だし、遊びに行こう。(Okanemo aru shi, hima da shi, asobi ni ikou.)_\n(I have money, and I have time, so let's go play.)
+```text
+お金もあるし、暇だし、遊びに行こう。 - I have money and I have time, so let's go play.
+このレストランは安いし、おいしいし、いいね。 - This restaurant is cheap and delicious, so it's good.
+彼は優しいし、面白いし、好きだ。 - He's kind and funny, so I like him.
+```
 
-## Listing Actions with "-tari" (たり)
+## Listing Actions with たり
 
-Use `tari` to list a representative set of actions, implying "doing things like A and B (and others)".
-Conjugate to Past Tense (Ta-form), replace `ta` with `tari`. Must end with `suru`.
+Use たり to list a representative set of actions, implying "doing things like A and B (and others)".
+Conjugate to Past Tense, replace た with たり. Must end with する.
 
-_食べたり飲んだりする。(Tabetari nondari suru.)_\n(Do things like eating and drinking.)
+```text
+食べたり飲んだりする。 - Do things like eating and drinking.
+買い物したり映画を見たりした。 - Did things like shopping and watching movies.
+週末は本を読んだり音楽を聴いたりする。 - On weekends, I do things like read books and listen to music.
+```
 
-## Expressing Reasons with "Kara" (から) and "Node" (ので)
+## Expressing Reasons with から and ので
 
-### Kara
+### から
 
 Subjective reason. "Because..."
-_時間がないから、行かない。(Jikan ga nai kara, ikanai.)_ (Because I have no time, I won't go.)
 
-### Node
+```text
+時間がないから、行かない。 - Because I have no time, I won't go.
+お腹が空いたから、食べよう。 - Because I'm hungry, let's eat.
+```
+
+### ので
 
 Objective reason. Slightly more polite/softer.
-_病気なので、休みます。(Byouki na node, yasumimasu.)_ (Since I am sick, I will rest.)
+
+```text
+病気なので、休みます。 - Since I am sick, I will rest.
+雨が降っているので、傘を持っていく。 - Since it's raining, I'll bring an umbrella.
+```
