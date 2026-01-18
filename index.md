@@ -6,8 +6,7 @@ description: "Comprehensive guide to Japanese grammar."
 permalink: /
 ---
 
-# Nihongo Banzai
-
+# Jouzu Club
 
 A complete guide to Japanese grammar, from basics to advanced topics.
 
@@ -53,7 +52,7 @@ Polish your Japanese. Formal expressions and advanced grammatical concepts.
 
 ### [Mock JLPT Exam]({{ site.baseurl }}/docs/mock-exam)
 
-Test your knowledge with 10 JLPT-style multiple choice questions. Perfect for practice and self-assessment.
+Test your knowledge with JLPT-style practice questions across multiple skill areas: Grammar, Kanji, Vocabulary, Reading, and Listening.
 
 _This site is maintained as a quick reference companion to supplement your learning._
 
