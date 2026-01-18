@@ -24,3 +24,4 @@ This section covers the fundamental building blocks of Japanese grammar. Before 
 9. **[Sentence-ending Particles]({{ site.baseurl }}/docs/basic-grammar/sentence-particles)**: Adding nuance/tone to sentences.
 10. **[Compound Sentences]({{ site.baseurl }}/docs/basic-grammar/compound-sentences)**: Combining multiple thoughts.
 11. **[Transitive & Intransitive Verbs]({{ site.baseurl }}/docs/basic-grammar/transitive-intransitive)**: Pairs of verbs for self-action vs. acting on something.
+12. **[Conjugation Reference]({{ site.baseurl }}/docs/basic-grammar/conjugation-reference)**: A comprehensive summary table of all major verb and adjective conjugations.
