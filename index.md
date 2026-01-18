@@ -6,7 +6,8 @@ description: "Comprehensive guide to Japanese grammar."
 permalink: /
 ---
 
-# Jouzu Club
+# Nihongo Banzai
+
 
 A complete guide to Japanese grammar, from basics to advanced topics.
 
@@ -28,9 +29,9 @@ This guide is designed to help you learn Japanese grammar in an intuitive way. I
 
 ## About This Guide
 
-**Jouzu Club** is a comprehensive Japanese grammar reference guide created as a quick reference resource for learners. The content has been carefully organized into digestible sections for easy navigation while studying and practicing Japanese grammar.
+This is a **crib sheet style reference guide** heavily based on [Tae Kim's Guide to Japanese](http://www.guidetojapanese.org/learn/). The content has been reformatted and condensed into digestible sections for quick reference while learning and practicing Japanese grammar.
 
-This guide is built with original content and educational examples to help you master Japanese grammar fundamentals.
+**Credit:** This guide is an educational reference created from Tae Kim's excellent work. For the full, in-depth explanations and examples, please visit the [original guide](http://www.guidetojapanese.org/learn/).
 
 ## Table of Contents
 
@@ -50,8 +51,12 @@ Master the nuances. Includes causative, passive, honorifics, and other specific 
 
 Polish your Japanese. Formal expressions and advanced grammatical concepts.
 
+### [Mock JLPT Exam]({{ site.baseurl }}/docs/mock-exam)
+
+Test your knowledge with 10 JLPT-style multiple choice questions. Perfect for practice and self-assessment.
+
+_This site is maintained as a quick reference companion to supplement your learning._
+
 ---
 
 **Reference:** [Tae Kim's Guide to Japanese](http://www.guidetojapanese.org/learn/) (Original)
-
-_This site is maintained as a comprehensive reference for Japanese grammar learners._
