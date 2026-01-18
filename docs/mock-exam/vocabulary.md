@@ -13,24 +13,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 1
 
-「食べる」の意味は何ですか？
+「たべる」の意味は何ですか？
 
-- a) To drink
-- b) To sleep
-- c) To eat
-- d) To read
+- a) のむ
+- b) ねる
+- c) たべる
+- d) よむ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) To eat**
+**Correct Answer: c) たべる**
 
-**Explanation:** 食べる (taberu) is a ru-verb that means "to eat." It's one of the most basic and frequently used verbs in Japanese.
+**Explanation:** たべる is a ru-verb that means "to eat." It's one of the most basic and frequently used verbs in Japanese.
 
 **Why others are incorrect:**
-- To drink: That would be 飲む (nomu)
-- To sleep: That would be 寝る (neru)
-- To read: That would be 読む (yomu)
+- のむ: This means "to drink" (飲む)
+- ねる: This means "to sleep" (寝る)
+- よむ: This means "to read" (読む)
 
 </details>
 
@@ -38,24 +38,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 2
 
-「猫」は何ですか？
+「ねこ」は何ですか？
 
-- a) Dog
-- b) Cat
-- c) Bird
-- d) Mouse
+- a) いぬ
+- b) ねこ
+- c) とり
+- d) うさぎ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Cat**
+**Correct Answer: b) ねこ**
 
-**Explanation:** 猫 (ねこ) means "cat." This is an essential vocabulary word for describing pets.
+**Explanation:** ねこ (猫) means "cat." This is an essential vocabulary word for describing pets.
 
 **Why others are incorrect:**
-- Dog: That would be 犬 (いぬ)
-- Bird: That would be 鳥 (とり)
-- Mouse: That would be ネズミ (nezumi)
+- いぬ: This means "dog" (犬)
+- とり: This means "bird" (鳥)
+- うさぎ: This means "rabbit" (兎)
 
 </details>
 
@@ -63,24 +63,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 3
 
-「病院」はどこですか？
+「びょういん」はどこですか？
 
-- a) School
-- b) Hospital
-- c) Library
-- d) Store
+- a) がっこう
+- b) びょういん
+- c) としょかん
+- d) みせ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Hospital**
+**Correct Answer: b) びょういん**
 
-**Explanation:** 病院 (びょういん) means "hospital." 病 (byō) means "illness" and 院 (in) means "institution."
+**Explanation:** びょういん (病院) means "hospital." A place where you go when you're sick.
 
 **Why others are incorrect:**
-- School: That would be 学校 (がっこう)
-- Library: That would be 図書館 (としょかん)
-- Store: That would be 店 (みせ) or 商店 (しょうてん)
+- がっこう: This means "school" (学校)
+- としょかん: This means "library" (図書館)
+- みせ: This means "store" (店)
 
 </details>
 
@@ -88,24 +88,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 4
 
-「友達」はどういう意味ですか？
+「ともだち」はどういう意味ですか？
 
-- a) Family
-- b) Friend
-- c) Teacher
-- d) Stranger
+- a) かぞく
+- b) ともだち
+- c) せんせい
+- d) こども
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Friend**
+**Correct Answer: b) ともだち**
 
-**Explanation:** 友達 (ともだち) means "friend." It's composed of 友 (tomo, friend) and 達 (tatsu, plural marker).
+**Explanation:** ともだち (友達) means "friend." Someone you like and spend time with.
 
 **Why others are incorrect:**
-- Family: That would be 家族 (かぞく)
-- Teacher: That would be 先生 (せんせい)
-- Stranger: That would be 知らない人 (しらない ひと)
+- かぞく: This means "family" (家族)
+- せんせい: This means "teacher" (先生)
+- こども: This means "child" (子供)
 
 </details>
 
@@ -113,24 +113,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 5
 
-「本」は何ですか？
+「ほん」は何ですか？
 
-- a) Writing brush
-- b) Origin
-- c) Book
-- d) Tree
+- a) えんぴつ
+- b) ノート
+- c) ほん
+- d) かみ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) Book**
+**Correct Answer: c) ほん**
 
-**Explanation:** 本 (ほん) primarily means "book" or "counter for long, thin objects." While the kanji can have multiple meanings including "origin," in this context it refers to a book.
+**Explanation:** ほん (本) means "book." Something you read.
 
 **Why others are incorrect:**
-- Writing brush: That would be 筆 (ふで)
-- Origin: While 本 can mean "root/origin," the primary meaning is book
-- Tree: That would be 木 (き)
+- えんぴつ: This means "pencil" (鉛筆)
+- ノート: This means "notebook"
+- かみ: This means "paper" (紙)
 
 </details>
 
@@ -138,24 +138,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 6
 
-「美しい」の意味は何ですか？
+「きれい」の意味は何ですか？
 
-- a) Ugly
-- b) Beautiful
-- c) Dirty
-- d) Clean
+- a) きたない
+- b) きれい
+- c) きらい
+- d) きいろい
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Beautiful**
+**Correct Answer: b) きれい**
 
-**Explanation:** 美しい (utsukushii) is an i-adjective meaning "beautiful" or "pretty."
+**Explanation:** きれい (綺麗) is a na-adjective meaning "beautiful" or "pretty/clean."
 
 **Why others are incorrect:**
-- Ugly: That would be 醜い (minikui)
-- Dirty: That would be 汚い (kitanai)
-- Clean: That would be 綺麗 (kirei) or きれいな
+- きたない: This means "dirty" (汚い)
+- きらい: This means "hated/disliked" (嫌い)
+- きいろい: This means "yellow" (黄色い)
 
 </details>
 
@@ -163,24 +163,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 7
 
-「雨」は何ですか？
+「あめ」は何ですか？
 
-- a) Snow
-- b) Rain
-- c) Wind
-- d) Clouds
+- a) ゆき
+- b) あめ
+- c) かぜ
+- d) くも
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Rain**
+**Correct Answer: b) あめ**
 
-**Explanation:** 雨 (あめ) means "rain." Don't confuse it with 飴 (candy), which has the same pronunciation.
+**Explanation:** あめ (雨) means "rain." Don't confuse it with 飴 (candy), which has the same pronunciation.
 
 **Why others are incorrect:**
-- Snow: That would be 雪 (ゆき)
-- Wind: That would be 風 (かぜ)
-- Clouds: That would be 雲 (くも)
+- ゆき: This means "snow" (雪)
+- かぜ: This means "wind" (風)
+- くも: This means "clouds" (雲)
 
 </details>
 
@@ -188,24 +188,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 8
 
-「先生」はどういう意味ですか？
+「せんせい」はどういう意味ですか？
 
-- a) Student
-- b) Principal
-- c) Teacher
-- d) Classmate
+- a) がくせい
+- b) せんぱい
+- c) せんせい
+- d) せんしゅ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) Teacher**
+**Correct Answer: c) せんせい**
 
-**Explanation:** 先生 (せんせい) means "teacher." It literally means "one who comes before" (先 = before, 生 = person/life).
+**Explanation:** せんせい (先生) means "teacher." A person who teaches.
 
 **Why others are incorrect:**
-- Student: That would be 学生 (がくせい)
-- Principal: That would be 校長 (こうちょう)
-- Classmate: That would be クラスメート (kurasumēto)
+- がくせい: This means "student" (学生)
+- せんぱい: This means "senior/upperclassman" (先輩)
+- せんしゅ: This means "specialization" (専修)
 
 </details>
 
@@ -213,24 +213,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 9
 
-「赤い」の意味は何ですか？
+「あかい」の意味は何ですか？
 
-- a) Blue
-- b) Red
-- c) Green
-- d) Yellow
+- a) あおい
+- b) あかい
+- c) くろい
+- d) しろい
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Red**
+**Correct Answer: b) あかい**
 
-**Explanation:** 赤い (akai) is an i-adjective meaning "red." It describes the color red.
+**Explanation:** あかい (赤い) is an i-adjective meaning "red." It describes the color red.
 
 **Why others are incorrect:**
-- Blue: That would be 青い (aoi)
-- Green: That would be 緑 (みどり)
-- Yellow: That would be 黄色い (きいろい)
+- あおい: This means "blue" (青い)
+- くろい: This means "black" (黒い)
+- しろい: This means "white" (白い)
 
 </details>
 
@@ -238,24 +238,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 10
 
-「楽しい」はどういう意味ですか？
+「たのしい」はどういう意味ですか？
 
-- a) Sad
-- b) Fun/Enjoyable
-- c) Angry
-- d) Bored
+- a) かなしい
+- b) たのしい
+- c) さびしい
+- d) つまらない
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Fun/Enjoyable**
+**Correct Answer: b) たのしい**
 
-**Explanation:** 楽しい (tanoshii) is an i-adjective meaning "fun," "enjoyable," or "pleasant."
+**Explanation:** たのしい (楽しい) is an i-adjective meaning "fun," "enjoyable," or "pleasant."
 
 **Why others are incorrect:**
-- Sad: That would be 悲しい (kanashii)
-- Angry: That would be 怒っている (okorotte iru)
-- Bored: That would be つまらない (tsumaranai)
+- かなしい: This means "sad" (悲しい)
+- さびしい: This means "lonely" (寂しい)
+- つまらない: This means "boring"
 
 </details>
 

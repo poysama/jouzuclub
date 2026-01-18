@@ -16,21 +16,21 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 「木」の正しい読み方は何ですか？
 
 - a) ぎ
-- b) もく
+- b) き
 - c) こ
 - d) し
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) もく**
+**Correct Answer: b) き**
 
-**Explanation:** 木 (ki/moku) means "tree" or "wood." When used as a standalone character, it's typically read as き or, in certain contexts, もく (moku).
+**Explanation:** 木 (き) means "tree" or "wood." When used as a standalone character, it's read as き.
 
 **Why others are incorrect:**
-- ぎ: Not a standard reading for this kanji
-- こ: Incorrect reading
-- し: This is the reading for the kanji 死 (death), not 木
+- ぎ: Similar sound but incorrect
+- こ: Wrong reading
+- し: This looks similar but is incorrect
 
 </details>
 
@@ -40,22 +40,22 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 
 「火」はどういう意味ですか？
 
-- a) Water
-- b) Earth
-- c) Fire
-- d) Metal
+- a) みず
+- b) つち
+- c) ひ
+- d) かね
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) Fire**
+**Correct Answer: c) ひ**
 
-**Explanation:** 火 (ひ/か) means "fire." This is one of the basic five elements in Japanese.
+**Explanation:** 火 (ひ) means "fire." This is one of the basic elements in Japanese.
 
 **Why others are incorrect:**
-- Water: That would be 水 (mizu)
-- Earth: That would be 土 (つち)
-- Metal: That would be 金 (かね)
+- みず: This means "water" (水)
+- つち: This means "earth" (土)
+- かね: This means "metal/money" (金)
 
 </details>
 
@@ -66,21 +66,21 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 「学」の訓読みは何ですか？
 
 - a) がく
-- b) ぐ
-- c) まなぶ
-- d) あ
+- b) まなぶ
+- c) ならう
+- d) おしえる
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) まなぶ**
+**Correct Answer: b) まなぶ**
 
-**Explanation:** 学 has two readings - the on'yomi (音読み) is がく (gaku), and the kun'yomi (訓読み) is まなぶ (manabu), meaning "to learn."
+**Explanation:** 学 has the kun'yomi (訓読み) まなぶ, meaning "to learn."
 
 **Why others are incorrect:**
 - がく: This is the on'yomi, not the kun'yomi
-- ぐ: Not a reading for this kanji
-- あ: Incorrect reading
+- ならう: This means "to learn" but is a different verb (習う)
+- おしえる: This means "to teach" (教える), the opposite action
 
 </details>
 
@@ -92,20 +92,20 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 
 - a) にゅう
 - b) いる
-- c) はい
-- d) い
+- c) にん
+- d) にち
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
 **Correct Answer: a) にゅう**
 
-**Explanation:** 入 has the on'yomi (音読み) にゅう (nyuu) and the kun'yomi (訓読み) いる (iru) or はいる (hairu), meaning "to enter."
+**Explanation:** 入 has the on'yomi (音読み) にゅう, meaning "to enter."
 
 **Why others are incorrect:**
 - いる: This is the kun'yomi, not the on'yomi
-- はい: This is part of the kun'yomi hairu
-- い: Incomplete reading
+- にん: Similar sound but this is for 人
+- にち: This is the on'yomi for 日, not 入
 
 </details>
 
@@ -116,21 +116,21 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 「日」の音読みはどれですか？
 
 - a) ひ
-- b) ひろ
+- b) び
 - c) にち
-- d) だ
+- d) じつ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
 **Correct Answer: c) にち**
 
-**Explanation:** 日 (day/sun) has the on'yomi (音読み) にち (nichi) and the kun'yomi (訓読み) ひ (hi).
+**Explanation:** 日 (day/sun) has the on'yomi (音読み) にち.
 
 **Why others are incorrect:**
 - ひ: This is the kun'yomi, not the on'yomi
-- ひろ: Not a reading for this kanji
-- だ: Incorrect reading
+- び: This is a modified sound in compound words
+- じつ: Similar but this is another on'yomi used less commonly
 
 </details>
 
@@ -140,22 +140,22 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 
 「水」はどういう意味ですか？
 
-- a) Fire
-- b) Water
-- c) Wind
-- d) Sky
+- a) ひ
+- b) みず
+- c) かぜ
+- d) そら
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Water**
+**Correct Answer: b) みず**
 
-**Explanation:** 水 (みず/すい) means "water." It's one of the basic elements in Japanese.
+**Explanation:** 水 (みず) means "water." It's one of the basic elements in Japanese.
 
 **Why others are incorrect:**
-- Fire: That would be 火 (ひ)
-- Wind: That would be 風 (かぜ)
-- Sky: That would be 空 (そら)
+- ひ: This means "fire" (火)
+- かぜ: This means "wind" (風)
+- そら: This means "sky" (空)
 
 </details>
 
@@ -168,19 +168,19 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 - a) にん
 - b) ひと
 - c) じん
-- d) ん
+- d) ひろ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
 **Correct Answer: b) ひと**
 
-**Explanation:** 人 (person) has the on'yomi にん (nin) and じん (jin), and the kun'yomi ひと (hito).
+**Explanation:** 人 has the kun'yomi ひと (person).
 
 **Why others are incorrect:**
 - にん: This is the on'yomi, not the kun'yomi
-- じん: This is also an on'yomi, not the kun'yomi
-- ん: Not a reading
+- じん: This is also an on'yomi
+- ひろ: Similar sound but incorrect
 
 </details>
 
@@ -190,22 +190,22 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 
 「山」の読み方は何ですか？
 
-- a) やん
+- a) かわ
 - b) さん
 - c) やま
-- d) ま
+- d) みち
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
 **Correct Answer: c) やま**
 
-**Explanation:** 山 (mountain) primarily uses the kun'yomi やま (yama). The on'yomi さん (san) is used in compound words like 富士山 (ふじさん).
+**Explanation:** 山 (mountain) is read as やま. The on'yomi さん is used in compound words.
 
 **Why others are incorrect:**
-- やん: Not a standard reading
-- さん: This is the on'yomi, not the primary reading
-- ま: Incomplete reading
+- かわ: This means "river" (川)
+- さん: This is the on'yomi, less common standalone
+- みち: This means "road" (道)
 
 </details>
 
@@ -217,20 +217,20 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 
 - a) おお
 - b) だい
-- c) おろか
-- d) は
+- c) たい
+- d) おろ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
 **Correct Answer: b) だい**
 
-**Explanation:** 大 (big/large) has the on'yomi だい (dai) and the kun'yomi おお (oo) or おおきい (ookii).
+**Explanation:** 大 (big/large) has the on'yomi だい.
 
 **Why others are incorrect:**
 - おお: This is the kun'yomi, not the on'yomi
-- おろか: Not a reading for this kanji
-- は: Incorrect reading
+- たい: Similar sound but incorrect
+- おろ: Wrong reading
 
 </details>
 
@@ -240,22 +240,22 @@ Test your knowledge of kanji characters, meanings, and readings with these JLPT-
 
 「小」はどういう意味ですか？
 
-- a) Large
-- b) Small
-- c) Medium
-- d) Tiny
+- a) おおきい
+- b) ちいさい
+- c) ながい
+- d) みじかい
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) Small**
+**Correct Answer: b) ちいさい**
 
-**Explanation:** 小 (ちいさい/しょう) means "small." It's the opposite of 大 (big).
+**Explanation:** 小 (ちいさい) means "small." It's the opposite of 大 (big).
 
 **Why others are incorrect:**
-- Large: That would be 大 (ōkii)
-- Medium: No specific kanji just for "medium"
-- Tiny: While 小 can mean small, tiny would be more specific words
+- おおきい: This means "large/big" (大きい), the opposite
+- ながい: This means "long" (長い)
+- みじかい: This means "short" (短い)
 
 </details>
 

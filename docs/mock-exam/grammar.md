@@ -13,7 +13,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 1
 
-まいにちしんぶん _______ 読みます。
+まいにち　しんぶん _______ よみます。
 
 - a) へ
 - b) を
@@ -25,11 +25,11 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: b) を**
 
-**Explanation:** を is the direct object particle used before transitive verbs. "Shinbun wo yomu" means "to read a newspaper." The verb 読む (yomu) is transitive and requires the direct object particle を.
+**Explanation:** を is the direct object particle used before transitive verbs. "しんぶん を よむ" means "to read a newspaper." The verb よむ is transitive and requires the direct object particle を.
 
 **Why others are incorrect:**
-- へ: Direction particle; "shinbun e" would mean "towards a newspaper" (nonsensical in this context)
-- に: Location/destination particle; would suggest reading AT the newspaper rather than reading IT
+- へ: Direction particle; would mean "towards a newspaper" 
+- に: Location/destination particle; would suggest reading AT the newspaper
 - が: Subject particle; would create a grammatically confusing sentence
 
 </details>
@@ -38,7 +38,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 2
 
-私は毎日会社 _______ 行きます。
+わたしは　まいにち　かいしゃ _______ いきます。
 
 - a) を
 - b) で
@@ -50,10 +50,10 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: c) に**
 
-**Explanation:** に is the destination particle used with verbs of motion like 行く (iku, to go). "Kaisha ni iku" means "to go to the company."
+**Explanation:** に is the destination particle used with verbs of motion like いく (to go). "かいしゃ に いく" means "to go to the company."
 
 **Why others are incorrect:**
-- を: Direct object particle; "kaisha wo" would mean treating the company as a direct object
+- を: Direct object particle; doesn't work with destinations
 - で: Location of action particle; used for where an action takes place, not the destination
 - と: Companionship/quotation particle; doesn't work with destinations
 
@@ -63,7 +63,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 3
 
-昨日、友達 _______ 映画を見ました。
+きのう、ともだち _______ えいが を みました。
 
 - a) が
 - b) を
@@ -75,12 +75,12 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: c) と**
 
-**Explanation:** と is the particle used to express "with" (companionship). "Tomodachi to eiga wo mita" means "I watched a movie with a friend."
+**Explanation:** と is the particle used to express "with" (companionship). "ともだち と えいが を みた" means "I watched a movie with a friend."
 
 **Why others are incorrect:**
-- が: Subject particle; would make "friend" the subject of the sentence
-- を: Direct object particle; "friend" is not the object being watched
-- に: Would suggest giving something TO the friend, not doing something WITH them
+- が: Subject particle; would make friend the subject
+- を: Direct object particle; friend is not the object being watched
+- に: Would suggest giving something TO the friend
 
 </details>
 
@@ -88,7 +88,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 4
 
-このケーキはチョコレート _______ 作られています。
+としょかん _______ べんきょうします。
 
 - a) に
 - b) で
@@ -100,12 +100,12 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: b) で**
 
-**Explanation:** で is the particle indicating the material or means by which something is done. "Chokoreto de tsukurareru" means "made with/from chocolate."
+**Explanation:** で is the particle indicating the location where an action takes place. "としょかん で べんきょうする" means "to study at the library."
 
 **Why others are incorrect:**
-- に: Typically indicates direction or indirect object, not material
-- を: Direct object particle; doesn't work for indicating material
-- が: Subject particle; chocolate is not the subject here
+- に: Indicates destination, not location of action
+- を: Direct object particle; doesn't work for locations
+- が: Subject particle; library is not the subject
 
 </details>
 
@@ -113,7 +113,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 5
 
-私は毎朝6時 _______ 起きます。
+わたしは　まいあさ　６じ _______ おきます。
 
 - a) で
 - b) を
@@ -125,7 +125,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: d) に**
 
-**Explanation:** に is used to specify exact times. "Roku-ji ni okiru" means "to wake up at 6 o'clock."
+**Explanation:** に is used to specify exact times. "６じ に おきる" means "to wake up at 6 o'clock."
 
 **Why others are incorrect:**
 - で: Used for locations of actions or means, not specific times
@@ -138,7 +138,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 6
 
-友達に本 _______ あげました。
+ともだち に ほん _______ あげました。
 
 - a) が
 - b) で
@@ -150,12 +150,12 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: c) を**
 
-**Explanation:** を marks the direct object being given. "Hon wo ageru" means "to give a book." The book is what's being transferred.
+**Explanation:** を marks the direct object being given. "ほん を あげる" means "to give a book." The book is what's being transferred.
 
 **Why others are incorrect:**
 - が: Subject particle; the book is not the subject
 - で: Means/location particle; doesn't work with giving verbs
-- に: Already used for the recipient (友達に), can't be used twice
+- に: Already used for the recipient (ともだち に)
 
 </details>
 
@@ -163,7 +163,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 7
 
-雨が降っている _______ 、学校に行った。
+あめが　ふって　います _______ 、がっこうに　いきました。
 
 - a) から
 - b) のに
@@ -175,12 +175,12 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: b) のに**
 
-**Explanation:** のに expresses contrast or "despite/even though." "Ame ga futte iru noni, gakko ni itta" means "Even though it was raining, I went to school."
+**Explanation:** のに expresses contrast or "despite/even though." "あめが　ふって　いる　のに、がっこうに　いった" means "Even though it was raining, I went to school."
 
 **Why others are incorrect:**
 - から: Indicates reason/cause, meaning "because it was raining"
 - ので: Also indicates reason/cause, similar to から
-- けど: While this can show contrast, のに is more emphatic and better fits JLPT patterns
+- けど: While this can show contrast, のに is more emphatic
 
 </details>
 
@@ -188,7 +188,7 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 8
 
-この問題は難しい _______ 、わかりません。
+この　テスト は　むずかしい _______ 、わかりません。
 
 - a) のに
 - b) ので
@@ -200,12 +200,12 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 **Correct Answer: c) から**
 
-**Explanation:** から indicates reason or cause. "Kono mondai wa muzukashii kara, wakarimasen" means "Because this problem is difficult, I don't understand it."
+**Explanation:** から indicates reason or cause. "この　テスト は　むずかしい　から、わかりません" means "Because this test is difficult, I don't understand it."
 
 **Why others are incorrect:**
-- のに: Would express contrast ("despite being difficult"), which doesn't fit the logic
+- のに: Would express contrast ("despite being difficult")
 - ので: While this also means "because," から is more commonly used in casual speech
-- けど: Means "but/however," which creates the wrong logical relationship
+- けど: Means "but/however," which doesn't fit
 
 </details>
 
@@ -213,24 +213,24 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 9
 
-彼女に別れ _______ 告げる。
+きょう　は　いい　てんき _______ 、そとで　あそびましょう。
 
 - a) に
 - b) が
 - c) を
-- d) で
+- d) だから
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) を**
+**Correct Answer: d) だから**
 
-**Explanation:** を is the direct object particle. "Wakare wo tsugeru" means "to announce/tell a farewell." 別れ (wakare, parting/farewell) is the direct object of the verb 告げる (tsugeru, to tell/announce).
+**Explanation:** だから means "therefore" or "so." "きょう は　いい　てんき　だから、そとで　あそびましょう" means "Today the weather is nice, so let's play outside."
 
 **Why others are incorrect:**
-- に: Already used for the indirect object (彼女に)
-- が: Subject particle; 別れ is not the subject
-- で: Means/location particle; doesn't fit with this verb
+- に: Particle for time/direction; doesn't connect clauses
+- が: Subject particle or "but"; doesn't fit the meaning
+- を: Direct object particle; doesn't connect clauses
 
 </details>
 
@@ -238,24 +238,24 @@ Test your understanding of Japanese particles and grammar structures with these 
 
 ## Question 10
 
-運動 _______ 、健康になる。
+ごはん を たべて _______ 、がっこう に いきます。
 
 - a) を
 - b) に
-- c) して
-- d) が
+- c) から
+- d) で
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) して**
+**Correct Answer: c) から**
 
-**Explanation:** して is the te-form of する, creating "undo shite" (by exercising). "Undo shite, kenkou ni naru" means "By exercising, one becomes healthy."
+**Explanation:** から after the te-form indicates doing something after completing an action. "ごはん を　たべて　から、がっこう に　いきます" means "After eating, I go to school."
 
 **Why others are incorrect:**
-- を: Would make exercise the direct object, but there's no main verb
-- に: Doesn't connect the two clauses properly
-- が: Subject particle; creates grammatically incorrect structure
+- を: Direct object particle; can't follow te-form
+- に: Direction particle; doesn't fit with te-form
+- で: Location/means particle; doesn't fit this pattern
 
 </details>
 
