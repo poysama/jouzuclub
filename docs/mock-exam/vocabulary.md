@@ -40,22 +40,22 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 はやしさんも　「飲」んで　ください。
 
-- a) ならんで
-- b) えらんで
-- c) のんで
-- d) やすんで
+- a) なら
+- b) えら
+- c) の
+- d) やす
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) のんで**
+**Correct Answer: c) の**
 
-**Explanation:** 飲 means "to drink" and is read as のむ. The te-form is のんで. The sentence means "Hayashi-san, please drink too."
+**Explanation:** 飲 means "to drink" and is read as のむ. The stem reading is の. The te-form is のんで.
 
 **Why others are incorrect:**
-- ならんで: This means "to line up" (並んで)
-- えらんで: This means "to choose" (選んで)
-- やすんで: This means "to rest" (休んで)
+- なら: This is the stem of 並ぶ (to line up)
+- えら: This is the stem of 選ぶ (to choose)
+- やす: This is the stem of 休む (to rest)
 
 </details>
 
@@ -90,22 +90,22 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 きのう、「新」しい　くつを　かいました。
 
-- a) ふるい
-- b) あたらしい
-- c) おおきい
-- d) ちいさい
+- a) ふる
+- b) あたら
+- c) おお
+- d) ちい
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) あたらしい**
+**Correct Answer: b) あたら**
 
-**Explanation:** 新しい means "new" and is read as あたらしい. The sentence means "Yesterday, I bought new shoes."
+**Explanation:** 新しい means "new" and the kanji 新 is read as あたら (before the い-adjective ending しい).
 
 **Why others are incorrect:**
-- ふるい: This means "old" (古い), the opposite
-- おおきい: This means "big" (大きい)
-- ちいさい: This means "small" (小さい)
+- ふる: This is the reading for 古 (old), the opposite
+- おお: This is the reading for 大 (big)
+- ちい: This is the reading for 小 (small)
 
 </details>
 
@@ -190,22 +190,22 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 あの　「高」い　たてものは　なんですか。
 
-- a) ひくい
-- b) ちいさい
-- c) おおきい
-- d) たかい
+- a) ひく
+- b) ちい
+- c) おお
+- d) たか
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: d) たかい**
+**Correct Answer: d) たか**
 
-**Explanation:** 高い means "high/tall" and is read as たかい. The sentence means "What is that tall building?"
+**Explanation:** 高い means "high/tall" and the kanji 高 is read as たか (before the い-adjective ending い).
 
 **Why others are incorrect:**
-- ひくい: This means "low" (低い), the opposite
-- ちいさい: This means "small" (小さい)
-- おおきい: This means "big" (大きい)
+- ひく: This is the reading for 低 (low), the opposite
+- ちい: This is the reading for 小 (small)
+- おお: This is the reading for 大 (big)
 
 </details>
 
