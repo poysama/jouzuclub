@@ -13,7 +13,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 1
 
-リーさんの　**【前】**に　いる　ひとが　たなかさんです。
+リーさんの　「前」に　いる　ひとが　たなかさんです。
 
 - a) よこ
 - b) まえ
@@ -38,7 +38,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 2
 
-はやしさんも　**【飲】**んで　ください。
+はやしさんも　「飲」んで　ください。
 
 - a) ならんで
 - b) えらんで
@@ -63,7 +63,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 3
 
-まいあさ　**【八】**じに　がっこうに　いきます。
+まいあさ　「八」じに　がっこうに　いきます。
 
 - a) ろく
 - b) しち
@@ -88,7 +88,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 4
 
-きのう、**【新】**しい　くつを　かいました。
+きのう、「新」しい　くつを　かいました。
 
 - a) ふるい
 - b) あたらしい
@@ -113,7 +113,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 5
 
-ここから　**【駅】**まで　どのくらい　かかりますか。
+ここから　「駅」まで　どのくらい　かかりますか。
 
 - a) えき
 - b) うち
@@ -138,7 +138,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 6
 
-としょかんで　**【本】**を　よみます。
+としょかんで　「本」を　よみます。
 
 - a) かみ
 - b) ほん
@@ -163,7 +163,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 7
 
-きょうは　**【雨】**が　ふって　います。
+きょうは　「雨」が　ふって　います。
 
 - a) ゆき
 - b) あめ
@@ -188,7 +188,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 8
 
-あの　**【高】**い　たてものは　なんですか。
+あの　「高」い　たてものは　なんですか。
 
 - a) ひくい
 - b) ちいさい
@@ -213,7 +213,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 9
 
-ちちは　まいにち　**【車】**で　かいしゃに　いきます。
+ちちは　まいにち　「車」で　かいしゃに　いきます。
 
 - a) でんしゃ
 - b) くるま
@@ -238,7 +238,7 @@ Test your knowledge of kanji readings in context with these JLPT-style questions
 
 ## Question 10
 
-わたしは　**【花】**が　すきです。
+わたしは　「花」が　すきです。
 
 - a) き
 - b) くさ
