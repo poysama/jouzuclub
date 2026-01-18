@@ -13,28 +13,32 @@ Test your reading comprehension with short passages and questions.
 
 ## Question 1
 
-次のテキストを読んでください：
+次のテキストを読んで、質問に答えてください：
 
-「私は毎日、朝7時に起きます。そして、朝食を食べた後で、会社に行きます。」
+日本では、たくさんの人がおべんとうを食べます。おべんとうやさんやコンビニには、いろいろなおべんとうがうっています。とてもべんりです。
 
-質問：この人は何時に起きますか？
+わかいお母さんたちは、のりやたまごをつかって、かわいいおべんとうをつくります。子どもたちは、とてもすきです。
 
-- a) 6時
-- b) 7時
-- c) 8時
-- d) 9時
+えきには、「えきべん」というおべんとうがうっています。日本では、どこでもおべんとうがあります。
+
+質問：おべんとうは　どこに　ありますか？
+
+- a) いえだけ
+- b) コンビニだけ
+- c) おべんとうやさんだけ
+- d) どこでも
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) 7時**
+**Correct Answer: d) どこでも**
 
-**Explanation:** The text clearly states 「私は毎日、朝7時に起きます」which means "I wake up at 7 o'clock in the morning every day."
+**Explanation:** The passage states 「日本では、どこでもおべんとうがあります」which means "In Japan, bento are available everywhere." The text mentions bento shops, convenience stores, and train stations.
 
 **Why others are incorrect:**
-- 6時: Not mentioned in the text
-- 8時: Not mentioned in the text
-- 9時: Not mentioned in the text
+- いえだけ: Only at home - contradicts the passage
+- コンビニだけ: Only at convenience stores - the text mentions multiple locations
+- おべんとうやさんだけ: Only at bento shops - the text mentions other places too
 
 </details>
 
@@ -42,28 +46,30 @@ Test your reading comprehension with short passages and questions.
 
 ## Question 2
 
-次のテキストを読んでください：
+次のテキストを読んで、質問に答えてください：
 
-「田中さんの趣味は読書と映画鑑賞です。彼女は週末に図書館に行ったり、映画館に行ったりします。」
+さとうさんは、まいあさ　６じに　おきます。それから、こうえんで　３０ぷん　はしります。うちに　かえって、シャワーを　あびます。７じはんに　あさごはんを　たべます。あさごはんは、パンと　たまごと　コーヒーです。
 
-質問：田中さんはどこに行きますか？
+８じに　うちを　でて、でんしゃで　かいしゃに　いきます。かいしゃは　９じから　６じまでです。ばんごはんは、いつも　７じごろ　たべます。
 
-- a) 学校と公園
-- b) 会社と商店
-- c) 図書館と映画館
-- d) 駅と銀行
+質問：さとうさんは　なんじに　あさごはんを　たべますか？
+
+- a) ６じ
+- b) ７じ
+- c) ７じはん
+- d) ８じ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) 図書館と映画館**
+**Correct Answer: c) ７じはん**
 
-**Explanation:** The text states 「彼女は週末に図書館に行ったり、映画館に行ったりします」which means "She goes to the library and movie theater on weekends."
+**Explanation:** The passage clearly states 「７じはんに　あさごはんを　たべます」which means "eats breakfast at 7:30."
 
 **Why others are incorrect:**
-- 学校と公園: Not mentioned in the text
-- 会社と商店: Not mentioned in the text
-- 駅と銀行: Not mentioned in the text
+- ６じ: This is when Sato-san wakes up
+- ７じ: Not mentioned in the text
+- ８じ: This is when Sato-san leaves home
 
 </details>
 
@@ -71,28 +77,30 @@ Test your reading comprehension with short passages and questions.
 
 ## Question 3
 
-次のテキストを読んでください：
+次のテキストを読んで、質問に答えてください：
 
-「昨日、私は友達とレストランに行きました。そこで、美味しいカレーを食べました。」
+わたしの　ともだちの　たなかさんは、にほんごの　せんせいです。まいにち、がっこうで　にほんごを　おしえて　います。たなかさんは　えいごも　すこし　はなせます。
 
-質問：何を食べましたか？
+しゅうまつは、よく　としょかんに　いって、ほんを　よみます。たなかさんは　れきしの　ほんが　すきです。ときどき　えいがも　みます。たなかさんの　いちばん　すきな　えいがは、にほんの　えいがです。
 
-- a) ラーメン
-- b) 寿司
-- c) カレー
-- d) 天ぷら
+質問：たなかさんは　なにが　いちばん　すきですか？
+
+- a) えいごの　ほん
+- b) れきしの　ほん
+- c) アメリカの　えいが
+- d) にほんの　えいが
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) カレー**
+**Correct Answer: d) にほんの　えいが**
 
-**Explanation:** The text clearly states 「美味しいカレーを食べました」which means "I ate delicious curry."
+**Explanation:** The passage states 「たなかさんの　いちばん　すきな　えいがは、にほんの　えいがです」which means "Tanaka-san's favorite movies are Japanese movies."
 
 **Why others are incorrect:**
-- ラーメン: Not mentioned in the text
-- 寿司: Not mentioned in the text
-- 天ぷら: Not mentioned in the text
+- えいごの　ほん: Not mentioned as favorite
+- れきしの　ほん: Tanaka-san likes history books, but the question asks what is MOST favorite
+- アメリカの　えいが: American movies are not mentioned
 
 </details>
 
@@ -100,28 +108,32 @@ Test your reading comprehension with short passages and questions.
 
 ## Question 4
 
-次のテキストを読んでください：
+次のテキストを読んで、質問に答えてください：
 
-「私の兄は医者です。彼は毎日、病院で働いています。」
+きのう、わたしは　かぞくと　デパートに　いきました。１かいで　くつを　かいました。あたらしい　くつは　とても　きれいです。
 
-質問：兄さんは何をしていますか？
+２かいで　お母さんは　ふくを　かいました。３かいには　レストランが　あります。そこで、おひるごはんを　たべました。わたしは　ハンバーグを　たべました。いもうとは　スパゲッティを　たべました。とても　おいしかったです。
 
-- a) 学校で教えています
-- b) 病院で働いています
-- c) 店で働いています
-- d) 会社で働いています
+デパートの　うえには　ゲームセンターが　あります。いもうとと　いっしょに　あそびました。たのしかったです。
+
+質問：「わたし」は　デパートで　なにを　しましたか？
+
+- a) くつを　かって、ごはんを　たべて、あそびました
+- b) ふくを　かって、ごはんを　たべました
+- c) くつを　かいました
+- d) ゲームを　しました
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) 病院で働いています**
+**Correct Answer: a) くつを　かって、ごはんを　たべて、あそびました**
 
-**Explanation:** The text states 「彼は毎日、病院で働いています」which means "He works at a hospital every day."
+**Explanation:** The passage describes three activities: bought shoes (くつを　かいました), ate lunch (おひるごはんを　たべました), and played at the game center (あそびました).
 
 **Why others are incorrect:**
-- 学校で教えています: Not mentioned; he's a doctor, not a teacher
-- 店で働いています: Not mentioned; he works at a hospital
-- 会社で働いています: Not mentioned; he works at a hospital
+- ふくを　かって、ごはんを　たべました: Mother bought clothes, not "I"
+- くつを　かいました: This is only one activity, incomplete
+- ゲームを　しました: This is only one activity, incomplete
 
 </details>
 
@@ -129,28 +141,32 @@ Test your reading comprehension with short passages and questions.
 
 ## Question 5
 
-次のテキストを読んでください：
+次のテキストを読んで、質問に答えてください：
 
-「この公園は春に桜が咲きます。多くの人々が花見に来ます。」
+やまださんは　らいしゅう　きょうとに　いきます。きょうとは　ふるい　まちです。きれいな　おてらが　たくさん　あります。
 
-質問：いつ、人々は公園に来ますか？
+やまださんは　げつようびに　とうきょうを　でます。しんかんせんで　きょうとまで　いきます。やく　２じかん　かかります。きょうとで　３にち　います。ともだちの　いえに　とまります。
 
-- a) 冬
-- b) 夏
-- c) 春
-- d) 秋
+すいようびに　ならと　おおさかにも　いきます。きんようびに　とうきょうに　かえります。やまださんは　とても　たのしみです。
+
+質問：やまださんは　どこに　とまりますか？
+
+- a) ホテル
+- b) おてら
+- c) ともだちの　いえ
+- d) りょかん
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) 春**
+**Correct Answer: c) ともだちの　いえ**
 
-**Explanation:** The text states 「この公園は春に桜が咲きます。多くの人々が花見に来ます」which means "Cherry blossoms bloom in this park in spring. Many people come to see the cherry blossoms."
+**Explanation:** The passage clearly states 「ともだちの　いえに　とまります」which means "will stay at a friend's house."
 
 **Why others are incorrect:**
-- 冬: Not mentioned as the season
-- 夏: Not mentioned as the season
-- 秋: Not mentioned as the season
+- ホテル: Hotel is not mentioned
+- おてら: Temple is mentioned as a sightseeing spot, not lodging
+- りょかん: Japanese inn is not mentioned
 
 </details>
 
