@@ -2,7 +2,7 @@
 layout: default
 title: Listening
 parent: Mock JLPT Exam
-nav_order: 5
+nav_order: 4
 ---
 
 # Listening Comprehension Practice

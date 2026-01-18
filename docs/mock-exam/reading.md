@@ -2,7 +2,7 @@
 layout: default
 title: Reading
 parent: Mock JLPT Exam
-nav_order: 4
+nav_order: 3
 ---
 
 # Reading Comprehension Practice

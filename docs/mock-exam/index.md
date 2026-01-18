@@ -12,8 +12,7 @@ Test your Japanese language skills with these JLPT-style practice questions. Eac
 ## Categories
 
 - [Grammar]({{ site.baseurl }}/docs/mock-exam/grammar) - 10 particle and grammar questions
-- [Kanji]({{ site.baseurl }}/docs/mock-exam/kanji) - 10 kanji reading and meaning questions
-- [Vocabulary]({{ site.baseurl }}/docs/mock-exam/vocabulary) - 10 vocabulary questions
+- [Vocabulary]({{ site.baseurl }}/docs/mock-exam/vocabulary) - 10 kanji reading questions
 - [Reading]({{ site.baseurl }}/docs/mock-exam/reading) - 5 reading comprehension passages
 - [Listening]({{ site.baseurl }}/docs/mock-exam/listening) - Coming soon
 

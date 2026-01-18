@@ -2,35 +2,35 @@
 layout: default
 title: Vocabulary
 parent: Mock JLPT Exam
-nav_order: 3
+nav_order: 2
 ---
 
 # Vocabulary Practice
 
-Test your knowledge of Japanese vocabulary with these JLPT-style questions.
+Test your knowledge of kanji readings in context with these JLPT-style questions. Identify the correct kun'yomi reading of the underlined kanji.
 
 ---
 
 ## Question 1
 
-「たべる」の意味は何ですか？
+リーさんの　**【前】**に　いる　ひとが　たなかさんです。
 
-- a) のむ
-- b) ねる
-- c) たべる
-- d) よむ
+- a) よこ
+- b) まえ
+- c) となり
+- d) うしろ
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) たべる**
+**Correct Answer: b) まえ**
 
-**Explanation:** たべる is a ru-verb that means "to eat." It's one of the most basic and frequently used verbs in Japanese.
+**Explanation:** 前 in this context means "in front of" and is read as まえ. The sentence means "The person in front of Lee-san is Tanaka-san."
 
 **Why others are incorrect:**
-- のむ: This means "to drink" (飲む)
-- ねる: This means "to sleep" (寝る)
-- よむ: This means "to read" (読む)
+- よこ: This means "beside/next to" (横)
+- となり: This means "next to/neighboring" (隣)
+- うしろ: This means "behind" (後ろ)
 
 </details>
 
@@ -38,24 +38,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 2
 
-「ねこ」は何ですか？
+はやしさんも　**【飲】**んで　ください。
 
-- a) いぬ
-- b) ねこ
-- c) とり
-- d) うさぎ
+- a) ならんで
+- b) えらんで
+- c) のんで
+- d) やすんで
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) ねこ**
+**Correct Answer: c) のんで**
 
-**Explanation:** ねこ (猫) means "cat." This is an essential vocabulary word for describing pets.
+**Explanation:** 飲 means "to drink" and is read as のむ. The te-form is のんで. The sentence means "Hayashi-san, please drink too."
 
 **Why others are incorrect:**
-- いぬ: This means "dog" (犬)
-- とり: This means "bird" (鳥)
-- うさぎ: This means "rabbit" (兎)
+- ならんで: This means "to line up" (並んで)
+- えらんで: This means "to choose" (選んで)
+- やすんで: This means "to rest" (休んで)
 
 </details>
 
@@ -63,24 +63,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 3
 
-「びょういん」はどこですか？
+まいあさ　**【八】**じに　がっこうに　いきます。
 
-- a) がっこう
-- b) びょういん
-- c) としょかん
-- d) みせ
+- a) ろく
+- b) しち
+- c) はち
+- d) きゅう
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) びょういん**
+**Correct Answer: c) はち**
 
-**Explanation:** びょういん (病院) means "hospital." A place where you go when you're sick.
+**Explanation:** 八 means "eight" and is read as はち. The sentence means "I go to school at 8 o'clock every morning."
 
 **Why others are incorrect:**
-- がっこう: This means "school" (学校)
-- としょかん: This means "library" (図書館)
-- みせ: This means "store" (店)
+- ろく: This means "six" (六)
+- しち: This means "seven" (七)
+- きゅう: This means "nine" (九)
 
 </details>
 
@@ -88,24 +88,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 4
 
-「ともだち」はどういう意味ですか？
+きのう、**【新】**しい　くつを　かいました。
 
-- a) かぞく
-- b) ともだち
-- c) せんせい
-- d) こども
+- a) ふるい
+- b) あたらしい
+- c) おおきい
+- d) ちいさい
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) ともだち**
+**Correct Answer: b) あたらしい**
 
-**Explanation:** ともだち (友達) means "friend." Someone you like and spend time with.
+**Explanation:** 新しい means "new" and is read as あたらしい. The sentence means "Yesterday, I bought new shoes."
 
 **Why others are incorrect:**
-- かぞく: This means "family" (家族)
-- せんせい: This means "teacher" (先生)
-- こども: This means "child" (子供)
+- ふるい: This means "old" (古い), the opposite
+- おおきい: This means "big" (大きい)
+- ちいさい: This means "small" (小さい)
 
 </details>
 
@@ -113,24 +113,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 5
 
-「ほん」は何ですか？
+ここから　**【駅】**まで　どのくらい　かかりますか。
 
-- a) えんぴつ
-- b) ノート
-- c) ほん
-- d) かみ
+- a) えき
+- b) うち
+- c) みせ
+- d) がっこう
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) ほん**
+**Correct Answer: a) えき**
 
-**Explanation:** ほん (本) means "book." Something you read.
+**Explanation:** 駅 means "station" and is read as えき. The sentence means "How long does it take from here to the station?"
 
 **Why others are incorrect:**
-- えんぴつ: This means "pencil" (鉛筆)
-- ノート: This means "notebook"
-- かみ: This means "paper" (紙)
+- うち: This means "home" (家)
+- みせ: This means "store" (店)
+- がっこう: This means "school" (学校)
 
 </details>
 
@@ -138,24 +138,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 6
 
-「きれい」の意味は何ですか？
+としょかんで　**【本】**を　よみます。
 
-- a) きたない
-- b) きれい
-- c) きらい
-- d) きいろい
+- a) かみ
+- b) ほん
+- c) ノート
+- d) しんぶん
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) きれい**
+**Correct Answer: b) ほん**
 
-**Explanation:** きれい (綺麗) is a na-adjective meaning "beautiful" or "pretty/clean."
+**Explanation:** 本 means "book" and is read as ほん. The sentence means "I read books at the library."
 
 **Why others are incorrect:**
-- きたない: This means "dirty" (汚い)
-- きらい: This means "hated/disliked" (嫌い)
-- きいろい: This means "yellow" (黄色い)
+- かみ: This means "paper" (紙)
+- ノート: This means "notebook" (katakana)
+- しんぶん: This means "newspaper" (新聞)
 
 </details>
 
@@ -163,7 +163,7 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 7
 
-「あめ」は何ですか？
+きょうは　**【雨】**が　ふって　います。
 
 - a) ゆき
 - b) あめ
@@ -175,12 +175,12 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 **Correct Answer: b) あめ**
 
-**Explanation:** あめ (雨) means "rain." Don't confuse it with 飴 (candy), which has the same pronunciation.
+**Explanation:** 雨 means "rain" and is read as あめ. The sentence means "It is raining today."
 
 **Why others are incorrect:**
 - ゆき: This means "snow" (雪)
 - かぜ: This means "wind" (風)
-- くも: This means "clouds" (雲)
+- くも: This means "cloud" (雲)
 
 </details>
 
@@ -188,24 +188,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 8
 
-「せんせい」はどういう意味ですか？
+あの　**【高】**い　たてものは　なんですか。
 
-- a) がくせい
-- b) せんぱい
-- c) せんせい
-- d) せんしゅ
+- a) ひくい
+- b) ちいさい
+- c) おおきい
+- d) たかい
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: c) せんせい**
+**Correct Answer: d) たかい**
 
-**Explanation:** せんせい (先生) means "teacher." A person who teaches.
+**Explanation:** 高い means "high/tall" and is read as たかい. The sentence means "What is that tall building?"
 
 **Why others are incorrect:**
-- がくせい: This means "student" (学生)
-- せんぱい: This means "senior/upperclassman" (先輩)
-- せんしゅ: This means "specialization" (専修)
+- ひくい: This means "low" (低い), the opposite
+- ちいさい: This means "small" (小さい)
+- おおきい: This means "big" (大きい)
 
 </details>
 
@@ -213,24 +213,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 9
 
-「あかい」の意味は何ですか？
+ちちは　まいにち　**【車】**で　かいしゃに　いきます。
 
-- a) あおい
-- b) あかい
-- c) くろい
-- d) しろい
+- a) でんしゃ
+- b) くるま
+- c) バス
+- d) タクシー
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) あかい**
+**Correct Answer: b) くるま**
 
-**Explanation:** あかい (赤い) is an i-adjective meaning "red." It describes the color red.
+**Explanation:** 車 means "car" and is read as くるま. The sentence means "My father goes to work by car every day."
 
 **Why others are incorrect:**
-- あおい: This means "blue" (青い)
-- くろい: This means "black" (黒い)
-- しろい: This means "white" (白い)
+- でんしゃ: This means "train" (電車)
+- バス: This means "bus" (katakana)
+- タクシー: This means "taxi" (katakana)
 
 </details>
 
@@ -238,24 +238,24 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Question 10
 
-「たのしい」はどういう意味ですか？
+わたしは　**【花】**が　すきです。
 
-- a) かなしい
-- b) たのしい
-- c) さびしい
-- d) つまらない
+- a) き
+- b) くさ
+- c) はな
+- d) は
 
 <details markdown="block">
 <summary>Show Answer</summary>
 
-**Correct Answer: b) たのしい**
+**Correct Answer: c) はな**
 
-**Explanation:** たのしい (楽しい) is an i-adjective meaning "fun," "enjoyable," or "pleasant."
+**Explanation:** 花 means "flower" and is read as はな. The sentence means "I like flowers."
 
 **Why others are incorrect:**
-- かなしい: This means "sad" (悲しい)
-- さびしい: This means "lonely" (寂しい)
-- つまらない: This means "boring"
+- き: This means "tree" (木)
+- くさ: This means "grass" (草)
+- は: This means "leaf" (葉)
 
 </details>
 
@@ -263,7 +263,7 @@ Test your knowledge of Japanese vocabulary with these JLPT-style questions.
 
 ## Practice Tips
 
-- Learn vocabulary in context, not just isolated words
-- Pay attention to word types (verbs, nouns, adjectives)
-- Practice using new vocabulary in sentences
-- Review the [Essential Grammar]({{ site.baseurl }}/docs/essential-grammar/) sections for usage examples
+- Learn both on'yomi (音読み) and kun'yomi (訓読み) readings
+- Pay attention to context - readings change in compound words
+- Practice writing kanji to reinforce memory
+- Study kanji radicals to understand component meanings
