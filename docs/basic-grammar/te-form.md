@@ -61,3 +61,81 @@ Add いる after the te-form.
 本を読んでいる。 - I am reading a book.
 友達を待っている。 - I am waiting for a friend.
 ```
+
+---
+
+## Advanced Usages
+
+### 4. Expressing Cause and Effect (Because/Since)
+
+Te-form can express the reason or cause for something.
+
+```text
+雨が降ってきたので、家にいる。 - It's raining, so I'm staying home.
+(Note: This often uses ので as well)
+
+朝寝坊して、学校に遅れた。 - I overslept, so I was late to school.
+(Cause → Result)
+
+仕事が終わって、友達と遊ぶ。 - After work is done, I'll play with friends.
+```
+
+### 5. Permission and Prohibition (~てもいい / ~てはいけない)
+
+Te-form + もいい (it's okay to) or te-form + はいけない (you mustn't).
+
+```text
+ここに座ってもいい。 - It's okay to sit here.
+走ってはいけない。 - You mustn't run.
+質問してもいいですか。 - May I ask a question? (polite)
+映画を見てもいい。 - It's okay to watch a movie.
+```
+
+### 6. State or Condition (Results that remain)
+
+Te-form + いる can also show a state that resulted from a past action.
+
+```text
+窓が開いている。 - The window is open. (It was opened and is in that state)
+電気がついている。 - The lights are on. (They were turned on and are in that state)
+本が置いてある。 - There is a book placed (on the table). (Someone put it there)
+```
+
+### 7. Showing Manner or Method (How you do something)
+
+Te-form can show how or in what manner something is done.
+
+```text
+歩いて学校に行く。 - Go to school by walking.
+電話して連絡する。 - Contact (someone) by calling.
+手で食べる。 - Eat using your hands.
+```
+
+### 8. Simultaneous Actions (While doing...)
+
+Two actions happening at the same time, expressed with te-form.
+
+```text
+音楽を聞いて勉強する。 - Study while listening to music.
+テレビを見て夜ご飯を食べる。 - Eat dinner while watching TV.
+笑ってしゃべる。 - Talk while laughing.
+```
+
+### 9. Giving and Receiving (Expressing relationships)
+
+Te-form is used in expressions about giving and receiving help or favors.
+
+```text
+友達に手伝ってもらう。 - Get help from a friend / Have a friend help me.
+先生に教えてもらった。 - I had the teacher teach me. (Someone did something for me)
+母に作ってもらう。 - Have my mother make it (for me).
+```
+
+### 10. Connecting to Adjectives or Descriptions
+
+Te-form can connect descriptive elements.
+
+```text
+背が高くて、髪が長い。 - (He/she is) tall and has long hair.
+美しくて、親切だ。 - (It is) beautiful and kind.
+```
