@@ -33,3 +33,4 @@ All notable changes to this project will be documented in this file.
 - Special Expressions section for advanced patterns
 - Advanced Topics section for formal/literary Japanese
 - Jekyll site with Just the Docs theme
+
