@@ -18,7 +18,9 @@ if MECAB_AVAILABLE
   module JouzuFurigana
     SKIP_ANCESTORS = %w[code pre ruby rt rp script style svg textarea].freeze
     KANJI_RE = /[\p{Han}]/
+    JAPANESE_RE = /[\p{Hiragana}\p{Katakana}\p{Han}]/
     KATAKANA_TO_HIRAGANA = 0x0060 # Unicode offset: katakana - hiragana
+    VOCAB_ENTRY_RE = /\A(.+?)(?:\s*【(.+?)】)?(?:\s*\((.+?)\))?\s*[–\-]\s+(.+)\z/
 
     module_function
 
@@ -59,12 +61,20 @@ if MECAB_AVAILABLE
 
     def annotate(nm, text)
       result = +""
+      byte_pos = 0
       nm.parse(text) do |node|
-        if node.is_eos?
-          next
-        end
+        next if node.is_bos? || node.is_eos?
 
         surface = node.surface
+
+        # Preserve whitespace: rlength includes preceding whitespace, length is just the token.
+        # The difference gives us the byte-length of any gap (spaces, etc.) before this token.
+        space_bytes = node.rlength - node.length
+        if space_bytes > 0
+          result << text.byteslice(byte_pos, space_bytes).force_encoding('UTF-8')
+        end
+        byte_pos += node.rlength
+
         features = node.feature.split(',')
 
         # MeCab IPAdic format: pos,pos1,pos2,pos3,conj_type,conj_form,base,reading,pronunciation
@@ -136,6 +146,102 @@ if MECAB_AVAILABLE
       block.replace(container)
     end
 
+    # Transform a vocabulary ordered list (after ## Vocabulary) into styled vocab cards.
+    # Parses: "食べる 【た・べる】 (ru-verb) – to eat" into word, reading, POS, meaning.
+    def transform_vocabulary_list(nm, ol)
+      container = Nokogiri::XML::Node.new('div', ol.document)
+      container['class'] = 'vocab-list'
+
+      ol.css('> li').each do |li|
+        text = li.text.strip
+        m = text.match(VOCAB_ENTRY_RE)
+        next unless m
+
+        word = m[1].strip
+        reading = m[2]&.strip
+        pos = m[3]&.strip
+        meaning = m[4].strip
+
+        entry = Nokogiri::XML::Node.new('div', ol.document)
+        entry['class'] = 'vocab-entry'
+
+        word_el = Nokogiri::XML::Node.new('span', ol.document)
+        word_el['class'] = 'vocab-word'
+        word_el['lang'] = 'ja'
+        word_el.inner_html = annotate(nm, word)
+        entry.add_child(word_el)
+
+        if reading
+          reading_el = Nokogiri::XML::Node.new('span', ol.document)
+          reading_el['class'] = 'vocab-reading'
+          reading_el.content = reading
+          entry.add_child(reading_el)
+        end
+
+        if pos
+          pos_el = Nokogiri::XML::Node.new('span', ol.document)
+          pos_el['class'] = 'vocab-pos'
+          pos_el.content = pos
+          entry.add_child(pos_el)
+        end
+
+        meaning_el = Nokogiri::XML::Node.new('span', ol.document)
+        meaning_el['class'] = 'vocab-meaning'
+        meaning_el.content = meaning
+        entry.add_child(meaning_el)
+
+        container.add_child(entry)
+      end
+
+      ol.replace(container) unless container.children.empty?
+    end
+
+    # Transform a bullet/numbered list of "Japanese - English" items into word cards.
+    # Only transforms lists where most items match the Japanese-English pattern.
+    def transform_word_list(nm, list)
+      items = list.css('> li')
+      return if items.length < 2
+
+      # Check if items match Japanese-English pattern
+      matches = items.count do |li|
+        text = li.text.strip
+        parts = text.split(/\s+[\-–]\s+/, 2)
+        parts.length == 2 && parts[0].match?(JAPANESE_RE)
+      end
+      return if matches < (items.length * 0.6).ceil
+
+      container = Nokogiri::XML::Node.new('div', list.document)
+      container['class'] = 'word-list'
+
+      items.each do |li|
+        text = li.text.strip
+        parts = text.split(/\s+[\-–]\s+/, 2)
+        jp = parts[0]&.strip
+        en = parts[1]&.strip
+        next unless jp && !jp.empty?
+
+        entry = Nokogiri::XML::Node.new('div', list.document)
+        entry['class'] = 'word-entry'
+
+        jp_el = Nokogiri::XML::Node.new('span', list.document)
+        jp_el['class'] = 'word-jp'
+        jp_el['lang'] = 'ja'
+        jp_el.inner_html = annotate(nm, jp)
+        entry.add_child(jp_el)
+
+        if en && !en.empty?
+          en_el = Nokogiri::XML::Node.new('span', list.document)
+          en_el['class'] = 'word-en'
+          en_el.inner_html = en
+          entry.add_child(en_el)
+        end
+
+        container.add_child(entry)
+      end
+
+      list.replace(container)
+    end
+
     def process(doc)
       html = Nokogiri::HTML(doc.output)
       content = html.at_css('#main-content') || html.at_css('.main-content')
@@ -148,7 +254,22 @@ if MECAB_AVAILABLE
         transform_example_block(nm, block)
       end
 
-      # 2. Annotate remaining prose text nodes
+      # 2. Transform vocabulary lists (## Vocabulary → <ol>) into vocab cards
+      content.css('h2').each do |h2|
+        next unless h2['id'] == 'vocabulary'
+        ol = h2.next_element
+        next unless ol&.name == 'ol'
+        transform_vocabulary_list(nm, ol)
+      end
+
+      # 3. Transform Japanese word lists (bullet/numbered) into word cards
+      content.css('ul, ol').each do |list|
+        next if inside_skip_ancestor?(list)
+        next if list.parent.name == 'li' # skip nested lists
+        transform_word_list(nm, list)
+      end
+
+      # 4. Annotate remaining prose text nodes
       content.traverse do |node|
         next unless node.text?
         next if inside_skip_ancestor?(node)
