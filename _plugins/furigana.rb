@@ -96,6 +96,46 @@ if MECAB_AVAILABLE
       result
     end
 
+    # Transform a language-text code block into individual example cards with furigana.
+    # Each line "Japanese。 - English." becomes its own card.
+    def transform_example_block(nm, block)
+      code = block.at_css('code') || block.at_css('pre')
+      return unless code
+
+      lines = code.text.strip.split("\n").reject(&:empty?)
+      return if lines.empty?
+
+      container = Nokogiri::XML::Node.new('div', block.document)
+      container['class'] = 'example-sentences'
+
+      lines.each do |line|
+        parts = line.split(/\s+-\s+/, 2)
+        jp = parts[0]&.strip
+        en = parts[1]&.strip
+        next unless jp && !jp.empty?
+
+        card = Nokogiri::XML::Node.new('div', block.document)
+        card['class'] = 'example-sentence'
+
+        jp_el = Nokogiri::XML::Node.new('span', block.document)
+        jp_el['class'] = 'example-jp'
+        jp_el['lang'] = 'ja'
+        jp_el.inner_html = annotate(nm, jp)
+        card.add_child(jp_el)
+
+        if en && !en.empty?
+          en_el = Nokogiri::XML::Node.new('span', block.document)
+          en_el['class'] = 'example-en'
+          en_el.inner_html = en
+          card.add_child(en_el)
+        end
+
+        container.add_child(card)
+      end
+
+      block.replace(container)
+    end
+
     def process(doc)
       html = Nokogiri::HTML(doc.output)
       content = html.at_css('#main-content') || html.at_css('.main-content')
@@ -103,6 +143,12 @@ if MECAB_AVAILABLE
 
       nm = Natto::MeCab.new
 
+      # 1. Transform language-text code blocks into example cards with furigana
+      content.css('div.language-text.highlighter-rouge').each do |block|
+        transform_example_block(nm, block)
+      end
+
+      # 2. Annotate remaining prose text nodes
       content.traverse do |node|
         next unless node.text?
         next if inside_skip_ancestor?(node)
@@ -121,6 +167,7 @@ if MECAB_AVAILABLE
 
   Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
     next unless doc.output_ext == '.html'
+    next if doc.data['furigana'] == false
     JouzuFurigana.process(doc)
   end
 end

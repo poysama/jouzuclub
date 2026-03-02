@@ -3,6 +3,7 @@ layout: default
 title: Grammar
 parent: Mock JLPT Exam
 nav_order: 1
+furigana: false
 ---
 
 # Grammar Practice

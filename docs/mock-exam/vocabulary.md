@@ -3,6 +3,7 @@ layout: default
 title: Vocabulary
 parent: Mock JLPT Exam
 nav_order: 2
+furigana: false
 ---
 
 # Vocabulary Practice

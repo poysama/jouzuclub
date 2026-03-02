@@ -3,6 +3,7 @@ layout: default
 title: Reading
 parent: Mock JLPT Exam
 nav_order: 3
+furigana: false
 ---
 
 # Reading Comprehension Practice
