@@ -1,8 +1,8 @@
 title: Jouzu Club
 description: "A comprehensive guide to Japanese grammar."
 theme: just-the-docs
-url: "https://poysama.github.io" # Replace with your user or org name
-baseurl: "/jouzuclub" # Replace with your repo name
+url: "https://jouzu.club" # Replace with your user or org name
+baseurl: "" # Replace with your repo name
 
 # Just the Docs configuration
 color_scheme: dark
