@@ -1,6 +1,6 @@
 // Jouzu Club - Automatic Furigana via Kuroshiro
-// Loads kuromoji dictionary (~12-18MB) on first visit, cached after.
-// Gracefully degrades if CDN or JS fails.
+// Dictionary (~12MB) only loads when user opts in via toggle.
+// Preference persists in localStorage.
 
 (function () {
   'use strict';
@@ -9,35 +9,27 @@
   var CDN = 'https://cdn.jsdelivr.net/npm';
   var DICT_PATH = CDN + '/kuromoji@0.1.2/dict';
 
-  // Elements to skip when walking the DOM
   var SKIP_TAGS = new Set([
     'SCRIPT', 'STYLE', 'CODE', 'PRE', 'RUBY', 'RT', 'RP',
     'TEXTAREA', 'INPUT', 'SELECT', 'BUTTON', 'SVG', 'IMG'
   ]);
 
-  // Regex to detect kanji (CJK Unified Ideographs)
   var HAS_KANJI = /[\u4e00-\u9faf\u3400-\u4dbf]/;
+
+  var kuroshiroInstance = null;
+  var isLoading = false;
+  var isAnnotated = false;
 
   // ---- Toggle button ----
 
-  function createToggle() {
+  function createToggle(onClick) {
     var btn = document.createElement('button');
     btn.className = 'furigana-toggle';
     btn.setAttribute('aria-label', 'Toggle furigana');
     btn.title = 'Toggle furigana (振り仮名)';
-    updateToggleLabel(btn);
-    btn.addEventListener('click', function () {
-      var hidden = document.body.classList.toggle('furigana-hidden');
-      localStorage.setItem(STORAGE_KEY, hidden ? 'off' : 'on');
-      updateToggleLabel(btn);
-    });
+    btn.addEventListener('click', onClick);
     document.body.appendChild(btn);
     return btn;
-  }
-
-  function updateToggleLabel(btn) {
-    var isHidden = document.body.classList.contains('furigana-hidden');
-    btn.textContent = isHidden ? '振 OFF' : '振 ON';
   }
 
   // ---- DOM walking ----
@@ -61,22 +53,28 @@
     return nodes;
   }
 
+  function yieldToMain() {
+    return new Promise(function (r) { setTimeout(r, 0); });
+  }
+
   async function annotateNodes(kuroshiro, nodes) {
+    var BATCH = 5;
     for (var i = 0; i < nodes.length; i++) {
       var node = nodes[i];
-      if (!node.parentElement) continue; // detached
+      if (!node.parentElement) continue;
 
       var html = await kuroshiro.convert(node.textContent, {
         mode: 'furigana',
         to: 'hiragana'
       });
 
-      // Only replace if kuroshiro actually added ruby tags
       if (html !== node.textContent && html.indexOf('<ruby>') !== -1) {
         var span = document.createElement('span');
         span.innerHTML = html;
         node.parentElement.replaceChild(span, node);
       }
+
+      if (i % BATCH === 0) await yieldToMain();
     }
   }
 
@@ -92,48 +90,86 @@
     });
   }
 
-  // ---- Main ----
+  // ---- Load + annotate (lazy, on first enable) ----
 
-  async function init() {
-    var content = document.querySelector('.main-content');
-    if (!content) return;
-
-    var nodes = collectTextNodes(content);
-    if (nodes.length === 0) return;
-
-    // Restore user preference
-    var pref = localStorage.getItem(STORAGE_KEY);
-    if (pref === 'off') document.body.classList.add('furigana-hidden');
-
-    // Show toggle immediately (even before dictionary loads)
-    var btn = createToggle();
-    btn.disabled = true;
+  async function loadAndAnnotate(btn) {
+    if (isLoading) return;
+    isLoading = true;
     btn.textContent = '振 …';
+    btn.disabled = true;
 
     try {
-      // Load libraries from CDN
-      await loadScript(CDN + '/kuroshiro@1.2.0/dist/kuroshiro.min.js');
-      await loadScript(CDN + '/kuroshiro-analyzer-kuromoji@1.1.0/dist/kuroshiro-analyzer-kuromoji.min.js');
+      if (!kuroshiroInstance) {
+        await loadScript(CDN + '/kuroshiro@1.2.0/dist/kuroshiro.min.js');
+        await loadScript(CDN + '/kuroshiro-analyzer-kuromoji@1.1.0/dist/kuroshiro-analyzer-kuromoji.min.js');
 
-      // Kuroshiro UMD exports { default: class }, analyzer exports the class directly
-      var KuroshiroClass = window.Kuroshiro.default || window.Kuroshiro;
-      var AnalyzerClass = window.KuromojiAnalyzer.default || window.KuromojiAnalyzer;
-      var kuroshiro = new KuroshiroClass();
-      await kuroshiro.init(new AnalyzerClass({ dictPath: DICT_PATH }));
+        var KuroshiroClass = window.Kuroshiro.default || window.Kuroshiro;
+        var AnalyzerClass = window.KuromojiAnalyzer.default || window.KuromojiAnalyzer;
+        kuroshiroInstance = new KuroshiroClass();
+        await kuroshiroInstance.init(new AnalyzerClass({ dictPath: DICT_PATH }));
+      }
 
-      // Annotate
-      await annotateNodes(kuroshiro, nodes);
+      if (!isAnnotated) {
+        var content = document.querySelector('.main-content');
+        if (content) {
+          var nodes = collectTextNodes(content);
+          await annotateNodes(kuroshiroInstance, nodes);
+          isAnnotated = true;
+        }
+      }
 
+      document.body.classList.remove('furigana-hidden');
+      localStorage.setItem(STORAGE_KEY, 'on');
+      btn.textContent = '振 ON';
       btn.disabled = false;
-      updateToggleLabel(btn);
     } catch (err) {
-      console.warn('[furigana] Failed to load kuroshiro:', err);
+      console.warn('[furigana] Failed to load:', err);
       btn.textContent = '振 ✕';
       btn.title = 'Furigana unavailable (failed to load dictionary)';
+      btn.disabled = false;
+    } finally {
+      isLoading = false;
     }
   }
 
-  // Run after DOM is ready
+  // ---- Main ----
+
+  function init() {
+    var content = document.querySelector('.main-content');
+    if (!content) return;
+
+    // Only show toggle on pages that have kanji
+    var hasKanji = HAS_KANJI.test(content.textContent);
+    if (!hasKanji) return;
+
+    var pref = localStorage.getItem(STORAGE_KEY);
+
+    var btn = createToggle(function () {
+      if (isAnnotated && !document.body.classList.contains('furigana-hidden')) {
+        // Already showing → hide
+        document.body.classList.add('furigana-hidden');
+        localStorage.setItem(STORAGE_KEY, 'off');
+        btn.textContent = '振 OFF';
+      } else if (isAnnotated) {
+        // Annotated but hidden → show
+        document.body.classList.remove('furigana-hidden');
+        localStorage.setItem(STORAGE_KEY, 'on');
+        btn.textContent = '振 ON';
+      } else {
+        // Not yet loaded → load and annotate
+        loadAndAnnotate(btn);
+      }
+    });
+
+    // Start with furigana off (default) unless user previously opted in
+    if (pref === 'on') {
+      loadAndAnnotate(btn);
+    } else {
+      document.body.classList.add('furigana-hidden');
+      btn.textContent = '振 OFF';
+    }
+  }
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
