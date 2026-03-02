@@ -196,17 +196,19 @@ if MECAB_AVAILABLE
       ol.replace(container) unless container.children.empty?
     end
 
-    # Transform a bullet/numbered list of "Japanese - English" items into word cards.
-    # Only transforms lists where most items match the Japanese-English pattern.
+    # Transform a bullet/numbered list of "Japanese - English" items into word cards
+    # with boxes around Japanese words and arrows between transformations.
+    # e.g. "食べる → 食べない - not eat" → [食べる] → [食べない] \n not eat
     def transform_word_list(nm, list)
       items = list.css('> li')
       return if items.length < 2
 
-      # Check if items match Japanese-English pattern
+      # Items must have a separator (- or –) or an arrow (→) AND Japanese text
       matches = items.count do |li|
         text = li.text.strip
-        parts = text.split(/\s+[\-–]\s+/, 2)
-        parts.length == 2 && parts[0].match?(JAPANESE_RE)
+        has_sep = text.match?(/\s+[\-–]\s+/)
+        has_arrow = text.include?('→')
+        (has_sep || has_arrow) && text.match?(JAPANESE_RE)
       end
       return if matches < (items.length * 0.6).ceil
 
@@ -215,21 +217,61 @@ if MECAB_AVAILABLE
 
       items.each do |li|
         text = li.text.strip
+
+        # Split into Japanese chain and English meaning
         parts = text.split(/\s+[\-–]\s+/, 2)
-        jp = parts[0]&.strip
+        jp_chain = parts[0]&.strip
         en = parts[1]&.strip
-        next unless jp && !jp.empty?
+        next unless jp_chain && !jp_chain.empty? && jp_chain.match?(JAPANESE_RE)
+
+        # Extract trailing parenthetical note from JP chain
+        # e.g. "行く → 行かせられる (Short form: 行かされる)"
+        note = nil
+        if jp_chain =~ /\s*\(([^)]+)\)\s*\z/
+          note = $1
+          jp_chain = jp_chain.sub(/\s*\([^)]+\)\s*\z/, '').strip
+        end
 
         entry = Nokogiri::XML::Node.new('div', list.document)
         entry['class'] = 'word-entry'
 
-        jp_el = Nokogiri::XML::Node.new('span', list.document)
-        jp_el['class'] = 'word-jp'
-        jp_el['lang'] = 'ja'
-        jp_el.inner_html = annotate(nm, jp)
-        entry.add_child(jp_el)
+        # Build the chain of boxes with arrows
+        chain = Nokogiri::XML::Node.new('div', list.document)
+        chain['class'] = 'word-chain'
 
+        jp_parts = jp_chain.split(/\s*→\s*/)
+        jp_parts.each_with_index do |jp, i|
+          if i > 0
+            arrow = Nokogiri::XML::Node.new('span', list.document)
+            arrow['class'] = 'word-arrow'
+            arrow.content = '→'
+            chain.add_child(arrow)
+          end
+
+          box = Nokogiri::XML::Node.new('span', list.document)
+          box['class'] = 'word-box'
+          box['lang'] = 'ja'
+          box.inner_html = annotate(nm, jp.strip)
+          chain.add_child(box)
+        end
+
+        entry.add_child(chain)
+
+        # Add parenthetical note if present
+        if note
+          note_el = Nokogiri::XML::Node.new('span', list.document)
+          note_el['class'] = 'word-note'
+          note_el.inner_html = annotate(nm, note)
+          entry.add_child(note_el)
+        end
+
+        # Add English meaning inline with em-dash separator
         if en && !en.empty?
+          sep = Nokogiri::XML::Node.new('span', list.document)
+          sep['class'] = 'word-sep'
+          sep.content = '—'
+          entry.add_child(sep)
+
           en_el = Nokogiri::XML::Node.new('span', list.document)
           en_el['class'] = 'word-en'
           en_el.inner_html = en
