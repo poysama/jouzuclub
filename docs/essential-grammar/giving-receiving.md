@@ -7,6 +7,8 @@ nav_order: 11
 
 # Giving and Receiving
 
+![Giving and receiving visual guide showing あげる, もらう, and くれる]({{ site.baseurl }}/assets/images/infographic-giving.svg)
+
 ## Vocabulary
 
 1. あげる【あ・げる】 (ru-verb) – to give (from me to others)
@@ -109,6 +111,8 @@ Japanese uses different verbs depending on the direction of the giving—from me
 ---
 
 ## Action Verbs with Giving Verbs (Te-form)
+
+![Comic guide showing てあげる, てくれる, and てもらう in real scenarios]({{ site.baseurl }}/assets/images/infographic-giving-teform.svg)
 
 These verbs become incredibly useful when combined with the te-form of action verbs, creating expressions for doing favors and showing relationships.
 

@@ -125,14 +125,41 @@ h2, .text-beta {
 }
 
 .main-content {
+  // Better base line-height for readability
+  line-height: 1.75;
+
+  // Paragraphs get more breathing room
+  p {
+    margin-bottom: 1.15em;
+  }
+
+  // H2 section dividers
   h2 {
     padding-top: 1.5em;
-    margin-top: 2em;
+    margin-top: 2.25em;
+    margin-bottom: 0.75em;
     border-top: 1px solid rgba(#d4a76a, 0.15);
 
     &:first-of-type {
       border-top: none;
       margin-top: 0.5em;
+    }
+  }
+
+  // H3 subheadings (e.g. "### Examples") - subtle but clear
+  h3 {
+    color: var(--jouzu-wisteria);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+
+    // Small accent dot before h3
+    &::before {
+      content: "· ";
+      color: var(--jouzu-coral);
+      font-weight: 700;
     }
   }
 
@@ -145,6 +172,7 @@ h2, .text-beta {
     );
     height: 1px;
     opacity: 0.6;
+    margin: 2.5em 0;
   }
 
   a {
@@ -160,10 +188,24 @@ h2, .text-beta {
       text-decoration-color: rgba(#f0a090, 0.5);
     }
   }
+
+  // Unordered lists get better spacing
+  > ul, > ol {
+    li {
+      margin-bottom: 0.4em;
+      line-height: 1.7;
+    }
+  }
+
+  // Strong text in body gets slightly lighter for emphasis
+  strong {
+    color: #e0dce8;
+    font-weight: 600;
+  }
 }
 
 // ----------------------------------------------------------
-// CODE BLOCKS
+// CODE BLOCKS (actual code: yaml, ruby, bash, etc.)
 // ----------------------------------------------------------
 div.highlighter-rouge,
 div.listingblock > div.content,
@@ -174,48 +216,137 @@ figure.highlight {
   overflow: hidden;
 }
 
+// ----------------------------------------------------------
+// EXAMPLE SENTENCES (text code blocks - the core learning element)
+// Visually distinct from code: softer, warmer, with a "conversation" feel
+// ----------------------------------------------------------
+div.language-text.highlighter-rouge {
+  border: none;
+  border-left: 3px solid var(--jouzu-coral);
+  border-top: none;
+  border-radius: 0 var(--jouzu-radius) var(--jouzu-radius) 0;
+  background-color: rgba(#e8836b, 0.04);
+  position: relative;
+  margin: 1.25em 0;
+
+  .highlight {
+    background-color: transparent;
+  }
+
+  pre.highlight {
+    background-color: transparent;
+    padding: 0.9rem 1rem 0.9rem 1rem;
+    font-size: 0.95em;
+    line-height: 1.9;
+    color: #d8d0c8;
+  }
+
+  // Subtle label
+  &::before {
+    content: "例文";
+    position: absolute;
+    top: 0.4rem;
+    right: 0.6rem;
+    font-size: 0.6rem;
+    color: rgba(#e8836b, 0.35);
+    letter-spacing: 0.1em;
+    font-family: 'Noto Sans JP', sans-serif;
+    pointer-events: none;
+  }
+}
+
+// INLINE CODE - warmer treatment for Japanese grammar patterns
 :not(pre, figure) > code {
   background-color: rgba(#252640, 0.8);
   border-color: #2a2b40;
   border-radius: 3px;
-  padding: 0.15em 0.35em;
+  padding: 0.15em 0.4em;
   color: #e0b0a0;
+  font-size: 0.9em;
 }
 
 // ----------------------------------------------------------
-// BLOCKQUOTES
+// BLOCKQUOTES / NOTES
+// Better internal hierarchy for long notes
 // ----------------------------------------------------------
 blockquote {
   border-left: 3px solid var(--jouzu-gold);
-  background-color: rgba(#d4a76a, 0.05);
+  background-color: rgba(#d4a76a, 0.04);
   border-radius: 0 var(--jouzu-radius) var(--jouzu-radius) 0;
-  padding: 0.75rem 1rem;
-  margin: 1.5em 0;
+  padding: 1rem 1.25rem;
+  margin: 1.75em 0;
 
-  strong:first-child {
+  // Title line (first bold element)
+  > p:first-child strong:first-child {
     color: var(--jouzu-gold);
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    margin-bottom: 0.25em;
+  }
+
+  // Sub-headings inside notes
+  strong {
+    color: #e8e6f0;
+  }
+
+  // Better list spacing inside notes
+  ul, ol {
+    margin: 0.5em 0;
+
+    li {
+      margin-bottom: 0.3em;
+      line-height: 1.6;
+    }
+  }
+
+  // Visual separator before code blocks inside notes
+  div.highlighter-rouge {
+    margin: 0.75em 0;
+    border-left: none;
   }
 }
 
 // ----------------------------------------------------------
-// TABLES
+// TABLES - better readability with zebra stripes and padding
 // ----------------------------------------------------------
 .table-wrapper {
   border-radius: var(--jouzu-radius);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border: 1px solid #2a2b40;
   overflow: hidden;
+  margin: 1.5em 0;
 }
 
 th {
   background-color: rgba(#252640, 0.8);
   font-weight: 600;
   color: #e8e6f0;
-  border-bottom-color: rgba(#d4a76a, 0.3);
+  border-bottom: 2px solid rgba(#d4a76a, 0.25);
+  padding: 0.65rem 0.85rem;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 td {
-  border-bottom-color: rgba(#2a2b40, 0.8);
+  border-bottom-color: rgba(#2a2b40, 0.6);
+  padding: 0.6rem 0.85rem;
+  line-height: 1.6;
+}
+
+// Zebra striping for readability
+tbody tr:nth-child(even) {
+  background-color: rgba(#252640, 0.3);
+}
+
+tbody tr {
+  transition: background-color var(--jouzu-transition);
+
+  &:hover {
+    background-color: rgba(#e8836b, 0.04);
+  }
 }
 
 // ----------------------------------------------------------
@@ -337,6 +468,47 @@ details {
 }
 
 // ----------------------------------------------------------
+// BANNER IMAGES (hero + section headers)
+// ----------------------------------------------------------
+.main-content > p:first-child > img[src*="hero-banner"],
+.main-content > p:first-child > img[src*="section-"] {
+  width: 100%;
+  height: auto;
+  border-radius: var(--jouzu-radius);
+  border: 1px solid #2a2b40;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+// Hero banner gets a subtle shadow
+.main-content > p:first-child > img[src*="hero-banner"] {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1em;
+}
+
+// Section banners are more subtle
+.main-content > p:first-child > img[src*="section-"] {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.85;
+  transition: opacity var(--jouzu-transition);
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// Infographic images (embedded in grammar pages)
+.main-content img[src*="infographic-"] {
+  width: 100%;
+  height: auto;
+  border-radius: var(--jouzu-radius);
+  border: 1px solid #2a2b40;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  margin: 1em 0 1.5em 0;
+  display: block;
+}
+
+// ----------------------------------------------------------
 // JAPANESE DECORATIVE ELEMENTS
 // ----------------------------------------------------------
 
@@ -358,19 +530,54 @@ details {
 }
 
 // ----------------------------------------------------------
-// VOCABULARY SECTION STYLING
+// VOCABULARY SECTION - card with label header
 // ----------------------------------------------------------
+.main-content h2#vocabulary {
+  // Turn the vocabulary heading into a card header
+  background-color: var(--jouzu-surface);
+  border: 1px solid #2a2b40;
+  border-bottom: none;
+  border-radius: var(--jouzu-radius) var(--jouzu-radius) 0 0;
+  padding: 0.6em 1rem;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--jouzu-gold);
+  border-top: none;
+  margin-top: 0.5em;
+
+  &::before {
+    content: "📖 ";
+  }
+
+  // Heading anchor inherits the gold color
+  .anchor-heading {
+    color: var(--jouzu-gold);
+  }
+}
+
 .main-content h2#vocabulary + ol,
 .main-content h2#vocabulary + p + ol {
   background-color: var(--jouzu-surface);
   border: 1px solid #2a2b40;
-  border-radius: var(--jouzu-radius);
-  padding: 1rem 1rem 1rem 2.5rem;
-  margin: 1em 0;
+  border-top: 1px solid rgba(#2a2b40, 0.5);
+  border-radius: 0 0 var(--jouzu-radius) var(--jouzu-radius);
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  margin: 0 0 2em 0;
+  columns: 2;
+  column-gap: 2rem;
+
+  @media (max-width: 50rem) {
+    columns: 1;
+  }
 
   li {
-    padding: 0.3em 0;
-    border-bottom: 1px solid rgba(#2a2b40, 0.5);
+    padding: 0.25em 0;
+    break-inside: avoid;
+    line-height: 1.7;
+    font-size: 0.92em;
+    border-bottom: 1px solid rgba(#2a2b40, 0.3);
 
     &:last-child {
       border-bottom: none;
@@ -389,6 +596,83 @@ details {
   font-size: 1rem;
   margin-top: 1.5em;
   border-top: none;
+}
+
+// ----------------------------------------------------------
+// HOMEPAGE TABLE OF CONTENTS - visual cards
+// The homepage h3 elements contain section links
+// ----------------------------------------------------------
+.main-content h2[id="-start-learning"] + h3,
+.main-content h2[id="-start-learning"] ~ h3 {
+  background-color: var(--jouzu-surface);
+  border: 1px solid #2a2b40;
+  border-radius: var(--jouzu-radius);
+  padding: 0.85rem 1.1rem;
+  margin: 0.75em 0 0;
+  transition: all var(--jouzu-transition);
+  border-top: 1px solid #2a2b40;
+
+  &:hover {
+    border-color: rgba(#e8836b, 0.3);
+    background-color: rgba(#e8836b, 0.04);
+    transform: translateX(4px);
+  }
+
+  // Remove the h3 dot prefix on homepage cards
+  &::before {
+    content: none;
+  }
+
+  a {
+    color: #e8e6f0;
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-decoration: none;
+  }
+}
+
+// The description paragraph after each card h3
+.main-content h2[id="-start-learning"] ~ h3 + p {
+  background-color: var(--jouzu-surface);
+  border: 1px solid #2a2b40;
+  border-top: none;
+  border-radius: 0 0 var(--jouzu-radius) var(--jouzu-radius);
+  padding: 0 1.1rem 0.75rem 1.1rem;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: var(--jouzu-wisteria);
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+// ----------------------------------------------------------
+// SECTION INDEX PAGES - styled topic lists
+// Topic lists on index pages (ol inside ## Topics Covered)
+// ----------------------------------------------------------
+.main-content h2#topics-covered + ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 1em 0;
+
+  li {
+    background-color: var(--jouzu-surface);
+    border: 1px solid #2a2b40;
+    border-radius: var(--jouzu-radius);
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.5em;
+    transition: all var(--jouzu-transition);
+    line-height: 1.6;
+
+    &:hover {
+      border-color: rgba(#e8836b, 0.25);
+      transform: translateX(3px);
+    }
+
+    a {
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
 }
 
 // ----------------------------------------------------------

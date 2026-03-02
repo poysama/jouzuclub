@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" fill="none">
+  <style>
+    .label { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #9898b0; }
+    .particle { font-family: 'Noto Sans JP', sans-serif; font-size: 22px; font-weight: 700; }
+    .jp { font-family: 'Noto Sans JP', sans-serif; font-size: 13px; fill: #c8c8d0; }
+    .en { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #9898b0; font-style: italic; }
+    .title { font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; fill: #e8e6f0; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #d4a76a; text-transform: uppercase; letter-spacing: 1px; }
+  </style>
+
+  <!-- Background -->
+  <rect width="700" height="380" rx="8" fill="#1a1b2e"/>
+  <rect x="1" y="1" width="698" height="378" rx="7" fill="none" stroke="#2a2b40"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" class="subtitle">How Particles Work</text>
+  <text x="350" y="48" text-anchor="middle" class="title">Japanese Sentence Structure</text>
+
+  <!-- Central sentence structure diagram -->
+  <!-- Topic -->
+  <rect x="40" y="80" width="120" height="56" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <text x="100" y="102" text-anchor="middle" class="jp">私</text>
+  <text x="100" y="120" text-anchor="middle" class="en">watashi (I)</text>
+  <text x="100" y="148" text-anchor="middle" class="label">TOPIC</text>
+
+  <!-- は particle bubble -->
+  <circle cx="195" cy="108" r="18" fill="#c85a4a" opacity="0.15"/>
+  <text x="195" y="114" text-anchor="middle" class="particle" fill="#e8836b">は</text>
+  <text x="195" y="148" text-anchor="middle" class="label">wa</text>
+
+  <!-- Subject (inner) -->
+  <rect x="228" y="80" width="120" height="56" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <text x="288" y="102" text-anchor="middle" class="jp">友達</text>
+  <text x="288" y="120" text-anchor="middle" class="en">tomodachi (friend)</text>
+  <text x="288" y="148" text-anchor="middle" class="label">SUBJECT</text>
+
+  <!-- に particle bubble -->
+  <circle cx="383" cy="108" r="18" fill="#d4a76a" opacity="0.15"/>
+  <text x="383" y="114" text-anchor="middle" class="particle" fill="#d4a76a">に</text>
+  <text x="383" y="148" text-anchor="middle" class="label">ni</text>
+
+  <!-- Object -->
+  <rect x="416" y="80" width="120" height="56" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <text x="476" y="102" text-anchor="middle" class="jp">本</text>
+  <text x="476" y="120" text-anchor="middle" class="en">hon (book)</text>
+  <text x="476" y="148" text-anchor="middle" class="label">OBJECT</text>
+
+  <!-- を particle bubble -->
+  <circle cx="571" cy="108" r="18" fill="#9898b0" opacity="0.15"/>
+  <text x="571" y="114" text-anchor="middle" class="particle" fill="#9898b0">を</text>
+  <text x="571" y="148" text-anchor="middle" class="label">wo</text>
+
+  <!-- Verb -->
+  <rect x="604" y="80" width="80" height="56" rx="6" fill="#c85a4a" opacity="0.12" stroke="#c85a4a" stroke-opacity="0.3"/>
+  <text x="644" y="102" text-anchor="middle" class="jp" fill="#e8836b">あげた</text>
+  <text x="644" y="120" text-anchor="middle" class="en">gave</text>
+  <text x="644" y="148" text-anchor="middle" class="label">VERB</text>
+
+  <!-- Flow arrows -->
+  <path d="M160 108 L172 108" stroke="#e8836b" stroke-width="1.5" marker-end="url(#arrow-coral)"/>
+  <path d="M213 108 L228 108" stroke="#e8836b" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <path d="M348 108 L360 108" stroke="#d4a76a" stroke-width="1.5" marker-end="url(#arrow-gold)"/>
+  <path d="M401 108 L416 108" stroke="#d4a76a" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <path d="M536 108 L548 108" stroke="#9898b0" stroke-width="1.5" marker-end="url(#arrow-wisteria)"/>
+  <path d="M589 108 L604 108" stroke="#9898b0" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <defs>
+    <marker id="arrow-coral" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6Z" fill="#e8836b"/>
+    </marker>
+    <marker id="arrow-gold" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6Z" fill="#d4a76a"/>
+    </marker>
+    <marker id="arrow-wisteria" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6Z" fill="#9898b0"/>
+    </marker>
+  </defs>
+
+  <!-- Full sentence readout -->
+  <rect x="40" y="168" width="644" height="36" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <text x="350" y="191" text-anchor="middle" class="jp" font-size="14">
+    <tspan fill="#e8836b">私は</tspan>
+    <tspan fill="#c8c8d0">　</tspan>
+    <tspan fill="#c8c8d0">友達</tspan>
+    <tspan fill="#d4a76a">に</tspan>
+    <tspan fill="#c8c8d0">　本</tspan>
+    <tspan fill="#9898b0">を</tspan>
+    <tspan fill="#c8c8d0">　</tspan>
+    <tspan fill="#e8836b">あげた</tspan>
+    <tspan fill="#9898b0">。 — I gave a book to my friend.</tspan>
+  </text>
+
+  <!-- Particle breakdown cards -->
+  <!-- は card -->
+  <rect x="20" y="224" width="155" height="140" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <rect x="20" y="224" width="155" height="3" rx="1" fill="#e8836b"/>
+  <text x="97" y="248" text-anchor="middle" class="particle" fill="#e8836b">は</text>
+  <text x="97" y="266" text-anchor="middle" class="label">TOPIC MARKER</text>
+  <text x="97" y="286" text-anchor="middle" class="en">"As for ~"</text>
+  <text x="97" y="304" text-anchor="middle" class="jp" font-size="11">私は学生だ</text>
+  <text x="97" y="320" text-anchor="middle" class="en">As for me, I'm a student</text>
+  <line x1="40" y1="334" x2="155" y2="334" stroke="#2a2b40"/>
+  <text x="97" y="350" text-anchor="middle" class="en">Sets the context</text>
+
+  <!-- が card -->
+  <rect x="190" y="224" width="155" height="140" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <rect x="190" y="224" width="155" height="3" rx="1" fill="#f0c4c8"/>
+  <text x="267" y="248" text-anchor="middle" class="particle" fill="#f0c4c8">が</text>
+  <text x="267" y="266" text-anchor="middle" class="label">SUBJECT MARKER</text>
+  <text x="267" y="286" text-anchor="middle" class="en">"~ does / ~ is"</text>
+  <text x="267" y="304" text-anchor="middle" class="jp" font-size="11">誰が来た？</text>
+  <text x="267" y="320" text-anchor="middle" class="en">Who came?</text>
+  <line x1="210" y1="334" x2="325" y2="334" stroke="#2a2b40"/>
+  <text x="267" y="350" text-anchor="middle" class="en">Identifies the actor</text>
+
+  <!-- を card -->
+  <rect x="360" y="224" width="155" height="140" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <rect x="360" y="224" width="155" height="3" rx="1" fill="#9898b0"/>
+  <text x="437" y="248" text-anchor="middle" class="particle" fill="#9898b0">を</text>
+  <text x="437" y="266" text-anchor="middle" class="label">OBJECT MARKER</text>
+  <text x="437" y="286" text-anchor="middle" class="en">"~ (is acted upon)"</text>
+  <text x="437" y="304" text-anchor="middle" class="jp" font-size="11">本を読む</text>
+  <text x="437" y="320" text-anchor="middle" class="en">Read a book</text>
+  <line x1="380" y1="334" x2="495" y2="334" stroke="#2a2b40"/>
+  <text x="437" y="350" text-anchor="middle" class="en">Marks the direct object</text>
+
+  <!-- に card -->
+  <rect x="530" y="224" width="155" height="140" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <rect x="530" y="224" width="155" height="3" rx="1" fill="#d4a76a"/>
+  <text x="607" y="248" text-anchor="middle" class="particle" fill="#d4a76a">に</text>
+  <text x="607" y="266" text-anchor="middle" class="label">TARGET / TIME</text>
+  <text x="607" y="286" text-anchor="middle" class="en">"to / at / on"</text>
+  <text x="607" y="304" text-anchor="middle" class="jp" font-size="11">学校に行く</text>
+  <text x="607" y="320" text-anchor="middle" class="en">Go to school</text>
+  <line x1="550" y1="334" x2="665" y2="334" stroke="#2a2b40"/>
+  <text x="607" y="350" text-anchor="middle" class="en">Destination or time</text>
+</svg>

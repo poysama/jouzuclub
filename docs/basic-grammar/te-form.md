@@ -7,6 +7,8 @@ nav_order: 7
 
 # The Te-form
 
+![Te-form conjugation flowchart]({{ site.baseurl }}/assets/images/infographic-teform.svg)
+
 ## Vocabulary
 
 1. 食べる 【た・べる】 (ru-verb) – to eat

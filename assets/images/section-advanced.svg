@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1b2e"/>
+      <stop offset="100%" stop-color="#202138"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="80" fill="url(#bg)"/>
+  <!-- Temple/castle motif -->
+  <g transform="translate(690, 10)" opacity="0.15">
+    <!-- Castle base -->
+    <rect x="5" y="45" width="50" height="20" rx="1" fill="#d4a76a"/>
+    <!-- Middle tier -->
+    <rect x="10" y="30" width="40" height="16" rx="1" fill="#d4a76a"/>
+    <!-- Top tier -->
+    <rect x="16" y="18" width="28" height="14" rx="1" fill="#d4a76a"/>
+    <!-- Roof peaks -->
+    <path d="M0 46 L30 38 L60 46" stroke="#d4a76a" stroke-width="1" fill="none"/>
+    <path d="M6 31 L30 24 L54 31" stroke="#d4a76a" stroke-width="1" fill="none"/>
+    <path d="M13 19 L30 12 L47 19" stroke="#d4a76a" stroke-width="1" fill="none"/>
+    <!-- Spire -->
+    <line x1="30" y1="12" x2="30" y2="4" stroke="#d4a76a" stroke-width="1"/>
+    <circle cx="30" cy="3" r="2" fill="#d4a76a"/>
+  </g>
+  <path d="M0 75 Q40 68 80 75 Q120 68 160 75 Q200 68 240 75 Q280 68 320 75 Q360 68 400 75 Q440 68 480 75 Q520 68 560 75 Q600 68 640 75 Q680 68 720 75 Q760 68 800 75" fill="none" stroke="#d4a76a" stroke-width="0.5" opacity="0.2"/>
+</svg>

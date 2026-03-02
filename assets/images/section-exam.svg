@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1b2e"/>
+      <stop offset="100%" stop-color="#202138"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="80" fill="url(#bg)"/>
+  <!-- Pencil and paper motif -->
+  <g transform="translate(700, 15)" opacity="0.15">
+    <!-- Paper -->
+    <rect x="0" y="5" width="35" height="48" rx="2" fill="#e8e6f0" opacity="0.7"/>
+    <!-- Lines on paper -->
+    <line x1="5" y1="15" x2="30" y2="15" stroke="#1a1b2e" stroke-width="0.5" opacity="0.4"/>
+    <line x1="5" y1="22" x2="28" y2="22" stroke="#1a1b2e" stroke-width="0.5" opacity="0.4"/>
+    <line x1="5" y1="29" x2="25" y2="29" stroke="#1a1b2e" stroke-width="0.5" opacity="0.4"/>
+    <line x1="5" y1="36" x2="30" y2="36" stroke="#1a1b2e" stroke-width="0.5" opacity="0.4"/>
+    <!-- Checkmarks -->
+    <path d="M26 14 L28 16 L32 11" stroke="#6dbe6d" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M26 21 L28 23 L32 18" stroke="#6dbe6d" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M26 28 L28 30 L32 25" stroke="#e8836b" stroke-width="1.5" fill="none" opacity="0.6"/>
+  </g>
+  <!-- Pencil -->
+  <g transform="translate(745, 18) rotate(20)" opacity="0.12">
+    <rect x="0" y="0" width="5" height="42" rx="1" fill="#d4a76a"/>
+    <path d="M0 42 L2.5 50 L5 42Z" fill="#e8836b"/>
+    <rect x="0" y="0" width="5" height="5" rx="1" fill="#e8836b" opacity="0.5"/>
+  </g>
+  <path d="M0 75 Q40 68 80 75 Q120 68 160 75 Q200 68 240 75 Q280 68 320 75 Q360 68 400 75 Q440 68 480 75 Q520 68 560 75 Q600 68 640 75 Q680 68 720 75 Q760 68 800 75" fill="none" stroke="#9898b0" stroke-width="0.5" opacity="0.2"/>
+</svg>

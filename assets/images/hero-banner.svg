@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none">
+  <!-- Night sky gradient -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151625"/>
+      <stop offset="100%" stop-color="#1a1b2e"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#252640"/>
+      <stop offset="100%" stop-color="#1e1f35"/>
+    </linearGradient>
+    <linearGradient id="fuji-snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e6f0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#e8e6f0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="moon-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8836b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8836b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="200" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <circle cx="100" cy="30" r="1" fill="#e8e6f0" opacity="0.6"/>
+  <circle cx="250" cy="45" r="0.8" fill="#e8e6f0" opacity="0.4"/>
+  <circle cx="380" cy="20" r="1.2" fill="#e8e6f0" opacity="0.5"/>
+  <circle cx="520" cy="55" r="0.7" fill="#e8e6f0" opacity="0.3"/>
+  <circle cx="650" cy="25" r="1" fill="#e8e6f0" opacity="0.5"/>
+  <circle cx="720" cy="60" r="0.9" fill="#e8e6f0" opacity="0.4"/>
+  <circle cx="180" cy="65" r="0.6" fill="#e8e6f0" opacity="0.3"/>
+  <circle cx="450" cy="40" r="0.8" fill="#d4a76a" opacity="0.4"/>
+  <circle cx="600" cy="15" r="0.7" fill="#e8e6f0" opacity="0.5"/>
+
+  <!-- Moon glow -->
+  <circle cx="680" cy="50" r="60" fill="url(#moon-glow)"/>
+  <!-- Moon -->
+  <circle cx="680" cy="50" r="14" fill="#d4a76a" opacity="0.85"/>
+
+  <!-- Far mountains -->
+  <path d="M0 160 L80 120 L160 145 L240 110 L320 135 L400 100 L480 130 L560 105 L640 125 L720 95 L800 120 L800 200 L0 200Z" fill="#1e1f35" opacity="0.6"/>
+
+  <!-- Mt. Fuji -->
+  <path d="M300 200 L400 75 L500 200Z" fill="url(#mountain)"/>
+  <!-- Fuji snow cap -->
+  <path d="M375 110 L400 75 L425 110 Q412 105 400 108 Q388 105 375 110Z" fill="url(#fuji-snow)"/>
+
+  <!-- Torii gate (left side) -->
+  <g transform="translate(120, 140)" fill="#c85a4a" opacity="0.7">
+    <!-- Pillars -->
+    <rect x="0" y="10" width="4" height="50" rx="1"/>
+    <rect x="36" y="10" width="4" height="50" rx="1"/>
+    <!-- Top beam (kasagi) -->
+    <rect x="-6" y="0" width="52" height="4" rx="1"/>
+    <!-- Second beam (nuki) -->
+    <rect x="0" y="12" width="40" height="3" rx="1"/>
+  </g>
+
+  <!-- Cherry blossom petals (scattered) -->
+  <g fill="#f0c4c8" opacity="0.3">
+    <circle cx="150" cy="130" r="2"/>
+    <circle cx="155" cy="126" r="1.5"/>
+    <circle cx="145" cy="128" r="1.5"/>
+    <circle cx="160" cy="132" r="1"/>
+  </g>
+  <g fill="#f0c4c8" opacity="0.2">
+    <circle cx="560" cy="150" r="1.5"/>
+    <circle cx="565" cy="146" r="1"/>
+    <circle cx="555" cy="148" r="1"/>
+  </g>
+  <g fill="#f0c4c8" opacity="0.25">
+    <circle cx="230" cy="155" r="1.8"/>
+    <circle cx="235" cy="151" r="1.2"/>
+    <circle cx="225" cy="153" r="1.2"/>
+  </g>
+
+  <!-- Foreground hills -->
+  <path d="M0 175 Q100 160 200 170 Q300 178 400 165 Q500 158 600 168 Q700 175 800 162 L800 200 L0 200Z" fill="#202138"/>
+
+  <!-- Subtle wave pattern at bottom -->
+  <path d="M0 192 Q20 186 40 192 Q60 186 80 192 Q100 186 120 192 Q140 186 160 192 Q180 186 200 192 Q220 186 240 192 Q260 186 280 192 Q300 186 320 192 Q340 186 360 192 Q380 186 400 192 Q420 186 440 192 Q460 186 480 192 Q500 186 520 192 Q540 186 560 192 Q580 186 600 192 Q620 186 640 192 Q660 186 680 192 Q700 186 720 192 Q740 186 760 192 Q780 186 800 192" fill="none" stroke="#c85a4a" stroke-width="0.5" opacity="0.25"/>
+</svg>

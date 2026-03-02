@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 36" fill="none">
+  <!-- Logo mark: stylized torii gate -->
+  <g transform="translate(2, 4)">
+    <!-- Pillars -->
+    <rect x="3" y="8" width="3" height="22" rx="1" fill="#e8836b"/>
+    <rect x="22" y="8" width="3" height="22" rx="1" fill="#e8836b"/>
+    <!-- Top beam -->
+    <rect x="0" y="2" width="28" height="3.5" rx="1.5" fill="#e8836b"/>
+    <!-- Second beam -->
+    <rect x="3" y="9" width="22" height="2.5" rx="1" fill="#c85a4a"/>
+  </g>
+  <!-- Text: Jouzu Club -->
+  <text x="38" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#e8e6f0" letter-spacing="0.5">
+    Jouzu Club
+  </text>
+  <!-- Subtext: 上手クラブ -->
+  <text x="38" y="11" font-family="'Noto Sans JP', sans-serif" font-size="7.5" fill="#d4a76a" letter-spacing="1" opacity="0.8">
+    上手クラブ
+  </text>
+</svg>

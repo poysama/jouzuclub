@@ -7,6 +7,8 @@ nav_order: 2
 
 # Introduction to Particles
 
+![Particle diagram showing は, が, を, and に]({{ site.baseurl }}/assets/images/infographic-particles.svg)
+
 ## Vocabulary
 
 1. 私 【わたし】 – I, me

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1b2e"/>
+      <stop offset="100%" stop-color="#202138"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="80" fill="url(#bg)"/>
+  <!-- Seedling / sprout motif for "basic" -->
+  <g transform="translate(700, 25)" opacity="0.2">
+    <path d="M0 50 L0 30" stroke="#6dbe6d" stroke-width="2"/>
+    <ellipse cx="-8" cy="28" rx="10" ry="6" fill="#6dbe6d" transform="rotate(-30, -8, 28)"/>
+    <ellipse cx="8" cy="22" rx="10" ry="6" fill="#6dbe6d" transform="rotate(30, 8, 22)"/>
+  </g>
+  <g transform="translate(730, 30)" opacity="0.12">
+    <path d="M0 45 L0 28" stroke="#6dbe6d" stroke-width="1.5"/>
+    <ellipse cx="-6" cy="26" rx="7" ry="4" fill="#6dbe6d" transform="rotate(-25, -6, 26)"/>
+    <ellipse cx="6" cy="22" rx="7" ry="4" fill="#6dbe6d" transform="rotate(25, 6, 22)"/>
+  </g>
+  <!-- Decorative wave bottom -->
+  <path d="M0 75 Q40 68 80 75 Q120 68 160 75 Q200 68 240 75 Q280 68 320 75 Q360 68 400 75 Q440 68 480 75 Q520 68 560 75 Q600 68 640 75 Q680 68 720 75 Q760 68 800 75" fill="none" stroke="#c85a4a" stroke-width="0.5" opacity="0.2"/>
+</svg>

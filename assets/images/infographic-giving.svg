@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" fill="none">
+  <style>
+    .label { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #9898b0; }
+    .jp { font-family: 'Noto Sans JP', sans-serif; font-size: 13px; fill: #c8c8d0; }
+    .en { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #9898b0; font-style: italic; }
+    .title { font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; fill: #e8e6f0; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #d4a76a; text-transform: uppercase; letter-spacing: 1px; }
+    .verb { font-family: 'Noto Sans JP', sans-serif; font-size: 16px; font-weight: 700; }
+    .bubble-text { font-family: 'Noto Sans JP', sans-serif; font-size: 11px; fill: #1a1b2e; }
+    .person-label { font-family: 'Inter', system-ui, sans-serif; font-size: 9px; fill: #9898b0; text-transform: uppercase; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Background -->
+  <rect width="700" height="400" rx="8" fill="#1a1b2e"/>
+  <rect x="1" y="1" width="698" height="398" rx="7" fill="none" stroke="#2a2b40"/>
+
+  <!-- Title -->
+  <text x="350" y="28" text-anchor="middle" class="subtitle">Visual Guide</text>
+  <text x="350" y="46" text-anchor="middle" class="title">Giving &amp; Receiving (あげる・もらう・くれる)</text>
+
+  <!-- ============ PANEL 1: あげる ============ -->
+  <rect x="20" y="60" width="210" height="170" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <rect x="20" y="60" width="210" height="3" rx="1" fill="#e8836b"/>
+
+  <!-- Panel 1 title -->
+  <text x="125" y="82" text-anchor="middle" class="verb" fill="#e8836b">あげる</text>
+  <text x="125" y="96" text-anchor="middle" class="en">to give (from me)</text>
+
+  <!-- Me (left stick figure) -->
+  <g transform="translate(65, 115)">
+    <circle cx="0" cy="0" r="10" fill="#e8836b" opacity="0.3" stroke="#e8836b"/>
+    <text x="0" y="4" text-anchor="middle" font-size="8" fill="#e8836b">私</text>
+    <line x1="0" y1="10" x2="0" y2="30" stroke="#e8836b" stroke-width="1.5"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#e8836b" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="-8" y2="42" stroke="#e8836b" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="8" y2="42" stroke="#e8836b" stroke-width="1.5"/>
+    <text x="0" y="56" text-anchor="middle" class="person-label">ME</text>
+  </g>
+
+  <!-- Arrow with gift -->
+  <path d="M90 135 L140 135" stroke="#e8836b" stroke-width="2" marker-end="url(#arr1)"/>
+  <rect x="105" y="124" width="16" height="14" rx="2" fill="#d4a76a"/>
+  <line x1="105" y1="131" x2="121" y2="131" stroke="#1a1b2e" stroke-width="0.5"/>
+  <line x1="113" y1="124" x2="113" y2="138" stroke="#1a1b2e" stroke-width="0.5"/>
+
+  <!-- Other (right stick figure) -->
+  <g transform="translate(170, 115)">
+    <circle cx="0" cy="0" r="10" fill="#9898b0" opacity="0.3" stroke="#9898b0"/>
+    <text x="0" y="4" text-anchor="middle" font-size="7" fill="#9898b0">友</text>
+    <line x1="0" y1="10" x2="0" y2="30" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="-8" y2="42" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="8" y2="42" stroke="#9898b0" stroke-width="1.5"/>
+    <text x="0" y="56" text-anchor="middle" class="person-label">FRIEND</text>
+  </g>
+
+  <!-- Speech bubble -->
+  <rect x="40" y="195" width="170" height="28" rx="4" fill="#202138" stroke="#2a2b40"/>
+  <text x="125" y="213" text-anchor="middle" class="jp" font-size="11">友達に本を<tspan fill="#e8836b" font-weight="700">あげた</tspan></text>
+
+  <defs>
+    <marker id="arr1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8Z" fill="#e8836b"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8Z" fill="#d4a76a"/>
+    </marker>
+    <marker id="arr3" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto">
+      <path d="M8 0 L0 4 L8 8Z" fill="#f0c4c8"/>
+    </marker>
+  </defs>
+
+  <!-- ============ PANEL 2: もらう ============ -->
+  <rect x="245" y="60" width="210" height="170" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <rect x="245" y="60" width="210" height="3" rx="1" fill="#d4a76a"/>
+
+  <!-- Panel 2 title -->
+  <text x="350" y="82" text-anchor="middle" class="verb" fill="#d4a76a">もらう</text>
+  <text x="350" y="96" text-anchor="middle" class="en">to receive (I get)</text>
+
+  <!-- Other (left) -->
+  <g transform="translate(290, 115)">
+    <circle cx="0" cy="0" r="10" fill="#9898b0" opacity="0.3" stroke="#9898b0"/>
+    <text x="0" y="4" text-anchor="middle" font-size="7" fill="#9898b0">友</text>
+    <line x1="0" y1="10" x2="0" y2="30" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="-8" y2="42" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="8" y2="42" stroke="#9898b0" stroke-width="1.5"/>
+    <text x="0" y="56" text-anchor="middle" class="person-label">FRIEND</text>
+  </g>
+
+  <!-- Arrow with gift -->
+  <path d="M315 135 L365 135" stroke="#d4a76a" stroke-width="2" marker-end="url(#arr2)"/>
+  <rect x="330" y="124" width="16" height="14" rx="2" fill="#d4a76a"/>
+  <line x1="330" y1="131" x2="346" y2="131" stroke="#1a1b2e" stroke-width="0.5"/>
+  <line x1="338" y1="124" x2="338" y2="138" stroke="#1a1b2e" stroke-width="0.5"/>
+
+  <!-- Me (right) -->
+  <g transform="translate(395, 115)">
+    <circle cx="0" cy="0" r="10" fill="#d4a76a" opacity="0.3" stroke="#d4a76a"/>
+    <text x="0" y="4" text-anchor="middle" font-size="8" fill="#d4a76a">私</text>
+    <line x1="0" y1="10" x2="0" y2="30" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="-8" y2="42" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="8" y2="42" stroke="#d4a76a" stroke-width="1.5"/>
+    <text x="0" y="56" text-anchor="middle" class="person-label">ME</text>
+  </g>
+
+  <!-- Speech bubble -->
+  <rect x="265" y="195" width="170" height="28" rx="4" fill="#202138" stroke="#2a2b40"/>
+  <text x="350" y="213" text-anchor="middle" class="jp" font-size="11">友達に本を<tspan fill="#d4a76a" font-weight="700">もらった</tspan></text>
+
+  <!-- ============ PANEL 3: くれる ============ -->
+  <rect x="470" y="60" width="210" height="170" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <rect x="470" y="60" width="210" height="3" rx="1" fill="#f0c4c8"/>
+
+  <!-- Panel 3 title -->
+  <text x="575" y="82" text-anchor="middle" class="verb" fill="#f0c4c8">くれる</text>
+  <text x="575" y="96" text-anchor="middle" class="en">to give (to me) — kind act</text>
+
+  <!-- Other (left) -->
+  <g transform="translate(515, 115)">
+    <circle cx="0" cy="0" r="10" fill="#9898b0" opacity="0.3" stroke="#9898b0"/>
+    <text x="0" y="4" text-anchor="middle" font-size="7" fill="#9898b0">友</text>
+    <line x1="0" y1="10" x2="0" y2="30" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="-8" y2="42" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="8" y2="42" stroke="#9898b0" stroke-width="1.5"/>
+    <text x="0" y="56" text-anchor="middle" class="person-label">FRIEND</text>
+  </g>
+
+  <!-- Arrow with gift and hearts -->
+  <path d="M540 135 L590 135" stroke="#f0c4c8" stroke-width="2" marker-end="url(#arr3)"/>
+  <rect x="555" y="124" width="16" height="14" rx="2" fill="#d4a76a"/>
+  <line x1="555" y1="131" x2="571" y2="131" stroke="#1a1b2e" stroke-width="0.5"/>
+  <line x1="563" y1="124" x2="563" y2="138" stroke="#1a1b2e" stroke-width="0.5"/>
+  <!-- Gratitude sparkles -->
+  <text x="558" y="120" font-size="8">✨</text>
+
+  <!-- Me (right) with happy expression -->
+  <g transform="translate(620, 115)">
+    <circle cx="0" cy="0" r="10" fill="#f0c4c8" opacity="0.3" stroke="#f0c4c8"/>
+    <text x="0" y="4" text-anchor="middle" font-size="8" fill="#f0c4c8">私</text>
+    <line x1="0" y1="10" x2="0" y2="30" stroke="#f0c4c8" stroke-width="1.5"/>
+    <line x1="-10" y1="20" x2="10" y2="20" stroke="#f0c4c8" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="-8" y2="42" stroke="#f0c4c8" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="8" y2="42" stroke="#f0c4c8" stroke-width="1.5"/>
+    <text x="0" y="56" text-anchor="middle" class="person-label">ME</text>
+  </g>
+
+  <!-- Speech bubble -->
+  <rect x="490" y="195" width="170" height="28" rx="4" fill="#202138" stroke="#2a2b40"/>
+  <text x="575" y="213" text-anchor="middle" class="jp" font-size="11">友達が本を<tspan fill="#f0c4c8" font-weight="700">くれた</tspan></text>
+
+  <!-- ============ KEY INSIGHT BOX ============ -->
+  <rect x="20" y="245" width="660" height="140" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <text x="350" y="270" text-anchor="middle" class="subtitle">The Key Difference — It's All About Perspective</text>
+
+  <!-- Comparison row -->
+  <!-- あげる -->
+  <g transform="translate(55, 290)">
+    <circle cx="0" cy="0" r="5" fill="#e8836b"/>
+    <text x="10" y="4" class="verb" font-size="13" fill="#e8836b">あげる</text>
+    <text x="80" y="4" class="en" font-size="11">I give away</text>
+    <text x="10" y="20" class="label">Speaker gives TO someone</text>
+  </g>
+
+  <!-- もらう -->
+  <g transform="translate(270, 290)">
+    <circle cx="0" cy="0" r="5" fill="#d4a76a"/>
+    <text x="10" y="4" class="verb" font-size="13" fill="#d4a76a">もらう</text>
+    <text x="80" y="4" class="en" font-size="11">I receive</text>
+    <text x="10" y="20" class="label">Speaker receives FROM someone</text>
+  </g>
+
+  <!-- くれる -->
+  <g transform="translate(490, 290)">
+    <circle cx="0" cy="0" r="5" fill="#f0c4c8"/>
+    <text x="10" y="4" class="verb" font-size="13" fill="#f0c4c8">くれる</text>
+    <text x="80" y="4" class="en" font-size="11">they give me</text>
+    <text x="10" y="20" class="label">Someone gives TO speaker</text>
+  </g>
+
+  <!-- Insight callout -->
+  <rect x="40" y="340" width="620" height="30" rx="4" fill="#c85a4a" opacity="0.08" stroke="#c85a4a" stroke-opacity="0.2"/>
+  <text x="350" y="360" text-anchor="middle" class="en" font-size="11" fill="#e8e6f0">💡 くれる implies gratitude — the giver did something kind for you. もらう is neutral receipt.</text>
+</svg>

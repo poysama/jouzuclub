@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1b2e"/>
+      <stop offset="100%" stop-color="#202138"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="80" fill="url(#bg)"/>
+  <!-- Stacked books motif -->
+  <g transform="translate(690, 20)" opacity="0.18">
+    <rect x="0" y="35" width="40" height="8" rx="1" fill="#d4a76a"/>
+    <rect x="-3" y="25" width="46" height="8" rx="1" fill="#e8836b"/>
+    <rect x="2" y="15" width="36" height="8" rx="1" fill="#9898b0"/>
+    <rect x="-1" y="5" width="42" height="8" rx="1" fill="#d4a76a"/>
+  </g>
+  <!-- Open book -->
+  <g transform="translate(740, 28)" opacity="0.12">
+    <path d="M0 25 Q10 18 20 25" stroke="#e8e6f0" stroke-width="1" fill="none"/>
+    <path d="M20 25 Q30 18 40 25" stroke="#e8e6f0" stroke-width="1" fill="none"/>
+    <line x1="0" y1="25" x2="0" y2="45" stroke="#e8e6f0" stroke-width="0.5"/>
+    <line x1="40" y1="25" x2="40" y2="45" stroke="#e8e6f0" stroke-width="0.5"/>
+    <line x1="20" y1="18" x2="20" y2="45" stroke="#e8e6f0" stroke-width="0.5"/>
+  </g>
+  <path d="M0 75 Q40 68 80 75 Q120 68 160 75 Q200 68 240 75 Q280 68 320 75 Q360 68 400 75 Q440 68 480 75 Q520 68 560 75 Q600 68 640 75 Q680 68 720 75 Q760 68 800 75" fill="none" stroke="#d4a76a" stroke-width="0.5" opacity="0.2"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1b2e"/>
+      <stop offset="100%" stop-color="#202138"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="80" fill="url(#bg)"/>
+  <!-- Target / bullseye motif for "special expressions" -->
+  <g transform="translate(720, 40)" opacity="0.15">
+    <circle cx="0" cy="0" r="22" stroke="#e8836b" stroke-width="1" fill="none"/>
+    <circle cx="0" cy="0" r="14" stroke="#e8836b" stroke-width="1" fill="none"/>
+    <circle cx="0" cy="0" r="6" fill="#e8836b" opacity="0.5"/>
+  </g>
+  <!-- Arrow -->
+  <g transform="translate(685, 40)" opacity="0.12">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#d4a76a" stroke-width="1.5"/>
+    <path d="M28 -4 L34 0 L28 4" stroke="#d4a76a" stroke-width="1.5" fill="none"/>
+    <path d="M0 -3 L5 0 L0 3Z" fill="#d4a76a"/>
+  </g>
+  <path d="M0 75 Q40 68 80 75 Q120 68 160 75 Q200 68 240 75 Q280 68 320 75 Q360 68 400 75 Q440 68 480 75 Q520 68 560 75 Q600 68 640 75 Q680 68 720 75 Q760 68 800 75" fill="none" stroke="#e8836b" stroke-width="0.5" opacity="0.2"/>
+</svg>

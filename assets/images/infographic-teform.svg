@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" fill="none">
+  <style>
+    .label { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #9898b0; }
+    .jp { font-family: 'Noto Sans JP', sans-serif; font-size: 13px; fill: #c8c8d0; }
+    .jp-big { font-family: 'Noto Sans JP', sans-serif; font-size: 16px; font-weight: 700; }
+    .en { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #9898b0; font-style: italic; }
+    .title { font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; fill: #e8e6f0; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #d4a76a; text-transform: uppercase; letter-spacing: 1px; }
+    .rule { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #e8e6f0; font-weight: 500; }
+    .arrow-text { font-family: 'Inter', system-ui, sans-serif; font-size: 9px; fill: #e8836b; font-weight: 600; }
+    .q { font-family: 'Inter', system-ui, sans-serif; font-size: 11px; fill: #e8e6f0; }
+  </style>
+
+  <!-- Background -->
+  <rect width="700" height="520" rx="8" fill="#1a1b2e"/>
+  <rect x="1" y="1" width="698" height="518" rx="7" fill="none" stroke="#2a2b40"/>
+
+  <!-- Title -->
+  <text x="350" y="28" text-anchor="middle" class="subtitle">Conjugation Flowchart</text>
+  <text x="350" y="46" text-anchor="middle" class="title">How to Make Te-form (て形)</text>
+
+  <!-- START node -->
+  <rect x="270" y="62" width="160" height="36" rx="18" fill="#c85a4a" opacity="0.2" stroke="#c85a4a" stroke-opacity="0.5"/>
+  <text x="350" y="84" text-anchor="middle" class="q">What type of verb?</text>
+
+  <!-- Arrow down-left to ru-verb -->
+  <path d="M310 98 L180 130" stroke="#e8836b" stroke-width="1.5"/>
+  <text x="230" y="110" class="arrow-text">る-verb</text>
+
+  <!-- Arrow down to irregular -->
+  <path d="M350 98 L350 130" stroke="#d4a76a" stroke-width="1.5"/>
+  <text x="360" y="118" class="arrow-text">irregular</text>
+
+  <!-- Arrow down-right to u-verb -->
+  <path d="M390 98 L520 130" stroke="#9898b0" stroke-width="1.5"/>
+  <text x="470" y="110" class="arrow-text">う-verb</text>
+
+  <!-- RU-VERB box -->
+  <rect x="80" y="130" width="200" height="70" rx="6" fill="#202138" stroke="#e8836b" stroke-opacity="0.3"/>
+  <rect x="80" y="130" width="200" height="3" rx="1" fill="#e8836b"/>
+  <text x="180" y="152" text-anchor="middle" class="rule">Drop る → add て</text>
+  <text x="180" y="172" text-anchor="middle" class="jp">食べる → 食べ<tspan fill="#e8836b">て</tspan></text>
+  <text x="180" y="190" text-anchor="middle" class="en">taberu → tabete</text>
+
+  <!-- IRREGULAR box -->
+  <rect x="290" y="130" width="120" height="70" rx="6" fill="#202138" stroke="#d4a76a" stroke-opacity="0.3"/>
+  <rect x="290" y="130" width="120" height="3" rx="1" fill="#d4a76a"/>
+  <text x="350" y="152" text-anchor="middle" class="rule">Memorize!</text>
+  <text x="350" y="172" text-anchor="middle" class="jp">する → し<tspan fill="#d4a76a">て</tspan></text>
+  <text x="350" y="190" text-anchor="middle" class="jp">来る → き<tspan fill="#d4a76a">て</tspan></text>
+
+  <!-- U-VERB box (question) -->
+  <rect x="420" y="130" width="260" height="36" rx="6" fill="#202138" stroke="#9898b0" stroke-opacity="0.3"/>
+  <text x="550" y="153" text-anchor="middle" class="q">What's the verb ending?</text>
+
+  <!-- U-verb branches -->
+  <!-- す ending -->
+  <path d="M460 166 L460 196" stroke="#9898b0" stroke-width="1"/>
+  <rect x="415" y="196" width="90" height="60" rx="5" fill="#202138" stroke="#2a2b40"/>
+  <rect x="415" y="196" width="90" height="2" rx="1" fill="#9898b0"/>
+  <text x="460" y="214" text-anchor="middle" class="jp-big" fill="#9898b0">す</text>
+  <text x="460" y="232" text-anchor="middle" class="rule">→ して</text>
+  <text x="460" y="248" text-anchor="middle" class="jp" font-size="10">話す→話し<tspan fill="#e8836b">て</tspan></text>
+
+  <!-- く ending -->
+  <path d="M550 166 L550 196" stroke="#9898b0" stroke-width="1"/>
+  <rect x="510" y="196" width="90" height="60" rx="5" fill="#202138" stroke="#2a2b40"/>
+  <rect x="510" y="196" width="90" height="2" rx="1" fill="#9898b0"/>
+  <text x="555" y="214" text-anchor="middle" class="jp-big" fill="#9898b0">く</text>
+  <text x="555" y="232" text-anchor="middle" class="rule">→ いて</text>
+  <text x="555" y="248" text-anchor="middle" class="jp" font-size="10">書く→書い<tspan fill="#e8836b">て</tspan></text>
+
+  <!-- ぐ ending -->
+  <path d="M640 166 L640 196" stroke="#9898b0" stroke-width="1"/>
+  <rect x="600" y="196" width="90" height="60" rx="5" fill="#202138" stroke="#2a2b40"/>
+  <rect x="600" y="196" width="90" height="2" rx="1" fill="#9898b0"/>
+  <text x="645" y="214" text-anchor="middle" class="jp-big" fill="#9898b0">ぐ</text>
+  <text x="645" y="232" text-anchor="middle" class="rule">→ いで</text>
+  <text x="645" y="248" text-anchor="middle" class="jp" font-size="10">泳ぐ→泳い<tspan fill="#e8836b">で</tspan></text>
+
+  <!-- Second row of u-verb endings -->
+  <!-- む/ぶ/ぬ ending -->
+  <rect x="415" y="280" width="90" height="72" rx="5" fill="#202138" stroke="#2a2b40"/>
+  <rect x="415" y="280" width="90" height="2" rx="1" fill="#9898b0"/>
+  <text x="460" y="300" text-anchor="middle" class="jp-big" fill="#9898b0">む ぶ ぬ</text>
+  <text x="460" y="318" text-anchor="middle" class="rule">→ んで</text>
+  <text x="460" y="336" text-anchor="middle" class="jp" font-size="10">飲む→飲ん<tspan fill="#e8836b">で</tspan></text>
+  <text x="460" y="348" text-anchor="middle" class="jp" font-size="10">遊ぶ→遊ん<tspan fill="#e8836b">で</tspan></text>
+
+  <!-- る/う/つ ending -->
+  <rect x="510" y="280" width="90" height="72" rx="5" fill="#202138" stroke="#2a2b40"/>
+  <rect x="510" y="280" width="90" height="2" rx="1" fill="#9898b0"/>
+  <text x="555" y="300" text-anchor="middle" class="jp-big" fill="#9898b0">る う つ</text>
+  <text x="555" y="318" text-anchor="middle" class="rule">→ って</text>
+  <text x="555" y="336" text-anchor="middle" class="jp" font-size="10">切る→切っ<tspan fill="#e8836b">て</tspan></text>
+  <text x="555" y="348" text-anchor="middle" class="jp" font-size="10">買う→買っ<tspan fill="#e8836b">て</tspan></text>
+
+  <!-- Exception box for 行く -->
+  <rect x="600" y="280" width="90" height="72" rx="5" fill="#c85a4a" opacity="0.08" stroke="#c85a4a" stroke-opacity="0.3"/>
+  <rect x="600" y="280" width="90" height="2" rx="1" fill="#c85a4a"/>
+  <text x="645" y="296" text-anchor="middle" class="arrow-text" font-size="8">⚠️ EXCEPTION</text>
+  <text x="645" y="316" text-anchor="middle" class="jp-big" fill="#e8836b">行く</text>
+  <text x="645" y="334" text-anchor="middle" class="rule">→ 行って</text>
+  <text x="645" y="348" text-anchor="middle" class="en">NOT 行いて</text>
+
+  <!-- Quick reference mnemonic at bottom -->
+  <rect x="40" y="380" width="620" height="120" rx="6" fill="#202138" stroke="#2a2b40"/>
+  <text x="350" y="404" text-anchor="middle" class="subtitle">Quick Memory Aid</text>
+
+  <!-- Mnemonic grouping -->
+  <text x="60" y="430" class="rule" fill="#e8836b">て group:</text>
+  <text x="60" y="448" class="jp" font-size="12">す→して　く→いて　</text>
+  <text x="60" y="466" class="en">Sounds crisp: し, い + て</text>
+
+  <text x="280" y="430" class="rule" fill="#e8836b">で group:</text>
+  <text x="280" y="448" class="jp" font-size="12">ぐ→いで　む/ぶ/ぬ→んで</text>
+  <text x="280" y="466" class="en">Voiced sounds get で (voiced て)</text>
+
+  <text x="510" y="430" class="rule" fill="#e8836b">って group:</text>
+  <text x="510" y="448" class="jp" font-size="12">る/う/つ→って</text>
+  <text x="510" y="466" class="en">The "double consonant" group</text>
+
+  <!-- Tip -->
+  <text x="350" y="490" text-anchor="middle" class="en" font-size="11">💡 Same rules as past tense (た/だ) — just swap た→て and だ→で!</text>
+</svg>

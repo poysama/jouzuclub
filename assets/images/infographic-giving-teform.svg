@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" fill="none">
+  <style>
+    .label { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #9898b0; }
+    .jp { font-family: 'Noto Sans JP', sans-serif; font-size: 12px; fill: #c8c8d0; }
+    .en { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #9898b0; font-style: italic; }
+    .title { font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; fill: #e8e6f0; }
+    .subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #d4a76a; text-transform: uppercase; letter-spacing: 1px; }
+    .verb { font-family: 'Noto Sans JP', sans-serif; font-size: 14px; font-weight: 700; }
+    .scene-label { font-family: 'Inter', system-ui, sans-serif; font-size: 9px; fill: #d4a76a; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+    .bubble { font-family: 'Noto Sans JP', sans-serif; font-size: 11px; }
+    .narrator { font-family: 'Inter', system-ui, sans-serif; font-size: 10px; fill: #e8e6f0; }
+  </style>
+
+  <!-- Background -->
+  <rect width="700" height="480" rx="8" fill="#1a1b2e"/>
+  <rect x="1" y="1" width="698" height="478" rx="7" fill="none" stroke="#2a2b40"/>
+
+  <!-- Title -->
+  <text x="350" y="28" text-anchor="middle" class="subtitle">Comic Guide — Te-form Combinations</text>
+  <text x="350" y="46" text-anchor="middle" class="title">～てあげる・～てくれる・～てもらう in Action</text>
+
+  <!-- ============ SCENE: At School ============ -->
+  <!-- Setting label -->
+  <rect x="20" y="60" width="80" height="18" rx="3" fill="#d4a76a" opacity="0.15"/>
+  <text x="60" y="73" text-anchor="middle" class="scene-label">🏫 At School</text>
+
+  <!-- Panel 1: てあげる -->
+  <rect x="20" y="82" width="320" height="130" rx="6" fill="#202138" stroke="#2a2b40"/>
+
+  <!-- Me character (left) -->
+  <g transform="translate(55, 108)">
+    <circle cx="0" cy="0" r="14" fill="#e8836b" opacity="0.15" stroke="#e8836b" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-size="11" fill="#e8836b" font-family="'Noto Sans JP', sans-serif">私</text>
+    <line x1="0" y1="14" x2="0" y2="36" stroke="#e8836b" stroke-width="1.5"/>
+    <line x1="-12" y1="25" x2="12" y2="25" stroke="#e8836b" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="-8" y2="50" stroke="#e8836b" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="8" y2="50" stroke="#e8836b" stroke-width="1.5"/>
+  </g>
+
+  <!-- Speech bubble from me -->
+  <path d="M85 95 L90 105 L95 95" fill="#e8e6f0"/>
+  <rect x="80" y="72" width="170" height="24" rx="12" fill="#e8e6f0"/>
+  <text x="165" y="88" text-anchor="middle" class="bubble" fill="#1a1b2e">日本語を教えて<tspan fill="#c85a4a" font-weight="700">あげる</tspan>よ！</text>
+
+  <!-- Arrow showing action direction -->
+  <path d="M80 130 L140 130" stroke="#e8836b" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="110" y="145" text-anchor="middle" font-size="14">📚</text>
+
+  <!-- Friend character (right) -->
+  <g transform="translate(180, 108)">
+    <circle cx="0" cy="0" r="14" fill="#9898b0" opacity="0.15" stroke="#9898b0" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9" fill="#9898b0" font-family="'Noto Sans JP', sans-serif">友達</text>
+    <line x1="0" y1="14" x2="0" y2="36" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="-12" y1="25" x2="12" y2="25" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="-8" y2="50" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="8" y2="50" stroke="#9898b0" stroke-width="1.5"/>
+  </g>
+
+  <!-- Narrator box -->
+  <rect x="215" y="108" width="115" height="50" rx="4" fill="#c85a4a" opacity="0.08" stroke="#c85a4a" stroke-opacity="0.2"/>
+  <text x="272" y="124" text-anchor="middle" class="verb" fill="#e8836b">～てあげる</text>
+  <text x="272" y="140" text-anchor="middle" class="narrator">I do FOR them</text>
+  <text x="272" y="152" text-anchor="middle" class="en">I teach them Japanese</text>
+
+  <!-- Full sentence -->
+  <rect x="30" y="188" width="300" height="18" rx="3" fill="#1a1b2e"/>
+  <text x="180" y="200" text-anchor="middle" class="jp" font-size="11">友達に日本語を教えて<tspan fill="#e8836b" font-weight="700">あげた</tspan>。</text>
+
+  <!-- Panel 2: てくれる -->
+  <rect x="360" y="82" width="320" height="130" rx="6" fill="#202138" stroke="#2a2b40"/>
+
+  <!-- Friend character (left, doing the action) -->
+  <g transform="translate(395, 108)">
+    <circle cx="0" cy="0" r="14" fill="#9898b0" opacity="0.15" stroke="#9898b0" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9" fill="#9898b0" font-family="'Noto Sans JP', sans-serif">友達</text>
+    <line x1="0" y1="14" x2="0" y2="36" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="-12" y1="25" x2="12" y2="25" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="-8" y2="50" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="8" y2="50" stroke="#9898b0" stroke-width="1.5"/>
+  </g>
+
+  <!-- Speech bubble from friend -->
+  <path d="M425 95 L430 105 L435 95" fill="#e8e6f0"/>
+  <rect x="415" y="72" width="180" height="24" rx="12" fill="#e8e6f0"/>
+  <text x="505" y="88" text-anchor="middle" class="bubble" fill="#1a1b2e">教科書を貸して<tspan fill="#b05090" font-weight="700">くれた</tspan>！</text>
+
+  <!-- Arrow showing action direction -->
+  <path d="M420 130 L480 130" stroke="#f0c4c8" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="450" y="145" text-anchor="middle" font-size="14">📖</text>
+
+  <!-- Me character (right, receiving) -->
+  <g transform="translate(520, 108)">
+    <circle cx="0" cy="0" r="14" fill="#f0c4c8" opacity="0.15" stroke="#f0c4c8" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-size="11" fill="#f0c4c8" font-family="'Noto Sans JP', sans-serif">私</text>
+    <line x1="0" y1="14" x2="0" y2="36" stroke="#f0c4c8" stroke-width="1.5"/>
+    <line x1="-12" y1="25" x2="12" y2="25" stroke="#f0c4c8" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="-8" y2="50" stroke="#f0c4c8" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="8" y2="50" stroke="#f0c4c8" stroke-width="1.5"/>
+  </g>
+  <!-- Gratitude hearts -->
+  <text x="545" y="100" font-size="10">💕</text>
+
+  <!-- Narrator box -->
+  <rect x="555" y="108" width="115" height="50" rx="4" fill="#f0c4c8" opacity="0.08" stroke="#f0c4c8" stroke-opacity="0.2"/>
+  <text x="612" y="124" text-anchor="middle" class="verb" fill="#f0c4c8">～てくれる</text>
+  <text x="612" y="140" text-anchor="middle" class="narrator">They do FOR me</text>
+  <text x="612" y="152" text-anchor="middle" class="en">+ gratitude implied!</text>
+
+  <!-- Full sentence -->
+  <rect x="370" y="188" width="300" height="18" rx="3" fill="#1a1b2e"/>
+  <text x="520" y="200" text-anchor="middle" class="jp" font-size="11">友達が教科書を貸して<tspan fill="#f0c4c8" font-weight="700">くれた</tspan>。</text>
+
+  <!-- ============ SCENE 2: At Home ============ -->
+  <rect x="20" y="222" width="80" height="18" rx="3" fill="#d4a76a" opacity="0.15"/>
+  <text x="60" y="235" text-anchor="middle" class="scene-label">🏠 At Home</text>
+
+  <!-- Panel 3: てもらう -->
+  <rect x="20" y="244" width="660" height="120" rx="6" fill="#202138" stroke="#2a2b40"/>
+
+  <!-- Me character (center, I'm the one who arranged it) -->
+  <g transform="translate(200, 275)">
+    <circle cx="0" cy="0" r="14" fill="#d4a76a" opacity="0.15" stroke="#d4a76a" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-size="11" fill="#d4a76a" font-family="'Noto Sans JP', sans-serif">私</text>
+    <line x1="0" y1="14" x2="0" y2="36" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="-12" y1="25" x2="12" y2="25" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="-8" y2="50" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="8" y2="50" stroke="#d4a76a" stroke-width="1.5"/>
+  </g>
+
+  <!-- Thought bubble from me -->
+  <circle cx="222" cy="258" r="3" fill="#e8e6f0" opacity="0.4"/>
+  <circle cx="228" cy="252" r="4" fill="#e8e6f0" opacity="0.5"/>
+  <rect x="230" y="238" width="200" height="24" rx="12" fill="#e8e6f0"/>
+  <text x="330" y="254" text-anchor="middle" class="bubble" fill="#1a1b2e">兄に送って<tspan fill="#8b6914" font-weight="700">もらった</tspan>！</text>
+
+  <!-- Brother character (left, doing the action) -->
+  <g transform="translate(80, 275)">
+    <circle cx="0" cy="0" r="14" fill="#9898b0" opacity="0.15" stroke="#9898b0" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-size="11" fill="#9898b0" font-family="'Noto Sans JP', sans-serif">兄</text>
+    <line x1="0" y1="14" x2="0" y2="36" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="-12" y1="25" x2="12" y2="25" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="-8" y2="50" stroke="#9898b0" stroke-width="1.5"/>
+    <line x1="0" y1="36" x2="8" y2="50" stroke="#9898b0" stroke-width="1.5"/>
+  </g>
+
+  <!-- Arrow brother → me (action) -->
+  <path d="M100 290 L180 290" stroke="#d4a76a" stroke-width="2" opacity="0.4"/>
+  <text x="140" y="305" text-anchor="middle" font-size="14">🚗</text>
+
+  <!-- Car/station scene -->
+  <rect x="240" y="288" width="50" height="20" rx="3" fill="#2a2b40"/>
+  <text x="265" y="302" text-anchor="middle" font-size="9" fill="#9898b0">🚉 駅</text>
+
+  <!-- Narrator box -->
+  <rect x="460" y="260" width="210" height="70" rx="4" fill="#d4a76a" opacity="0.08" stroke="#d4a76a" stroke-opacity="0.2"/>
+  <text x="565" y="280" text-anchor="middle" class="verb" fill="#d4a76a">～てもらう</text>
+  <text x="565" y="296" text-anchor="middle" class="narrator">I get someone to do it</text>
+  <text x="565" y="312" text-anchor="middle" class="en">Focus: I arranged / received the favor</text>
+
+  <!-- Full sentence -->
+  <rect x="30" y="340" width="640" height="18" rx="3" fill="#1a1b2e"/>
+  <text x="350" y="352" text-anchor="middle" class="jp" font-size="11">兄に駅まで送って<tspan fill="#d4a76a" font-weight="700">もらった</tspan>。 — I had my brother drive me to the station.</text>
+
+  <!-- ============ SAME SITUATION, 3 PERSPECTIVES ============ -->
+  <rect x="20" y="378" width="660" height="88" rx="6" fill="#202138" stroke="#d4a76a" stroke-opacity="0.2"/>
+  <text x="350" y="398" text-anchor="middle" class="subtitle">Same Situation, Three Perspectives</text>
+  <text x="350" y="412" text-anchor="middle" class="label">Mother makes dinner. How do we describe it?</text>
+
+  <!-- 3 columns -->
+  <text x="130" y="434" text-anchor="middle" class="verb" fill="#e8836b">てあげる</text>
+  <text x="130" y="450" text-anchor="middle" class="jp" font-size="10">母に料理を作って<tspan fill="#e8836b">あげた</tspan></text>
+  <text x="130" y="462" text-anchor="middle" class="en">I cooked FOR mom</text>
+
+  <line x1="240" y1="424" x2="240" y2="466" stroke="#2a2b40"/>
+
+  <text x="350" y="434" text-anchor="middle" class="verb" fill="#f0c4c8">てくれる</text>
+  <text x="350" y="450" text-anchor="middle" class="jp" font-size="10">母が料理を作って<tspan fill="#f0c4c8">くれた</tspan></text>
+  <text x="350" y="462" text-anchor="middle" class="en">Mom cooked FOR me 💕</text>
+
+  <line x1="460" y1="424" x2="460" y2="466" stroke="#2a2b40"/>
+
+  <text x="570" y="434" text-anchor="middle" class="verb" fill="#d4a76a">てもらう</text>
+  <text x="570" y="450" text-anchor="middle" class="jp" font-size="10">母に料理を作って<tspan fill="#d4a76a">もらった</tspan></text>
+  <text x="570" y="462" text-anchor="middle" class="en">I got mom to cook for me</text>
+</svg>
