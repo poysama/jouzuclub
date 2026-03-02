@@ -1,0 +1,426 @@
+// =============================================================
+// Jouzu Club - Custom Styles
+// Japanese-inspired modern design system
+// =============================================================
+
+// ----------------------------------------------------------
+// CSS CUSTOM PROPERTIES
+// ----------------------------------------------------------
+:root {
+  --jouzu-gold: #d4a76a;
+  --jouzu-coral: #e8836b;
+  --jouzu-vermillion: #c85a4a;
+  --jouzu-sakura: #f0c4c8;
+  --jouzu-indigo: #1a1b2e;
+  --jouzu-indigo-light: #252640;
+  --jouzu-wisteria: #9898b0;
+  --jouzu-surface: #202138;
+  --jouzu-transition: 0.2s ease;
+  --jouzu-radius: 6px;
+}
+
+// ----------------------------------------------------------
+// TYPOGRAPHY
+// ----------------------------------------------------------
+body {
+  font-family: 'Inter', 'Noto Sans JP', system-ui, -apple-system,
+    blinkmacsystemfont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.text-alpha, .text-beta, .text-gamma, .text-delta {
+  font-family: 'Inter', 'Noto Sans JP', system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+h1, .text-alpha {
+  font-weight: 600;
+}
+
+h2, .text-beta {
+  font-weight: 500;
+}
+
+:lang(ja), [lang="ja"] {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN',
+    'Yu Gothic', sans-serif;
+}
+
+// ----------------------------------------------------------
+// SIDEBAR
+// ----------------------------------------------------------
+.side-bar {
+  border-right-color: #2a2b40;
+
+  @media (min-width: 50rem) {
+    border-right: 1px solid #2a2b40;
+    background: linear-gradient(180deg, #181928 0%, #151625 120px);
+  }
+}
+
+.site-title {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 1.15rem !important;
+  color: #e8e6f0;
+  transition: color var(--jouzu-transition);
+
+  &:hover {
+    color: var(--jouzu-coral);
+  }
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+  transition: all var(--jouzu-transition);
+
+  &:hover {
+    background-image: none;
+    background-color: rgba(#e8836b, 0.08);
+    color: #e8e6f0;
+  }
+
+  &.active {
+    background-image: none;
+    background-color: rgba(#e8836b, 0.12);
+    color: #e8e6f0;
+    border-left: 2px solid var(--jouzu-coral);
+    padding-left: calc(2rem - 2px);
+
+    @media (max-width: 50rem) {
+      padding-left: calc(1rem - 2px);
+    }
+  }
+}
+
+.nav-category {
+  color: var(--jouzu-gold);
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+}
+
+.site-footer {
+  border-top: 1px solid #2a2b40;
+  padding-top: 1rem;
+  color: #6a6a80;
+  font-size: 0.7rem;
+}
+
+// ----------------------------------------------------------
+// MAIN CONTENT
+// ----------------------------------------------------------
+.main-header {
+  border-bottom-color: #2a2b40;
+
+  @media (min-width: 50rem) {
+    border-bottom: 1px solid #2a2b40;
+  }
+}
+
+.main-content {
+  h2 {
+    padding-top: 1.5em;
+    margin-top: 2em;
+    border-top: 1px solid rgba(#d4a76a, 0.15);
+
+    &:first-of-type {
+      border-top: none;
+      margin-top: 0.5em;
+    }
+  }
+
+  hr {
+    background: linear-gradient(
+      90deg,
+      var(--jouzu-vermillion) 0%,
+      rgba(#c85a4a, 0.3) 40%,
+      transparent 80%
+    );
+    height: 1px;
+    opacity: 0.6;
+  }
+
+  a {
+    transition: color var(--jouzu-transition),
+      text-decoration-color var(--jouzu-transition);
+  }
+
+  a:not([class]) {
+    text-decoration-color: rgba(#e8836b, 0.3);
+
+    &:hover {
+      color: #f0a090;
+      text-decoration-color: rgba(#f0a090, 0.5);
+    }
+  }
+}
+
+// ----------------------------------------------------------
+// CODE BLOCKS
+// ----------------------------------------------------------
+div.highlighter-rouge,
+div.listingblock > div.content,
+figure.highlight {
+  border-radius: var(--jouzu-radius);
+  border: 1px solid rgba(#2a2b40, 0.8);
+  border-top: 2px solid rgba(#e8836b, 0.4);
+  overflow: hidden;
+}
+
+:not(pre, figure) > code {
+  background-color: rgba(#252640, 0.8);
+  border-color: #2a2b40;
+  border-radius: 3px;
+  padding: 0.15em 0.35em;
+  color: #e0b0a0;
+}
+
+// ----------------------------------------------------------
+// BLOCKQUOTES
+// ----------------------------------------------------------
+blockquote {
+  border-left: 3px solid var(--jouzu-gold);
+  background-color: rgba(#d4a76a, 0.05);
+  border-radius: 0 var(--jouzu-radius) var(--jouzu-radius) 0;
+  padding: 0.75rem 1rem;
+  margin: 1.5em 0;
+
+  strong:first-child {
+    color: var(--jouzu-gold);
+  }
+}
+
+// ----------------------------------------------------------
+// TABLES
+// ----------------------------------------------------------
+.table-wrapper {
+  border-radius: var(--jouzu-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #2a2b40;
+  overflow: hidden;
+}
+
+th {
+  background-color: rgba(#252640, 0.8);
+  font-weight: 600;
+  color: #e8e6f0;
+  border-bottom-color: rgba(#d4a76a, 0.3);
+}
+
+td {
+  border-bottom-color: rgba(#2a2b40, 0.8);
+}
+
+// ----------------------------------------------------------
+// DETAILS/SUMMARY (Mock Exam Answers)
+// ----------------------------------------------------------
+details {
+  border: 1px solid #2a2b40;
+  border-radius: var(--jouzu-radius);
+  padding: 0;
+  margin: 1em 0;
+  background-color: var(--jouzu-surface);
+  overflow: hidden;
+  transition: border-color var(--jouzu-transition);
+
+  &[open] {
+    border-color: rgba(#e8836b, 0.3);
+
+    summary {
+      border-bottom: 1px solid #2a2b40;
+      background-color: rgba(#e8836b, 0.06);
+    }
+  }
+
+  summary {
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    color: var(--jouzu-coral);
+    transition: background-color var(--jouzu-transition);
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "▸ ";
+      display: inline-block;
+      transition: transform var(--jouzu-transition);
+    }
+
+    &:hover {
+      background-color: rgba(#e8836b, 0.06);
+    }
+  }
+
+  &[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  > *:not(summary) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+// ----------------------------------------------------------
+// BUTTONS
+// ----------------------------------------------------------
+.btn {
+  border-radius: var(--jouzu-radius);
+  transition: all var(--jouzu-transition);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+  }
+}
+
+.btn-primary {
+  background-color: var(--jouzu-vermillion);
+  color: #fff;
+}
+
+// ----------------------------------------------------------
+// SEARCH
+// ----------------------------------------------------------
+.search-input {
+  border-radius: var(--jouzu-radius);
+  transition: box-shadow var(--jouzu-transition);
+
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(#e8836b, 0.3);
+  }
+}
+
+.search-results {
+  border: 1px solid #2a2b40;
+  border-radius: 0 0 var(--jouzu-radius) var(--jouzu-radius);
+}
+
+// ----------------------------------------------------------
+// SCROLLBAR
+// ----------------------------------------------------------
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3a3b55 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3b55;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+
+  &:hover {
+    background-color: #4a4b65;
+  }
+}
+
+// ----------------------------------------------------------
+// JAPANESE DECORATIVE ELEMENTS
+// ----------------------------------------------------------
+
+// Seigaiha (青海波) wave pattern divider under page titles
+.main-content > h1:first-of-type {
+  position: relative;
+  padding-bottom: 0.5em;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 6px;
+    margin: 0.75em 0 0.5em 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='6'%3E%3Cpath d='M0 6 Q5 0 10 6 Q15 0 20 6 Q25 0 30 6 Q35 0 40 6' fill='none' stroke='%23c85a4a' stroke-width='0.5' opacity='0.4'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-position: center;
+    opacity: 0.6;
+  }
+}
+
+// ----------------------------------------------------------
+// VOCABULARY SECTION STYLING
+// ----------------------------------------------------------
+.main-content h2#vocabulary + ol,
+.main-content h2#vocabulary + p + ol {
+  background-color: var(--jouzu-surface);
+  border: 1px solid #2a2b40;
+  border-radius: var(--jouzu-radius);
+  padding: 1rem 1rem 1rem 2.5rem;
+  margin: 1em 0;
+
+  li {
+    padding: 0.3em 0;
+    border-bottom: 1px solid rgba(#2a2b40, 0.5);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+// ----------------------------------------------------------
+// MOCK EXAM QUESTION STYLING
+// ----------------------------------------------------------
+.main-content h2[id^="question"] {
+  background-color: var(--jouzu-surface);
+  padding: 0.5em 0.75em;
+  border-radius: var(--jouzu-radius);
+  border-left: 3px solid var(--jouzu-coral);
+  font-size: 1rem;
+  margin-top: 1.5em;
+  border-top: none;
+}
+
+// ----------------------------------------------------------
+// SELECTION COLOR
+// ----------------------------------------------------------
+::selection {
+  background-color: rgba(#e8836b, 0.3);
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: rgba(#e8836b, 0.3);
+  color: #fff;
+}
+
+// ----------------------------------------------------------
+// PAGE LOAD ANIMATION
+// ----------------------------------------------------------
+.main-content {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+// ----------------------------------------------------------
+// PRINT
+// ----------------------------------------------------------
+@media print {
+  .main-content {
+    animation: none;
+  }
+}

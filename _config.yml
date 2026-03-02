@@ -5,15 +5,18 @@ url: "https://jouzu.club" # Replace with your user or org name
 baseurl: "" # Replace with your repo name
 
 # Just the Docs configuration
-color_scheme: dark
+color_scheme: jouzu
 search_enabled: true
 heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
 
 aux_links:
   "Tae Kim's Guide (Original)": "http://www.guidetojapanese.org/learn/"
   "GitHub Repository": "https://github.com/poysama/jouzuclub"
+aux_links_new_tab: true
 
-footer_content: "Jouzu Club - Japanese Grammar Guide. Created for educational purposes."
+footer_content: "Jouzu Club &middot; Japanese Grammar Guide"
 
 # Sass configuration to suppress deprecation warnings from the theme
 sass:

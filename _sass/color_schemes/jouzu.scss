@@ -1,0 +1,36 @@
+// Jouzu Club - Japanese-inspired dark color scheme
+// Palette based on traditional Japanese colors (和色 washou)
+// Deep indigo (藍 ai) base with warm vermillion (朱 shu) accents
+
+// Core backgrounds
+$body-background-color: #1a1b2e;  // 濃藍 koi-ai (deep indigo)
+$sidebar-color: #151625;          // 紺 kon (navy)
+
+// Text
+$body-text-color: #c8c8d0;        // 銀鼠 gin-nezu (silver grey)
+$body-heading-color: #e8e6f0;     // 白練 shironeri (near white)
+
+// Links and navigation
+$link-color: #e8836b;             // 珊瑚色 sango-iro (coral)
+$nav-child-link-color: #9898b0;   // 藤鼠 fuji-nezu (wisteria grey)
+
+// Buttons
+$base-button-color: #252640;
+$btn-primary-color: #c85a4a;      // 紅緋 beni-hi (crimson vermillion)
+
+// Code blocks
+$code-background-color: #1e1f35;
+$code-linenumber-color: #b0b0c8;
+
+// Surfaces
+$table-background-color: #202138;
+$search-background-color: #202138;
+$search-result-preview-color: #9898b0;
+
+// Borders
+$border-color: #2a2b40;           // 鉄紺 tetsu-kon (iron navy)
+
+// Feedback (nav hover)
+$feedback-color: darken($sidebar-color, 3%);
+
+@import "./vendor/OneDarkJekyll/syntax";
