@@ -701,6 +701,32 @@ details {
 }
 
 // ----------------------------------------------------------
+// FURIGANA (build-time ruby annotations via MeCab)
+// ----------------------------------------------------------
+ruby {
+  ruby-align: center;
+}
+
+rt {
+  font-size: 0.65em;
+  color: var(--jouzu-wisteria);
+  font-weight: 400;
+  letter-spacing: 0;
+  opacity: 0.85;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+// Fallback text in <rp> for browsers without ruby support
+rp {
+  display: none;
+}
+
+// Extra line-height when furigana is present to avoid overlap
+.main-content ruby {
+  line-height: 2.1;
+}
+
+// ----------------------------------------------------------
 // PRINT
 // ----------------------------------------------------------
 @media print {
