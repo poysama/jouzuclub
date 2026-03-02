@@ -701,73 +701,10 @@ details {
 }
 
 // ----------------------------------------------------------
-// FURIGANA (ruby text annotations)
-// ----------------------------------------------------------
-ruby {
-  ruby-align: center;
-}
-
-rt {
-  font-size: 1em;
-  color: var(--jouzu-wisteria);
-  font-weight: 400;
-  letter-spacing: 0;
-  opacity: 0.85;
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
-// Extra line-height when furigana is present to avoid overlap
-.main-content ruby {
-  line-height: 2;
-}
-
-// Hide furigana when toggled off
-.furigana-hidden rt {
-  display: none;
-}
-
-.furigana-hidden ruby {
-  line-height: inherit;
-}
-
-// Toggle button
-.furigana-toggle {
-  position: fixed;
-  bottom: 1.25rem;
-  right: 1.25rem;
-  z-index: 100;
-  background-color: var(--jouzu-surface);
-  color: var(--jouzu-wisteria);
-  border: 1px solid #2a2b40;
-  border-radius: var(--jouzu-radius);
-  padding: 0.4rem 0.75rem;
-  font-size: 0.75rem;
-  font-family: 'Noto Sans JP', sans-serif;
-  cursor: pointer;
-  transition: all var(--jouzu-transition);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-
-  &:hover {
-    border-color: rgba(#e8836b, 0.4);
-    color: #e8e6f0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  }
-
-  &:disabled {
-    opacity: 0.5;
-    cursor: wait;
-  }
-}
-
-// ----------------------------------------------------------
 // PRINT
 // ----------------------------------------------------------
 @media print {
   .main-content {
     animation: none;
-  }
-
-  .furigana-toggle {
-    display: none;
   }
 }
